@@ -9,30 +9,10 @@
       <Label string="tools_sys_tool" font="160" textcolor="#ff444444"/>
     </HorizontalLayout>
     <TileLayout height="216" childpadding="10" childvpadding="10" itemsize="240,62" columns="3">
-      <Component xml="cmpt/tools.xml" name="box:group_tool_leakrepair" bkimage="icon:name='leak_repair'" string="btn:tools_leak_repair" string="desc:tools_leak_repair_desc" stringtip="btn:tools_leak_repair_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_sysdiag" bkimage="icon:name='sys_repair'" string="btn:tools_sys_repair" string="desc:tools_sys_repair_desc" stringtip="btn:tools_sys_repair_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_popblock" bkimage="icon:name='pop_block'" string="btn:tools_pop_block" string="desc:tools_pop_block_desc" stringtip="btn:tools_pop_block_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_sysclean" bkimage="icon:name='sys_clean'" string="btn:tools_sys_clean" string="desc:tools_sys_clean_desc" stringtip="btn:tools_sys_clean_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_autorun" bkimage="icon:name='autoruns'" string="btn:tools_autoruns" string="desc:tools_autoruns_desc" stringtip="btn:tools_autoruns_desc" name="btn:btn_tool" name="rp:progress_install"/>
       <Component xml="cmpt/tools.xml" name="box:group_tool_fileshred" bkimage="icon:name='file_shred'" string="btn:tools_file_shred" string="desc:tools_file_shred_desc" stringtip="btn:tools_file_shred_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_rightclickman" bkimage="icon:name='right_click'" string="btn:tools_right_click" string="desc:tools_right_click_desc" stringtip="btn:tools_right_click_desc" name="btn:btn_tool" name="rp:progress_install"/>
-    </TileLayout>
-    <HorizontalLayout height="36" childvalign="vcenter" childpadding="20">
-    </HorizontalLayout>
-    <TileLayout height="72" childpadding="10" childvpadding="10" itemsize="240,62" columns="3">
-      <Component xml="cmpt/tools.xml" name="box:group_tool_netdiag" bkimage="icon:name='net_repair'" string="btn:tools_net_repair" string="desc:tools_net_repair_desc" stringtip="btn:tools_net_repair_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <Component xml="cmpt/tools.xml" name="box:group_tool_netflow" bkimage="icon:name='net_flow'" string="btn:tools_net_flow" string="desc:tools_net_flow_desc" stringtip="btn:tools_net_flow_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      <!--
-      <Component xml="cmpt/tools.xml" name="box:group_tool_netspeed" bkimage="icon:name='net_speed'" string="btn:tools_net_speed" string="desc:tools_net_speed_desc" stringtip="btn:tools_net_speed_desc" name="btn:btn_tool" name="rp:progress_install"/>
- -->
-      <Component xml="cmpt/tools.xml" name="box:group_tool_host" bkimage="icon:name='host'" string="btn:tools_host" string="desc:tools_host_desc" stringtip="btn:tools_host_desc" name="btn:btn_tool" name="rp:progress_install"/>
-    </TileLayout>
-    <HorizontalLayout height="36" childvalign="vcenter" childpadding="20">
-      <Control size="3,18" bkcolor="#ffc0a686"/>
-      <Label string="tools_advance_tool" font="160" textcolor="#ff444444"/>
-    </HorizontalLayout>
-    <TileLayout height="72" childpadding="10" childvpadding="10" itemsize="240,62" columns="3">
       <Component xml="cmpt/tools.xml" name="box:group_tool_hrsword" bkimage="icon:name='sword'" string="btn:tools_sword" string="desc:tools_sword_desc" stringtip="btn:tools_sword_desc" name="btn:btn_tool" name="rp:progress_install"/>
-    </TileLayout>
+      </TileLayout>
+    <HorizontalLayout height="36" childvalign="vcenter" childpadding="20">
+    </HorizontalLayout>
   </VerticalLayout>
 </view>

@@ -46,16 +46,7 @@
 					<VerticalLayout inset="0,52,0,0">
 						<Text name="txt_title" string="title" align="center" showhtml="true" font="220" textcolor="#ff85724b"/>
 						<Control />
-						<VerticalLayout height="110" inset="0,0,20,50">
-							<Label name="lb_protected_days" string="protected_days" height="30" align="right" showhtml="true" font="140" textcolor="#ff444444"/>
-							<HorizontalLayout height="30" inset="5,0,0,0" childpadding="9">
-								<Control />
-								<HorizontalLayout width="15" childvalign="vcenter">
-									<AnimateButton name="anibtn_update" style="s_anibtn_update" stringtip="update_check" size="15,15" tab="id='10'"/>
-								</HorizontalLayout>
-								<Label name="lb_version_status" string="version_status" align="right" showhtml="true" font="120" textcolor="#ff444444"/>
-							</HorizontalLayout>
-						</VerticalLayout>
+						
 					</VerticalLayout>
 				</VerticalLayout>
 			</Container>
@@ -66,8 +57,6 @@
 						<AniScanButton name="anibtn_virscan" style="s_anibtn_virscan" size="150,140" font="160" string="virscan" tab="id='11'"/>
 						<Button name="btn_virscan" style="s_btn_virscan" size="150,140" font="160" string="virscan" tab="id='11'"/>
 					</TabLayout>
-					<Button name="btn_sysprotect" style="s_btn_sysprotect" size="150,140" font="160" string="sysprotect" tab="id='11'"/>
-					<Button name="btn_kidsprotect" style="s_btn_kidsprotect" size="150,140" font="160" string="kidsprotect" tab="id='11'"/>
 					<Button name="btn_tools" style="s_btn_tools" size="150,140" font="160" string="tools" tab="id='11'"/>
 					<Control />
 				</HorizontalLayout>
@@ -102,8 +91,6 @@
 			</HorizontalLayout>
 			<TabLayout name="tab_view">
 				<NativeCtrl name="view_virscan" tab="id='1000'"/>
-				<NativeCtrl name="view_sysprotect" tab="id='1000'"/>
-				<NativeCtrl name="view_kidsprotect" tab="id='1000'"/>
 				<NativeCtrl name="view_tools" tab="id='1000'"/>
 			</TabLayout>
 		</VerticalLayout>

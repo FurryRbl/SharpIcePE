@@ -222,7 +222,7 @@
     <string id="kidpt_udisk">U盘使用控制</string>
     <string id="kidpt_udisk_desc">管理U盘的接入使用，防止文件外传及病毒入侵</string>
 
-    <string id="tools_sys_tool">系统工具</string>
+    <string id="tools_sys_tool">安全工具</string>
     <string id="tools_net_tool">网络工具</string>
     <string id="tools_advance_tool">高级工具</string>
     <string id="tools_leak_repair">漏洞修复</string>
