@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="Trojan">木馬病毒</string>
+    <string id="Trojan_desc">透過網路或者系統漏洞進入您的系統並隱藏，破壞系統或正常軟體的安全性，向外洩露用戶的隱私訊息。</string>
+    <string id="TrojanDownloader">下載者木馬</string>
+    <string id="TrojanDownloader_desc">透過下載其他病毒來間接對系統產生安全威脅，此類木馬通常體積較小，並輔以誘惑性的名稱和圖標誘騙用戶使用。</string>
+    <string id="TrojanSpy">間諜木馬</string>
+    <string id="TrojanSpy_desc">此類木馬會隱匿在系統中，並伺機盜取各類帳號密碼，對您造成財產損失。</string>
+    <string id="TrojanDropper">釋放器木馬</string>
+    <string id="TrojanDropper_desc">透過釋放其他病毒來間接對系統產生安全威脅。</string>
+    <string id="TrojanClicker">點擊器木馬</string>
+    <string id="TrojanClicker_desc">在背景透過訪問特定網址來“刷流量”，為病毒作者獲利，並會佔用被感染主機的網路帶寬。</string>
+    <string id="TrojanProxy">代理木馬</string>
+    <string id="TrojanProxy_desc">在被感染主機上設定代理伺服器，駭客可將被感染主機作為網路攻擊的跳板，以躲避執法者的網路追踪。</string>
+    <string id="Backdoor">後門病毒</string>
+    <string id="Backdoor_desc">秘密開放用於遠端操控的端口和權限，或主動連接駭客的控制端，將被感染主機變為可以被駭客控制的“肉雞”。</string>
+    <string id="Worm">蠕蟲病毒</string>
+    <string id="Worm_desc">透過可移動存儲設備、網路、漏洞主動進行傳播，此類病毒具有很強的擴散性。</string>
+    <string id="Virus">感染型病毒</string>
+    <string id="Virus_desc">透過感染以寄生的方式將惡意代碼附著於正常程式中，並透過被感染的程式進行傳播。</string>
+    <string id="Rootkit">內核後門病毒</string>
+    <string id="Rootkit_desc">對操作系統內核進行劫持，透過隱藏其他病毒進程、登錄檔、檔案相關操作等方式與安全軟體進行對抗。</string>
+    <string id="Bootkit">引導後門病毒</string>
+    <string id="Bootkit_desc">在操作系統啟動前或啟動時對操作系統內核進行劫持，透過隱藏其他病毒進程、登錄檔、檔案相關操作等方式與安全軟體進行對抗。</string>
+    <string id="OMacro">巨集病毒</string>
+    <string id="OMacro_desc">會感染您電腦上的OFFICE系列軟體儲存的文檔，並且透過OFFICE通用模板進行傳播。</string>
+    <string id="DOC">惡意文檔</string>
+    <string id="DOC_desc">文檔中攜帶惡意代碼，或文檔結構有潛在被溢出攻擊的可能。</string>
+    <string id="Adware">廣告程式</string>
+    <string id="Adware_desc">廣告類灰色軟體，不會直接破壞您的系統和檔案，但是會退出廣告或存在欺詐等風險。</string>
+    <string id="Constructor">病毒生成器</string>
+    <string id="Constructor_desc">病毒作者可以透過此類程式批量生成新的病毒變種，以躲避安全軟體的掃描。</string>
+    <string id="HackTool">駭客工具</string>
+    <string id="HackTool_desc">可以被駭客利用，用來控制用戶電腦或發起網路攻擊的工具程式。</string>
+    <string id="VirTool">代碼混淆器</string>
+    <string id="VirTool_desc">透過代碼變形、反跟踪、反虛擬機等技術手段，專門被病毒用來與安全軟體進行技術對抗的惡意代碼類型。</string>
+    <string id="Exploit">漏洞攻擊程式</string>
+    <string id="Exploit_desc">利用軟體漏洞進行攻擊的惡意代碼類型。</string>
+    <string id="Joke">玩笑程式</string>
+    <string id="Joke_desc">不存在威脅系統安全的行為，但會透過動作、聲音、圖像等方式驚嚇程式的使用者。</string>
+    <string id="TEST">引擎測試程式</string>
+    <string id="TEST_desc">此程式不包含惡意代碼，僅用來檢驗反病毒引擎是否正常工作。</string>
+    <string id="Ransom">勒索程式</string>
+    <string id="Ransom_desc">透過對用戶電腦中的資料檔案進行加密、強行修改用戶電腦密碼、鎖定用戶電腦屏幕等手段來勒索用戶錢財。</string>
+    <string id="Rogue">流氓程式</string>
+    <string id="Rogue_desc">透過誘導、欺騙、恐嚇等手段脅迫用戶，或透過篡改、劫持等手段操縱用戶資料流量，以達到非法獲利的目的。</string>
+    <string id="Malicious">惡意程式</string>
+    <string id="Malicious_desc">該檔案存在已知惡意代碼，可破壞系統或正常軟體的安全性。</string>
+
+    <string id="Behavior Sandbox">（行為沙盒）</string>
+</stringtable>

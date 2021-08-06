@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles>
+  <Style name="s_normal_speed" value="textcolor=&quot;#ffa68358&quot; hottextcolor=&quot;#ffefe4d8&quot; selectedtextcolor=&quot;#ffefe4d8&quot; normalimage=&quot;file='img/opt_speed_normal.png' source='0,0,14,20' corner='5,5,5,5'&quot; hotimage=&quot;file='img/opt_speed_normal.png' source='14,0,28,20' corner='5,5,5,5'&quot; selectedimage=&quot;file='img/opt_speed_normal.png' source='28,0,42,20' corner='5,5,5,5'&quot;"/>
+  <Style name="s_high_speed" value="textcolor=&quot;#ffa68358&quot; hottextcolor=&quot;#ffefe4d8&quot; selectedtextcolor=&quot;#ffefe4d8&quot; normalimage=&quot;file='img/opt_speed_high.png' source='0,0,14,20' corner='5,5,5,5'&quot; hotimage=&quot;file='img/opt_speed_high.png' source='14,0,28,20' corner='5,5,5,5'&quot; selectedimage=&quot;file='img/opt_speed_high.png' source='28,0,42,20' corner='5,5,5,5'&quot;"/>
+</Styles>

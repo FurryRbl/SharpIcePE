@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="min">Minimize</string>
+    <string id="max">Maximize</string>
+    <string id="restore">Restore</string>
+    <string id="close">Close</string>
+    <string id="menu">Menu</string>
+    <string id="title">HUORONG IS PROTECTING YOUR COMPUTER</string>
+    <string id="title_link_deamon_err">SECURITY SERVICE IS MALFUNCTIONING {a repare}{c #ed3a0a}Repair{/c}{/a}</string>
+    <string id="title_link_deamon_err_repairing">Repairing Huorong Security Service...</string>
+    <string id="title_link_deamon_err_reboot">Failed to Repair Huorong Security Service. Try {a reboot}{c #ed3a0a}Reboot{/c}{/a} to fix it.</string>
+    <string id="title_link_deamon_err_driver">Driver Version Mismatch. Reboot to fix it. Try {a reboot}{c #ed3a0a}Reboot{/c}{/a} to fix it.</string>
+    <string id="update_check">Check Update</string>
+    <string id="protected_days">Been protected for {f 240}{c #ffa924}{days}{/c}{/f} day(s)</string>
+    <string id="version_status">Version: {version}  Definitions: {virus}</string>
+    <string id="virscan">Anti-Virus</string>
+    <string id="sysprotect">Protection</string>
+    <string id="kidsprotect">Access Control</string>
+    <string id="tools">Utilities</string>
+    <string id="background_scanning">Minimize</string>
+
+    <string id="about_huorong">About Huorong</string>
+    <string id="detail">Details</string>
+    <string id="status">Status</string>
+    <string id="scan_path">Scan Path</string>
+    <string id="risk">Threat</string>
+    <string id="risks">Threat(s)</string>
+    <string id="risk_detail">Details</string>
+    <string id="open_file_dir">Locate File</string>
+    <string id="trust_file">Trust File</string>
+    <string id="cancel_trust_file">Cancel Trust File</string>
+    <string id="risk_detail_text">{b}{c #444444}Detection: {/c}{/b}{c #777777}{type}{/c}{n}{n}{b}{c #444444}Description: {/c}{/b}{c #777777}{desc}{/c}{n}{n}{b}{c #444444}Path: {/c}{/b}{c #777777}{path}{/c}{n}{n}{b}{c #444444}Recommendation: {/c}{/b}{c #777777}Clean immediately{/c}</string>
+    <string id="tip">Confirm</string>
+    <string id="safe_tip">Tips</string>
+
+    <string id="huorong_safe_software">Huorong Internet Security</string>
+    <string id="huorong_copyright_title">Beijing Huorong Network Technology Co., Ltd.</string>
+
+    <string id="msg_exit_scanning_title">Confirm before closing</string>
+    <string id="msg_exit_scanning_desc">The scan is in progress. Close the program will cancel the scan.</string>
+    <string id="msg_exit_treating_title">Threats left to be cleaned</string>
+    <string id="msg_exit_treating_desc">Unresovled threats may put your system under the risk.</string>
+    <string id="msg_stop_scanning_title">Confirm before stopping</string>
+    <string id="msg_stop_scanning_desc">Anti-virus scan is currently in progress.</string>
+    <string id="msg_stop_treating_title">Confirm before cleaning</string>
+    <string id="msg_stop_treating_desc">Unresovled threats may put your system under the risk.</string>
+    <string id="msg_trust_rm_file_title">Confirm before deleting</string>
+    <string id="msg_trust_rm_file_desc">The item(s) will no longer be trusted after being deleted.</string>
+    <string id="msg_trust_rm_website_title">Confirm before deleting</string>
+    <string id="msg_trust_rm_website_desc">The item(s) will no longer be trusted after being deleted.</string>
+    <string id="msg_auaran_rm_title">Confirm before deleting</string>
+    <string id="msg_auaran_rm_desc">It's impossible to restore deleted items, please select with caution.</string>
+    <string id="msg_auaran_recovery_title">Confirm before restoring</string>
+    <string id="msg_auaran_recovery_desc">Quarantined items contain malicious code, please select with caution.</string>
+    <string id="msg_webctrl_rm_title">Confirm before deleting</string>
+    <string id="msg_webctrl_rm_desc">It's impossible to restore deleted items, please select with caution.</string>
+    <string id="msg_appctrl_rm_title">Confirm before deleting</string>
+    <string id="msg_appctrl_rm_desc">It's impossible to restore deleted items, please select with caution.</string>
+    <string id="msg_tools_uninst_title">Confirm before uninstalling</string>
+    <string id="msg_tools_uninst_desc">You'll have to download and install again after uninstalling it.</string>
+    <string id="msg_right_scan_title">Scan In Progress</string>
+    <string id="msg_right_scan_desc">Anti-virus scan is in progress, please try again when current scan completes.</string>
+    <string id="msg_udisk_cancel_trust_title">Are you sure to distrust this USB disk?</string>
+    <string id="msg_udisk_cancel_trust_desc">Distrusted USB disk will be blocked from accessing.</string>
+    <string id="msg_syspt_start_netctrl_title">Turning on Network Access Control</string>
+    <string id="msg_syspt_start_netctrl_desc">After turning this on, you will be asked for permission for each network connection request.</string>
+    <string id="msg_syspt_start_advance_title">Turning on Advanced Protection</string>
+    <string id="msg_syspt_start_advance_desc">It is recommended to understand these functionalities before turning them on to avoid unexcepted errors due to the improper configration.</string>
+    <string id="msg_tools_update_title">Failed to start due to out-of-date</string>
+    <string id="msg_tools_update_desc">Please update Huorong to the latest version.</string>
+    <string id="msg_tools_notepad_notexist_title">Unable to modify HOSTS file</string>
+    <string id="msg_tools_notepad_notexist_desc">Failed to find 'notepad.exe' to open hosts file</string>
+
+    <string id="password_tip">Password Required</string>
+
+    <string id="file_recovery_done">Restoring completed</string>
+    <string id="file_recovery_done1">{fail} item(s) failed to restore.</string>
+    <string id="file_recovery_done_desc">{all} item(s) to be restored with {fail} failure(s).</string>
+    <string id="file_recovery_done_desc1">Restore {all} item(s) succesfully.</string>
+    <string id="file_extract_done">Extraction completed</string>
+    <string id="file_extract_done1">{fail} item(s) failed to extract.</string>
+    <string id="file_extract_done_desc">{all} item(s) to be extracted with {fail} failure(s).</string>
+    <string id="file_extract_done_desc1">{all} item(s) extracted.</string>
+    <string id="file_extract_done_desc2">File has been deleted or moved elsewhere.</string>
+    <string id="file_deleted_done">Deletion completed</string>
+    <string id="file_deleted_done_desc">{all} item(s) to be deleted with {fail} failure(s).</string>
+    <string id="file_deleted_done_desc1">Delete {all} item(s) succesfully.</string>
+
+    <string id="recovering">Restoring: {cur}/{all} item(s)</string>
+    <string id="being_extracted">Extracting: {cur}/{all} item(s)</string>
+    <string id="being_deleted">Deleting: {cur}/{all} item(s)</string>
+
+    <string id="recovery_failed_tip">Failed to restore the following items. Is it okay to extract to another folder?</string>
+    <string id="extract_failed_tip">Failed to extract the following items. Is it okay to extract to another folder?</string>
+
+    <string id="choose_dir">Select Folder</string>
+    <string id="target_file">Path</string>
+    <string id="operation">Operation</string>
+
+    <string id="ignore">Ignore</string>
+    <string id="ignore_all">Ignore</string>
+    <string id="handle_immediately">Resolve</string>
+    <string id="scan_done">Scan Completed</string>
+    <string id="handling_risk">Resolving Threats</string>
+    <string id="no_risks_found">No Threat Detected</string>
+    <string id="all_risks_handled">All Threats Have Been Resovled</string>
+    <string id="had_unhandled_risk">{c #e12d0f}Not All Threats Have Been Resovled.{/c}</string>
+    <string id="done">Done</string>
+    <string id="risk_backup_to_isolation">Threat Moved to {a}{c #ed3a0a}Quarantine{/c}{/a}</string>
+    <string id="scaned_count">Object(s): {count}</string>
+    <string id="handled_count">Cleaned: {count}</string>
+    <string id="risks_count">Threat(s): {count}</string>
+    <string id="time_all">Duration: {time}</string>
+    <string id="handled_risks_desc">Threat(s) cleaned: {c #e12d0f}{cleaned}/{count}{/c}</string>
+    <string id="found_risks_suggest">{c #e12d0f}{count}{/c} threat(s) detected</string>
+    <string id="found_risks_count">{c #e12d0f}{count}{/c} threat(s) detected</string>
+    <string id="initializing_engine">Initializing Engine</string>
+
+    <string id="virscan_all">Full Scan</string>
+    <string id="virscan_quick">Quick Scan</string>
+    <string id="virscan_custom">Custom Scan</string>
+    <string id="virscan_full_title">Full scanning</string>
+    <string id="virscan_quick_title">Quick scanning</string>
+    <string id="virscan_custom_title">Custom scanning</string>
+    <string id="virscan_detail_enter">Details</string>
+    <string id="virscan_detail_exit">Brief</string>
+    <string id="virscan_stop">Stop</string>
+    <string id="virscan_pause">Pause</string>
+    <string id="virscan_continue">Resume</string>
+    <string id="virscan_high_speed">HI.</string>
+    <string id="virscan_high_speed_desc">High-speed scan mode. Scan faster with higher performance impact.</string>
+    <string id="virscan_normal_speed">REG.</string>
+    <string id="virscan_normal_speed_desc">Regular scan mode. Scan slower with lower performance impact.</string>
+    <string id="virscan_auto_poweroff">Shutdown after scan completed</string>
+    <string id="virscan_used_time">Elapsed: {time}</string>
+    <string id="virscan_dangerous">Threat(s)</string>
+    <string id="virscan_security">Safe</string>
+    <string id="virscan_scaning">Scanning...</string>
+    <string id="virscan_toscan">Awaiting</string>
+
+    <string id="virscan_status_scaning">Scanning</string>
+    <string id="virscan_status_wait_scan">Awaiting</string>
+    <string id="virscan_status_dangerous">Threat(s)</string>
+    <string id="virscan_status_security">Safe</string>
+    <string id="virscan_status_wait_clean">Pending</string>
+    <string id="virscan_status_cleanning">Resolving</string>
+    <string id="virscan_status_cleaned">Resolved</string>
+    <string id="virscan_status_ignored">Ignore</string>
+    <string id="virscan_status_trusted">Trusted</string>
+    <string id="virscan_status_clean_failed">Resolve Failed</string>
+
+    <string id="virscan_boot_sector">Boot</string>
+    <string id="virscan_sys_program">Processes</string>
+    <string id="virscan_startup">Autoruns</string>
+    <string id="virscan_sevices_drives">Services and Drivers</string>
+    <string id="virscan_sys_components">System Components</string>
+    <string id="virscan_sys_position">Critical Areas</string>
+    <string id="virscan_local_disk">Local Disk(s)</string>
+    <string id="virscan_net_disk">Network Disk(s)</string>
+
+    <string id="syspt_virus">Anti-virus</string>
+    <string id="syspt_sys">HIPS</string>
+    <string id="syspt_net">Firewall</string>
+    <string id="syspt_advance">Advanced</string>
+    <string id="syspt_virus_filemon">Real-Time File System Protection</string>
+    <string id="syspt_virus_filemon_desc">Perform anti-virus scan on file execution, creation and opening</string>
+    <string id="syspt_virus_behavior">Behavior-Based Protection</string>
+    <string id="syspt_virus_behavior_desc">Detect malicious behaviors during program execution</string>
+    <string id="syspt_virus_udisk">USB Disk Protection</string>
+    <string id="syspt_virus_udisk_desc">Perform anti-virus scan on USB disk insertion</string>
+    <string id="syspt_virus_download">Download Protection</string>
+    <string id="syspt_virus_download_desc">Scan files downloaded/received with browsers or IM softwares</string>
+    <string id="syspt_virus_mail">Email Protocol Protection</string>
+    <string id="syspt_virus_mail_desc">Scan recevied and sent emails through email clients</string>
+    <string id="syspt_virus_web">Web Access Protection</string>
+    <string id="syspt_virus_web_desc">Perform anti-virus scan on data received through HTTP protocol</string>
+
+    <string id="syspt_sys_sys">Host Reinforcement</string>
+    <string id="syspt_sys_sys_desc">Protect against potential vulnerabilities in host system</string>
+    <string id="syspt_sys_app">Application Reinforcement</string>
+    <string id="syspt_sys_app_desc">Prevent applications being exploited by malicious software</string>
+    <string id="syspt_sys_install">Installation Detection</string>
+    <string id="syspt_sys_install_desc">Detect software installation behaviors</string>
+    <string id="syspt_sys_camera">Webcam Protection</string>
+    <string id="syspt_sys_camera_desc">Protect webcam from being misused or spying attempts</string>
+    <string id="syspt_sys_browser">Browser Protection</string>
+    <string id="syspt_sys_browser_desc">Protect browser start and search page from unauthorized modifications</string>
+    <string id="syspt_sys_appnetctrl">Network Access Control</string>
+    <string id="syspt_sys_appnetctrl_desc">Manage application network access behaviors</string>
+
+    <string id="syspt_net_hack">Network Intrusion Prevention</string>
+    <string id="syspt_net_hack_desc">Protect against exploitation, hacking and other network intrusion threats</string>
+    <string id="syspt_net_attack">Network Attack Detection</string>
+    <string id="syspt_net_attack_desc">Detect exploitation, hacking and other network attack behaviors</string>
+    <string id="syspt_net_zombie_net">Botnet Protection</string>
+    <string id="syspt_net_zombie_net_desc">Protect against potential botnet attacks</string>
+    <string id="syspt_net_remote_login">Remote Access Protection</string>
+    <string id="syspt_net_remote_login_desc">Protect against potential password-cracking attacks</string>
+    <string id="syspt_net_web_service">Web Service Protection</string>
+    <string id="syspt_net_web_service_desc">Protect web services against high-risk vulnerability penetration attacks</string>
+    <string id="syspt_net_malicious_web">Malicious Website Detection</string>
+    <string id="syspt_net_malicious_web_desc">Block websites classified as trojan, fraud, phishing, etc.</string>
+
+    <string id="syspt_advance_custom">Custom Rules</string>
+    <string id="syspt_advance_custom_desc">Setup user-defined file, registry, and execution control rules</string>
+    <string id="syspt_advance_ip_backlist">IP Blacklist</string>
+    <string id="syspt_advance_ip_backlist_desc">Restrict access to/from specific IP addresses</string>
+    <string id="syspt_advance_ip_protocol">IP Firewall</string>
+    <string id="syspt_advance_ip_protocol_desc">Manage IP protocol filters</string>
+
+    <string id="kidpt_title">Make your computer more suitable for guest access</string>
+    <string id="kidpt_title_desc">Password is recommended to protect settings from unauthorized modifications</string>
+    <string id="kidpt_password">Password</string>
+    <string id="kidpt_online">Network Control</string>
+    <string id="kidpt_online_desc">Time-based network access restriction</string>
+    <string id="kidpt_website">Website Control</string>
+    <string id="kidpt_website_desc">Restrict access to specific types of websites</string>
+    <string id="kidpt_program">Execution Control</string>
+    <string id="kidpt_program_desc">Restrict execution of specific types of applications</string>
+    <string id="kidpt_udisk">USB Control</string>
+    <string id="kidpt_udisk_desc">Control the use of USB disks against malware intrusion or data breaches</string>
+
+    <string id="tools_sys_tool">System Utilities</string>
+    <string id="tools_net_tool">Network Utilities</string>
+    <string id="tools_advance_tool">Advanced Utilities</string>
+    <string id="tools_leak_repair">VULScan</string>
+    <string id="tools_leak_repair_desc">Repair system vulnerabilities</string>
+    <string id="tools_sys_repair">SysRepair</string>
+    <string id="tools_sys_repair_desc">Repair system abnormalities</string>
+    <string id="tools_pop_block">PopupBlocker</string>
+    <string id="tools_pop_block_desc">Block unwanted popup windows</string>
+    <string id="tools_sys_clean">SysClean</string>
+    <string id="tools_sys_clean_desc">Cleanup junk files</string>
+    <string id="tools_autoruns">Autoruns</string>
+    <string id="tools_autoruns_desc">Manage autorun items</string>
+    <string id="tools_file_shred">FileShred</string>
+    <string id="tools_file_shred_desc">Force delete or smash files</string>
+    <string id="tools_right_click">ContextMenuManager</string>
+    <string id="tools_right_click_desc">Manage context menu</string>
+
+    <string id="tools_net_repair">NetDiagnosis</string>
+    <string id="tools_net_repair_desc">Diagnose network connection problems</string>
+    <string id="tools_net_flow">Netflux</string>
+    <string id="tools_net_flow_desc">Control application network traffic</string>
+    <string id="tools_net_speed">NetBalance</string>
+    <string id="tools_net_speed_desc">Balance network traffic among applications</string>
+    <string id="tools_host">HostsConfig</string>
+    <string id="tools_host_desc">Configure hosts file</string>
+
+    <string id="tools_sword">HRSword</string>
+    <string id="tools_sword_desc">Advanced system diagnostic toolkit</string>
+    <string id="tools_kill">VirRemovalTool</string>
+    <string id="tools_kill_desc">Advanced malware removal tool</string>
+
+    <string id="menu_syscfg_config">Settings</string>
+    <string id="menu_syscfg_log">Logs</string>
+    <string id="menu_syscfg_isolation">Quarantine</string>
+    <string id="menu_syscfg_trust">Trusted Zone</string>
+    <string id="menu_syscfg_update">Update</string>
+    <string id="menu_syscfg_language">Languange</string>
+    <string id="menu_syscfg_feedback">Feedback</string>
+    <string id="menu_syscfg_virus_report">Report</string>
+    <string id="menu_syscfg_about">About Us</string>
+
+    <string id="control_online_time">Restrict by time frames</string>
+    <string id="allow_online">Allow</string>
+    <string id="stop_online">Deny</string>
+    <string id="monday">Mon.</string>
+    <string id="tuesday">Tue.</string>
+    <string id="wednesday">Wed.</string>
+    <string id="thursday">Thur.</string>
+    <string id="friday">Fri.</string>
+    <string id="saturday">Sat.</string>
+    <string id="sunday">Sun.</string>
+    <string id="all_online_time_control">Restrict by time accumulation</string>
+    <string id="workday_online_nomorethan1">Maximum hour(s) allowed to access network on workdays: </string>
+    <string id="weekend_online_nomorethan1">Maximum hour(s) allowed to access network on weekends: </string>
+    <string id="hour">Hour</string>
+    <string id="control_website">Website</string>
+    <string id="status">Status</string>
+    <string id="news_website">News Sites</string>
+    <string id="shopping_website">Shopping Sites</string>
+    <string id="sexy_website">Erotic Sites</string>
+    <string id="religion_website">Religion Sites</string>
+    <string id="foul_website">Swearing Sites</string>
+    <string id="game_website">Game Sites</string>
+    <string id="add_website">Add</string>
+    <string id="add_url">Add</string>
+    <string id="input_policy_name">Input proc path. Wildcard is supported.</string>
+    <string id="mulity_website_tip">Use newline between each website. Wildcard is allowed.</string>
+    <string id="save">Save</string>
+    <string id="ok">OK</string>
+    <string id="cancel">Cancel</string>
+    <string id="back">Back</string>
+    <string id="app">Application</string>
+    <string id="console_game">Stand-alone Games</string>
+    <string id="online_game">Online Games</string>
+    <string id="leisure_game">Casual Games</string>
+    <string id="battle_platform">Game Platforms</string>
+    <string id="entertainment">Entertainment Software</string>
+    <string id="chat_tools">IM Software</string>
+    <string id="rogue_downloader">Rogue Downloader</string>
+    <string id="risk_tools">Risk tools</string>
+    <string id="remote_access_tools">Remote control tools</string>
+    <string id="edit_app">Editors</string>
+    <string id="add_app">Add</string>
+    <string id="choose_app">Choose</string>
+    <string id="lastest_run_app">Recent</string>
+    <string id="lastest_run_app_3d">Programs executed in the last 3 days</string>
+    <string id="trust_udisk">Trusted USB disk(s)</string>
+    <string id="udisk">USB disk(s)</string>
+    <string id="serial_number">Serial Num.</string>
+    <string id="unconnected">Disconnected</string>
+    <string id="connected">Connected</string>
+    <string id="cancel_trust">Distrust</string>
+    <string id="add_device">Add</string>
+    <string id="add_trust">Trust</string>
+    <string id="insert_udisk_first">Please insert USB disk</string>
+    <string id="open_udisk_first">Please enable USB Control</string>
+
+    <string id="choose_scan_dir">Select folder(s) to scan</string>
+
+    <string id="trust_zone_empty_desc">Items in Trusted Zone will be ignored by anti-virus scan</string>
+    <string id="isolation_empty_desc">Quarantined files may contain malicious code, please use with care.</string>
+    <string id="udiskctrl_empty_desc">Press 'Add' to add trusted USB disks</string>
+    <string id="webctrl_empty_desc">Press 'Add' to add more websites</string>
+    <string id="appctrl_empty_desc">Press 'Add' to add application</string>
+    <string id="appctrl_lastest_empty_desc">No recent executed programs</string>
+
+    <string id="trust_zone_title_file">Trusted items are recognized as safe. Manually append items when false positive occurs.</string>
+    <string id="trust_zone_title_website">The trusted items are recognized as safe. Manually append items when false positive occurs.</string>
+    <string id="isolation_zone_title">Quarantined items occupy {size} of disk space</string>
+    <string id="add_recovery_to_trust_zone">Add restored item(s) to Trusted Zone</string>
+
+    <string id="file">File</string>
+    <string id="website">Website</string>
+    <string id="path">Path</string>
+    <string id="type">Type</string>
+    <string id="clear_invalid_item">Clean invalid</string>
+    <string id="add_file">Add file(s)</string>
+    <string id="add_dir">Add folder(s)</string>
+    <string id="virus_name">Name</string>
+    <string id="isolation_time">Time</string>
+    <string id="classification">Reason</string>
+    <string id="delete">Delete</string>
+    <string id="edit">Edit</string>
+    <string id="extract">Extract</string>
+    <string id="recovery">Restore</string>
+    <string id="not_exist">Not exist</string>
+    <string id="dir">Directory</string>
+    <string id="other">Other</string>
+
+    <string id="create_link">Create Shortcut</string>
+    <string id="uninstall_tools">Uninstall</string>
+
+    <string id="autofill_custom_url">CustomURLs</string>
+
+    <string id="undisposed">ignored</string>
+    <string id="trusted">trusted</string>
+    <string id="disposed">disposed</string>
+    <string id="disposed_deleted">deleted</string>
+    <string id="disposed_cleaned">cleaned</string>
+    <string id="disposed_cleaned_by_del">cleaned by deletion</string>
+    <string id="disposed_del_coz_readonly">deleted due to non-writable container</string>
+    <string id="disposed_del_coz_clean_fail">deleted due to clean failure</string>
+    <string id="disposed_del_coz_empty">deleted due to empty container</string>
+    <string id="dispose_failed">failed</string>
+    <string id="dispose_failed_still">kept still</string>
+    <string id="dispose_failed_quaran_failed">quarantine failed</string>
+    <string id="dispose_failed_intern_error">internal error</string>
+    <string id="dispose_failed_postops_failed">post treat failed</string>
+    <string id="scan_log_detial">Definitions: {dbtime}\r\nScan started at: {begintime}\r\nScan completed at: {duration}\r\nObject(s): {objects}\r\nFile(s): {files}\r\nThreat(s): {detected}\r\nThreat(s) cleaned: {neutralized}\r\n</string>
+    <string id="scan_log_detial_list">\r\nDetails\r\n\r\n</string>
+    <string id="scan_log_detial_row">Path: {path}, Detection: {virname}, ID: {virid}, Result: {result}</string>
+
+    <string id="fill_trust_website_please">URL required</string>
+    <string id="check_trust_website_format">Please check the url fomat</string>
+    <string id="policy_name_exist">Name already exists</string>
+    <string id="fill_policy_name_please">Rule name required</string>
+    <string id="fill_website_please">URL(s) required</string>
+    <string id="password_error">Wrong password.</string>
+
+    <string id="hide_system_app">Hide system programs</string>
+    <string id="choose_app_please">Please choose application</string>
+
+    <string id="iknow">OK</string>
+
+    <string id="browse_title_file">Add File</string>
+    <string id="browse_title_save">Save As</string>
+    <string id="browse_title_folder">Add Folder</string>
+    <string id="browse_search_pos1">Directory：</string>
+    <string id="browse_file_name1">File name：</string>
+    <string id="browse_file_type1">File type：</string>
+    <string id="browse_open">Open</string>
+    <string id="browse_save">Save</string>
+    <string id="browse_cancel">Cancel</string>
+    <string id="browse_name">Name</string>
+    <string id="browse_modify_date">Date modified</string>
+    <string id="browse_type">Type</string>
+    <string id="browse_size">Size</string>
+    <string id="browse_filter_all">All files (*.*)</string>
+    <string id="browse_filter_ext">Files (*.{ext})</string>
+
+    <string id="browse_tip_back">Back to {path}</string>
+    <string id="browse_tip_prev">Forward to {path}</string>
+    <string id="browse_tip_up">Up to {path}</string>
+
+    <string id="browse_tip_update">Refresh</string>
+    <string id="browse_tip_jmp">Go</string>
+
+    <string id="browse_path_notexit">Path not exists</string>
+
+    <string id="saveas_fail">Save failed</string>
+    <string id="browse_path_exist">Already exists</string>
+    <string id="browse_overwrite">Do you want to replace it?</string>
+
+    <string id="browse_path_cnt_save">Cannot save to this location</string>
+    <string id="browse_sel_other_dir">Please select another directory</string>
+
+    <string id="download_err_no_network">Installation failure</string>
+    <string id="tools_install_failed">No Internet connection</string>
+    
+    <string id="err_other_user_operation">Operation failure due to multiple logon users.</string>
+    
+    <string id="tip_main_sys">Webcam Protection will only be available after system reboot.</string>
+    <string id="tip_main_net">Firewall will only be available after system reboot.</string>
+    <string id="tip_main_the">This functionality will only be available after system reboot.</string>
+
+    <string id="syspt_net_tpprot">Lateral Movement Protection</string>
+    <string id="syspt_net_tpprot_desc">Detect potential malicious lateral movement behaviors</string>
+
+    <string id="auto_list_scroll">Auto Scroll</string>
+
+    <!--  -->
+    <string id="forget_password">Forget the password?</string>
+
+    <string id="error_anwser">Wrong answer</string>
+    <string id="modify_password">Change Password</string>
+    <string id="please_enter_answer">Please input the answer</string>
+    <string id="another_question">Try another question?</string>
+    <string id="verify">Verification</string>
+    <string id="set_password_on_verifyed">Verified please set new password</string>
+
+    <string id="please_enter_password">Please input a password</string>
+    <string id="password_nomatch">The password is inconsistent, please re-enter</string>
+    <string id="notlimit_space">Spaces are not allowed</string>
+
+    <string id="password_new">New Password:</string>
+    <string id="password_confirm">Confirm Password:</string>
+    <string id="password_enter">Please input new password</string>
+    <string id="password_enter_again">Please confirm password</string>
+
+    <string id="huorong_title">Huorong Security</string>
+    <string id="msgbox_daemon_err">Security Service is Malfunctioning.</string>
+    <string id="msgbox_daemon_err_decs">Please repair Huorong Security Service.</string>
+</stringtable>

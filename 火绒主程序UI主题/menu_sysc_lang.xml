@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="132,96" dpifix="125:0,2" dpifix="150:0,1" dpifix="175:0,1" layeredimage="name='bk_border_opaque_small'">
+	<Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/menu.xml"/>
+	<Style name="s_menu_item" value="tab=&quot;id='0'&quot; icon_group=&quot;icon_menu&quot; text_group=&quot;text_menu&quot; hor_inset=&quot;10,0,10,0&quot; hor_childpadding=&quot;10&quot; icon_size=&quot;18,18&quot; arrow_size=&quot;10,10&quot; text_autowidth=&quot;false&quot; text_align=&quot;left&quot; text_textcolor=&quot;#ff444444&quot; text_hottextcolor=&quot;#ffffa924&quot; text_selectedtextcolor=&quot;#ffffa924&quot; text_selectedhottextcolor=&quot;#ffffa924&quot; arrow_normalimage=&quot;name='syscfgc_arrow_normal'&quot; arrow_hotimage=&quot;name='syscfgc_arrow_hot'&quot; arrow_selectedimage=&quot;name='syscfgc_arrow_hot'&quot; arrow_selectedhotimage=&quot;name='syscfgc_arrow_hot'&quot;"/>
+  <VerticalLayout inset="3,3,3,3">
+    <Menu name="menu_sub" itemhotbkcolor="#fff0f0f0" posinset="0,3,0,0" itemminwidth="132">
+      <MenuItem height="30" style="s_menu_item" text_text="简体中文"
+        icon_normalimage="name='syscfgc_lang_zh_cn_normal'" icon_hotimage="name='syscfgc_lang_zh_cn_hot'"
+        icon_selectedimage="name='syscfgc_lang_zh_cn_hot'" icon_selectedhotimage="name='syscfgc_lang_zh_cn_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_text="繁體中文"
+        icon_normalimage="name='syscfgc_lang_zh_tw_normal'" icon_hotimage="name='syscfgc_lang_zh_tw_hot'"
+        icon_selectedimage="name='syscfgc_lang_zh_tw_hot'" icon_selectedhotimage="name='syscfgc_lang_zh_tw_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_text="English"
+        icon_normalimage="name='syscfgc_lang_en_normal'" icon_hotimage="name='syscfgc_lang_en_hot'"
+        icon_selectedimage="name='syscfgc_lang_en_hot'" icon_selectedhotimage="name='syscfgc_lang_en_hot'"/>
+    </Menu>
+  </VerticalLayout>
+</Window>

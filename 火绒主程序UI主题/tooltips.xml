@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="20,30" layeredimage="file='img/bk_tip.png'  corner='24,5,5,10'">
+	<Font id="120" shared="false" name="微软雅黑" size="12" default="true" />
+	<HorizontalLayout inset="10,0,10,6">
+		<Label name="text_tips" textcolor="#fff17f05"
+		align="center"/>
+	</HorizontalLayout>
+</Window>

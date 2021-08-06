@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="460,240" mininfo="460,240" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <Font id="1201" name="微软雅黑" size="12" underline="true"/>
+  <Style name="s_btn_text" value="tabpadding=&quot;-3,0,-3,0&quot; textcolor=&quot;#fff17f05&quot; hottextcolor=&quot;#ffffa924&quot; pushedtextcolor=&quot;#ffdf4c0b&quot;"/>
+  <Style name="s_btn_text_underline_common" value="height=&quot;20&quot; style=&quot;s_btn_text&quot; font=&quot;1201&quot;"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:modify_password"
+      visible="btn_sys_min:false"/>
+
+    <TabLayout name="tab_page">
+      <VerticalLayout inset="20,0,20,0">
+        <VerticalLayout inset="20,10,20,0" childpadding="10">
+          <Label name="lab_q" style="gs_title_common" font="160" height="26"
+            text="any question" />
+          <Edit name="edit_answer" style="gs_edit_common" height="28" width="240" textpadding="10,0,5,0"
+          bktextid="please_enter_answer"/>
+          <Control />
+          <HorizontalLayout height="26">
+            <Button name="btn_another" style="s_btn_text_underline_common" string="another_question"/>
+            <Control />
+          </HorizontalLayout>
+        </VerticalLayout>
+        <HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+            height="50" childvalign="vcenter" childpadding="10">
+            <Control />
+            <Button name="btn_verify" style="gs_btn_orange_ok" size="70,26" string="verify"/>
+            <Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+       <VerticalLayout inset="20,0,20,0">
+        <VerticalLayout inset="20,10,20,0" childpadding="10">
+          <Label style="gs_title_common" font="160" height="26" align="center"
+            string="set_password_on_verifyed" />
+          <HorizontalLayout style="gs_box_hor_common" height="36" childpadding="10">
+            <Label style="gs_label_common" align="right" width="120" string="password_new" />
+            <Edit style="gs_edit_common" bktextid="password_enter"  password="true"
+            tab="id='311'"
+            name="edit_pwd_new"/>
+          </HorizontalLayout>
+          <HorizontalLayout style="gs_box_hor_common" height="36"  childpadding="10">
+            <Label style="gs_label_common" align="right" width="120" string="password_confirm" />
+            <Edit style="gs_edit_common"  bktextid="password_enter_again"  password="true"
+            tab="id='312'"
+            name="edit_pwd_confirm"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+            height="50" childvalign="vcenter" childpadding="10">
+            <Control />
+            <Button name="btn_save" style="gs_btn_orange_ok" size="70,26" string="save"/>
+            <Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel"/>
+        </HorizontalLayout>
+    </VerticalLayout>
+    </TabLayout>     
+  </VerticalLayout>
+</Window>

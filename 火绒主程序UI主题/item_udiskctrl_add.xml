@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement minheight="36">
+    <Component xml="cmpt/list_opt.xml"
+      name="opt:opt_item"/>
+    <Label name="label_name" style="gs_item_label_common" endellipsis="true"/>
+    <Label name="label_snumber" style="gs_item_label_common"/>
+  </ListContainerElement>
+</item>

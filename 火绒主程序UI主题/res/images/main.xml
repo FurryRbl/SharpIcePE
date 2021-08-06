@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="anibtn_virscan" value="file='img/100/ani_virscan.png' source='0,0,15,15'"/>
+
+    <ImageStyle name="virscan_normal" value="file='img/100/virscan.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_hot" value="file='img/100/virscan.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_pushed" value="file='img/100/virscan.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_treat_normal" value="file='img/100/virscan_treat.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_treat_hot" value="file='img/100/virscan_treat.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_treat_pushed" value="file='img/100/virscan_treat.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="sysprotect_normal" value="file='img/100/sysprotect.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="sysprotect_hot" value="file='img/100/sysprotect.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="sysprotect_pushed" value="file='img/100/sysprotect.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="kidsprotect_normal" value="file='img/100/kidsprotect.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="kidsprotect_hot" value="file='img/100/kidsprotect.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="kidsprotect_pushed" value="file='img/100/kidsprotect.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="tools_normal" value="file='img/100/tools.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="tools_hot" value="file='img/100/tools.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="tools_pushed" value="file='img/100/tools.png' source='160,0,240,80' dest='35,0,115,80'"/>
+
+    <ImageStyle name="virscan_all_normal" value="file='img/100/viruscan/all.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_all_hot" value="file='img/100/viruscan/all.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_all_pushed" value="file='img/100/viruscan/all.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_quick_normal" value="file='img/100/viruscan/quick.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_quick_hot" value="file='img/100/viruscan/quick.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_quick_pushed" value="file='img/100/viruscan/quick.png' source='160,0,240,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_custom_normal" value="file='img/100/viruscan/custom.png' source='0,0,80,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_custom_hot" value="file='img/100/viruscan/custom.png' source='80,0,160,80' dest='35,0,115,80'"/>
+    <ImageStyle name="virscan_custom_pushed" value="file='img/100/viruscan/custom.png' source='160,0,240,80' dest='35,0,115,80'"/>
+
+    <ImageStyle name="virscan_expand_bk" value="file='img/100/viruscan/expand_bk.png'"/>
+    <ImageStyle name="virscan_expand_normal" value="file='img/100/viruscan/expand.png' source='0,0,28,28'"/>
+    <ImageStyle name="virscan_expand_hot" value="file='img/100/viruscan/expand.png' source='28,0,56,28'"/>
+    <ImageStyle name="virscan_expand_pushed" value="file='img/100/viruscan/expand.png' source='56,0,84,28'"/>
+
+    <ImageStyle name="back_normal" value="file='img/100/back.png' source='0,0,36,24'"/>
+    <ImageStyle name="back_hot" value="file='img/100/back.png' source='36,0,72,24'"/>
+    <ImageStyle name="back_pushed" value="file='img/100/back.png' source='72,0,108,24'"/>
+    <ImageStyle name="back_disabled" value="file='img/100/back.png' source='108,0,144,24'"/>
+
+    <ImageStyle name="ani_flash" value="file='img/ani_flash/100_??.png'"/>
+    <ImageStyle name="ani_flash_repair" value="file='img/100/ani_flash_repair.png'"/>
+
+    <ImageStyle name="ani_update" value="file='img/100/ani_update.png' source='0,0,15,15'"/>
+    <ImageStyle name="update_normal" value="file='img/100/ani_update.png' source='0,0,15,15'"/>
+    <ImageStyle name="update_hot" value="file='img/100/ani_update.png' source='15,0,30,15'"/>
+    <ImageStyle name="update_pushed" value="file='img/100/ani_update.png' source='30,0,45,15'"/>
+  
+    <ImageStyle name="bk_main_normal" value="file='img/100/bk_main_normal.png'"/>
+    <ImageStyle name="bk_main_exception" value="file='img/100/bk_main_exception.png'"/>
+    <ImageStyle name="icon_main_normal" value="file='img/100/icon_main_normal.png'"/>
+    <ImageStyle name="icon_main_exception" value="file='img/100/icon_main_exception.png'"/>
+
+    <ImageStyle name="syscfg_config_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_config_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_log_normal" value="file='img/100/menu_sys_cfg/log.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_log_hot" value="file='img/100/menu_sys_cfg/log.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_isolation_normal" value="file='img/100/menu_sys_cfg/isolation.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_isolation_hot" value="file='img/100/menu_sys_cfg/isolation.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_trust_normal" value="file='img/100/menu_sys_cfg/trust.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_trust_hot" value="file='img/100/menu_sys_cfg/trust.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_update_normal" value="file='img/100/menu_sys_cfg/update.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_update_hot" value="file='img/100/menu_sys_cfg/update.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_language_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_language_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_feedback_normal" value="file='img/100/menu_sys_cfg/feedback.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_feedback_hot" value="file='img/100/menu_sys_cfg/feedback.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_help_normal" value="file='img/100/menu_sys_cfg/help.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_help_hot" value="file='img/100/menu_sys_cfg/help.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_about_normal" value="file='img/100/menu_sys_cfg/about.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfg_about_hot" value="file='img/100/menu_sys_cfg/about.png' source='18,0,36,18' dest='10,6,28,24'"/>
+
+    <ImageStyle name="syscfgc_lang_zh_cn_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfgc_lang_zh_cn_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfgc_lang_en_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18' dest='10,6,28,24'"/>
+    <ImageStyle name="syscfgc_lang_en_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18' dest='10,6,28,24'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="anibtn_virscan" value="file='img/100/ani_virscan.png' source='0,0,15,15'"/>
+
+    <ImageStyle name="virscan_normal" value="file='img/125/virscan.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_hot" value="file='img/125/virscan.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_pushed" value="file='img/125/virscan.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_treat_normal" value="file='img/125/virscan_treat.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_treat_hot" value="file='img/125/virscan_treat.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_treat_pushed" value="file='img/125/virscan_treat.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="sysprotect_normal" value="file='img/125/sysprotect.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="sysprotect_hot" value="file='img/125/sysprotect.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="sysprotect_pushed" value="file='img/125/sysprotect.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="kidsprotect_normal" value="file='img/125/kidsprotect.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="kidsprotect_hot" value="file='img/125/kidsprotect.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="kidsprotect_pushed" value="file='img/125/kidsprotect.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="tools_normal" value="file='img/125/tools.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="tools_hot" value="file='img/125/tools.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="tools_pushed" value="file='img/125/tools.png' source='200,0,300,100' dest='43,0,143,100'"/>
+
+    <ImageStyle name="virscan_all_normal" value="file='img/125/viruscan/all.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_all_hot" value="file='img/125/viruscan/all.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_all_pushed" value="file='img/125/viruscan/all.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_quick_normal" value="file='img/125/viruscan/quick.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_quick_hot" value="file='img/125/viruscan/quick.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_quick_pushed" value="file='img/125/viruscan/quick.png' source='200,0,300,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_custom_normal" value="file='img/125/viruscan/custom.png' source='0,0,100,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_custom_hot" value="file='img/125/viruscan/custom.png' source='100,0,200,100' dest='43,0,143,100'"/>
+    <ImageStyle name="virscan_custom_pushed" value="file='img/125/viruscan/custom.png' source='200,0,300,100' dest='43,0,143,100'"/>
+
+    <ImageStyle name="virscan_expand_bk" value="file='img/125/viruscan/expand_bk.png'"/>
+    <ImageStyle name="virscan_expand_normal" value="file='img/125/viruscan/expand.png' source='0,0,35,35'"/>
+    <ImageStyle name="virscan_expand_hot" value="file='img/125/viruscan/expand.png' source='35,0,70,35'"/>
+    <ImageStyle name="virscan_expand_pushed" value="file='img/125/viruscan/expand.png' source='70,0,105,35'"/>
+
+    <ImageStyle name="back_normal" value="file='img/125/back.png' source='0,0,45,30'"/>
+    <ImageStyle name="back_hot" value="file='img/125/back.png' source='45,0,90,30'"/>
+    <ImageStyle name="back_pushed" value="file='img/125/back.png' source='90,0,135,30'"/>
+    <ImageStyle name="back_disabled" value="file='img/125/back.png' source='135,0,180,30'"/>
+
+    <ImageStyle name="ani_flash" value="file='img/ani_flash/125_??.png'"/>
+    <ImageStyle name="ani_flash_repair" value="file='img/125/ani_flash_repair.png'"/>
+
+    <ImageStyle name="ani_update" value="file='img/125/ani_update.png' source='0,0,19,19'"/>
+    <ImageStyle name="update_normal" value="file='img/125/ani_update.png' source='0,0,19,19'"/>
+    <ImageStyle name="update_hot" value="file='img/125/ani_update.png' source='19,0,38,19'"/>
+    <ImageStyle name="update_pushed" value="file='img/125/ani_update.png' source='38,0,57,19'"/>
+
+    <ImageStyle name="bk_main_normal" value="file='img/125/bk_main_normal.png'"/>
+    <ImageStyle name="bk_main_exception" value="file='img/125/bk_main_exception.png'"/>
+    <ImageStyle name="icon_main_normal" value="file='img/125/icon_main_normal.png'"/>
+    <ImageStyle name="icon_main_exception" value="file='img/125/icon_main_exception.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="anibtn_virscan" value="file='img/150/ani_virscan.png' source='0,0,15,15'"/>
+
+    <ImageStyle name="virscan_normal" value="file='img/150/virscan.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_hot" value="file='img/150/virscan.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_pushed" value="file='img/150/virscan.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_treat_normal" value="file='img/150/virscan_treat.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_treat_hot" value="file='img/150/virscan_treat.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_treat_pushed" value="file='img/150/virscan_treat.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="sysprotect_normal" value="file='img/150/sysprotect.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="sysprotect_hot" value="file='img/150/sysprotect.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="sysprotect_pushed" value="file='img/150/sysprotect.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="kidsprotect_normal" value="file='img/150/kidsprotect.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="kidsprotect_hot" value="file='img/150/kidsprotect.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="kidsprotect_pushed" value="file='img/150/kidsprotect.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="tools_normal" value="file='img/150/tools.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="tools_hot" value="file='img/150/tools.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="tools_pushed" value="file='img/150/tools.png' source='240,0,360,120' dest='52,0,172,120'"/>
+
+    <ImageStyle name="virscan_all_normal" value="file='img/150/viruscan/all.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_all_hot" value="file='img/150/viruscan/all.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_all_pushed" value="file='img/150/viruscan/all.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_quick_normal" value="file='img/150/viruscan/quick.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_quick_hot" value="file='img/150/viruscan/quick.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_quick_pushed" value="file='img/150/viruscan/quick.png' source='240,0,360,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_custom_normal" value="file='img/150/viruscan/custom.png' source='0,0,120,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_custom_hot" value="file='img/150/viruscan/custom.png' source='120,0,240,120' dest='52,0,172,120'"/>
+    <ImageStyle name="virscan_custom_pushed" value="file='img/150/viruscan/custom.png' source='240,0,360,120' dest='52,0,172,120'"/>
+
+    <ImageStyle name="virscan_expand_bk" value="file='img/150/viruscan/expand_bk.png'"/>
+    <ImageStyle name="virscan_expand_normal" value="file='img/150/viruscan/expand.png' source='0,0,42,42'"/>
+    <ImageStyle name="virscan_expand_hot" value="file='img/150/viruscan/expand.png' source='42,0,84,42'"/>
+    <ImageStyle name="virscan_expand_pushed" value="file='img/150/viruscan/expand.png' source='84,0,126,42'"/>
+
+    <ImageStyle name="back_normal" value="file='img/150/back.png' source='0,0,54,36'"/>
+    <ImageStyle name="back_hot" value="file='img/150/back.png' source='54,0,108,36'"/>
+    <ImageStyle name="back_pushed" value="file='img/150/back.png' source='108,0,162,36'"/>
+    <ImageStyle name="back_disabled" value="file='img/150/back.png' source='162,0,216,36'"/>
+
+    <ImageStyle name="ani_flash" value="file='img/ani_flash/150_??.png'"/>
+    <ImageStyle name="ani_flash_repair" value="file='img/150/ani_flash_repair.png'"/>
+
+    <ImageStyle name="ani_update" value="file='img/150/ani_update.png' source='0,0,23,23'"/>
+    <ImageStyle name="update_normal" value="file='img/150/ani_update.png' source='0,0,23,23'"/>
+    <ImageStyle name="update_hot" value="file='img/150/ani_update.png' source='23,0,46,23'"/>
+    <ImageStyle name="update_pushed" value="file='img/150/ani_update.png' source='46,0,69,23'"/>
+
+    <ImageStyle name="bk_main_normal" value="file='img/150/bk_main_normal.png'"/>
+    <ImageStyle name="bk_main_exception" value="file='img/150/bk_main_exception.png'"/>
+    <ImageStyle name="icon_main_normal" value="file='img/150/icon_main_normal.png'"/>
+    <ImageStyle name="icon_main_exception" value="file='img/150/icon_main_exception.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="anibtn_virscan" value="file='img/175/ani_virscan.png' source='0,0,15,15'"/>
+    
+    <ImageStyle name="virscan_normal" value="file='img/175/virscan.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_hot" value="file='img/175/virscan.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_pushed" value="file='img/175/virscan.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_treat_normal" value="file='img/175/virscan_treat.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_treat_hot" value="file='img/175/virscan_treat.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_treat_pushed" value="file='img/175/virscan_treat.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="sysprotect_normal" value="file='img/175/sysprotect.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="sysprotect_hot" value="file='img/175/sysprotect.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="sysprotect_pushed" value="file='img/175/sysprotect.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="kidsprotect_normal" value="file='img/175/kidsprotect.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="kidsprotect_hot" value="file='img/175/kidsprotect.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="kidsprotect_pushed" value="file='img/175/kidsprotect.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="tools_normal" value="file='img/175/tools.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="tools_hot" value="file='img/175/tools.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="tools_pushed" value="file='img/175/tools.png' source='280,0,420,140' dest='61,0,201,140'"/>
+
+    <ImageStyle name="virscan_all_normal" value="file='img/175/viruscan/all.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_all_hot" value="file='img/175/viruscan/all.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_all_pushed" value="file='img/175/viruscan/all.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_quick_normal" value="file='img/175/viruscan/quick.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_quick_hot" value="file='img/175/viruscan/quick.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_quick_pushed" value="file='img/175/viruscan/quick.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_custom_normal" value="file='img/175/viruscan/custom.png' source='0,0,140,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_custom_hot" value="file='img/175/viruscan/custom.png' source='140,0,280,140' dest='61,0,201,140'"/>
+    <ImageStyle name="virscan_custom_pushed" value="file='img/175/viruscan/custom.png' source='280,0,420,140' dest='61,0,201,140'"/>
+    
+    <ImageStyle name="virscan_expand_bk" value="file='img/175/viruscan/expand_bk.png'"/>
+    <ImageStyle name="virscan_expand_normal" value="file='img/175/viruscan/expand.png' source='0,0,49,49'"/>
+    <ImageStyle name="virscan_expand_hot" value="file='img/175/viruscan/expand.png' source='49,0,98,49'"/>
+    <ImageStyle name="virscan_expand_pushed" value="file='img/175/viruscan/expand.png' source='98,0,147,49'"/>
+
+    <ImageStyle name="back_normal" value="file='img/175/back.png' source='0,0,63,42'"/>
+    <ImageStyle name="back_hot" value="file='img/175/back.png' source='63,0,126,42'"/>
+    <ImageStyle name="back_pushed" value="file='img/175/back.png' source='126,0,189,42'"/>
+    <ImageStyle name="back_disabled" value="file='img/175/back.png' source='189,0,252,42'"/>
+
+    <ImageStyle name="ani_flash" value="file='img/ani_flash/175_??.png'"/>
+    <ImageStyle name="ani_flash_repair" value="file='img/175/ani_flash_repair.png'"/>
+
+    <ImageStyle name="ani_update" value="file='img/175/ani_update.png' source='0,0,26,26'"/>
+    <ImageStyle name="update_normal" value="file='img/175/ani_update.png' source='0,0,26,26'"/>
+    <ImageStyle name="update_hot" value="file='img/175/ani_update.png' source='26,0,52,26'"/>
+    <ImageStyle name="update_pushed" value="file='img/175/ani_update.png' source='52,0,78,26'"/>
+
+    <ImageStyle name="bk_main_normal" value="file='img/175/bk_main_normal.png'"/>
+    <ImageStyle name="bk_main_exception" value="file='img/175/bk_main_exception.png'"/>
+    <ImageStyle name="icon_main_normal" value="file='img/175/icon_main_normal.png'"/>
+    <ImageStyle name="icon_main_exception" value="file='img/175/icon_main_exception.png'"/>
+  </dpiscale>
+</ImageStyles>

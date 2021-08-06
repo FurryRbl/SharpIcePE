@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <Container name="cmpt_kidpt" height="90">
+    <Button name="btn_border" style="gs_btn_border" cursor="arrow"/>
+    <HorizontalLayout childvalign="vcenter" mouse="false">
+      <HorizontalLayout width="70" childvalign="vcenter" mouse="false">
+        <Control mouse="false"/>
+        <Control name="icon" size="36,36" mouse="false"/>
+        <Control mouse="false"/>
+      </HorizontalLayout>
+      <HorizontalLayout width="1" inset="0,15,0,15" mouse="false">
+        <Control width="1" bkcolor="#fff4f4f4" mouse="false"/>
+      </HorizontalLayout>
+      <VerticalLayout inset="10,0,20,0" mouse="false">
+        <Control mouse="false"/>
+        <HorizontalLayout height="22" mouse="false">
+          <Button name="btn" align="left" font="140" tab="id='100'"
+						textcolor="#ff444444" hottextcolor="#fff17f05" tabpadding="-3,-3,-3,-3"
+            notifyctrl="name='btn_border' parentname='cmpt_kidpt' event='mousemove'"/>
+          <Control mouse="false"/>
+          <SlideOption name="opt" style="gs_opt_big" tab="id='100'"
+            notifyctrl="name='btn_border' parentname='cmpt_kidpt' event='mousemove'"/>
+        </HorizontalLayout>
+        <Control height="6" mouse="false"/>
+        <Text name="desc" font="120" textcolor="#ff777777" mouse="false"
+          />
+        <Control mouse="false"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </Container>
+</cmpt>

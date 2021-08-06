@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement minheight="36">
+    <Component xml="cmpt/list_opt.xml" name="opt:opt_item"/>
+    <HorizontalLayout style="gs_item_hor_common">
+      <FileIcon size="20,20" mouse="false"
+        name="icon_file"/>
+      <Label style="gs_item_label_common" pathellipsis="true"
+        name="label_file"/>
+    </HorizontalLayout>
+    <Component xml="cmpt/list_slide_opt.xml" name="opt:combo_item_treatment"/>
+  </ListContainerElement>
+</item>

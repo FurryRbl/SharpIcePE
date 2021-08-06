@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement minheight="36">
+    <HorizontalLayout style="gs_item_hor_common">
+      <FileIcon name="icon_file" size="20,20" mouse="false"/>
+      <Label name="lab_file" style="gs_item_label_common" pathellipsis="true"/>
+    </HorizontalLayout>
+  </ListContainerElement>
+</item>

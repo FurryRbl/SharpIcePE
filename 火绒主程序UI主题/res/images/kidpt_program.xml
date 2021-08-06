@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="console" value="file='img/100/kidprotect/program/console.png'"/>
+    <ImageStyle name="online" value="file='img/100/kidprotect/program/online.png'"/>
+    <ImageStyle name="leisure" value="file='img/100/kidprotect/program/leisure.png'"/>
+    <ImageStyle name="battle" value="file='img/100/kidprotect/program/battle.png'"/>
+    <ImageStyle name="media" value="file='img/100/kidprotect/program/media.png'"/>
+    <ImageStyle name="chat" value="file='img/100/kidprotect/program/chat.png'"/>
+    <ImageStyle name="rogue_downloader" value="file='img/100/kidprotect/program/rogue_downloader.png'"/>
+    <ImageStyle name="risk_tools" value="file='img/100/kidprotect/program/risk_tools.png'"/>
+    <ImageStyle name="remote_access_tools" value="file='img/100/kidprotect/program/remote_access_tools.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="console" value="file='img/125/kidprotect/program/console.png'"/>
+    <ImageStyle name="online" value="file='img/125/kidprotect/program/online.png'"/>
+    <ImageStyle name="leisure" value="file='img/125/kidprotect/program/leisure.png'"/>
+    <ImageStyle name="battle" value="file='img/125/kidprotect/program/battle.png'"/>
+    <ImageStyle name="media" value="file='img/125/kidprotect/program/media.png'"/>
+    <ImageStyle name="chat" value="file='img/125/kidprotect/program/chat.png'"/>
+    <ImageStyle name="rogue_downloader" value="file='img/125/kidprotect/program/rogue_downloader.png'"/>
+    <ImageStyle name="risk_tools" value="file='img/125/kidprotect/program/risk_tools.png'"/>
+    <ImageStyle name="remote_access_tools" value="file='img/125/kidprotect/program/remote_access_tools.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="console" value="file='img/150/kidprotect/program/console.png'"/>
+    <ImageStyle name="online" value="file='img/150/kidprotect/program/online.png'"/>
+    <ImageStyle name="leisure" value="file='img/150/kidprotect/program/leisure.png'"/>
+    <ImageStyle name="battle" value="file='img/150/kidprotect/program/battle.png'"/>
+    <ImageStyle name="media" value="file='img/150/kidprotect/program/media.png'"/>
+    <ImageStyle name="chat" value="file='img/150/kidprotect/program/chat.png'"/>
+    <ImageStyle name="rogue_downloader" value="file='img/150/kidprotect/program/rogue_downloader.png'"/>
+    <ImageStyle name="risk_tools" value="file='img/150/kidprotect/program/risk_tools.png'"/>
+    <ImageStyle name="remote_access_tools" value="file='img/150/kidprotect/program/remote_access_tools.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="console" value="file='img/175/kidprotect/program/console.png'"/>
+    <ImageStyle name="online" value="file='img/175/kidprotect/program/online.png'"/>
+    <ImageStyle name="leisure" value="file='img/175/kidprotect/program/leisure.png'"/>
+    <ImageStyle name="battle" value="file='img/175/kidprotect/program/battle.png'"/>
+    <ImageStyle name="media" value="file='img/175/kidprotect/program/media.png'"/>
+    <ImageStyle name="chat" value="file='img/175/kidprotect/program/chat.png'"/>
+    <ImageStyle name="rogue_downloader" value="file='img/175/kidprotect/program/rogue_downloader.png'"/>
+    <ImageStyle name="risk_tools" value="file='img/175/kidprotect/program/risk_tools.png'"/>
+    <ImageStyle name="remote_access_tools" value="file='img/175/kidprotect/program/remote_access_tools.png'"/>
+  </dpiscale>
+</ImageStyles>

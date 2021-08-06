@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="698,460" mininfo="698,460">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <Styles xmlfile="res/styles/kidpt_online.xml"/>
+  <ImageStyles xmlfile="res/images/kidpt_online.xml"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:kidpt_online" visible="btn_sys_min:false"/>
+    <VerticalLayout inset="20,0,20,0">
+      <HorizontalLayout height="50" childvalign="vcenter">
+        <Option name="opt_schedule" style="gs_radio_left" group="time_ctrl" string="control_online_time"
+          tab="id='10'"/>
+        <Control />
+        <Control size="17,17" bkimage="file='img/bk_tmc_allow.png' corner='1,1,1,1'"/>
+        <Label height="17" textpadding="5,0,0,0" font="120" textcolor="#ff595959" string="allow_online"/>
+        <Control width="10"/>
+        <Control size="17,17" bkimage="file='img/bk_tmc_block.png' corner='1,1,1,1'"/>
+        <Label height="17" textpadding="5,0,0,0" font="120" textcolor="#ff595959" string="stop_online"/>
+      </HorizontalLayout>
+
+      <VerticalLayout childalign="center" height="240">
+        <Schedule name="schedule_timectrl" height="225">
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="monday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="tuesday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="wednesday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="thursday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="friday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="saturday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid"/>
+          </ScheduleItem>
+          <ScheduleItem height="28" style="s_scheduleitem">
+            <Label string="sunday" style="s_scheduleitem_label"/>
+            <ScheduleGrid style="s_scheduleitem_grid" inset="1,1,1,1"/>
+          </ScheduleItem>
+          <HorizontalLayout height="28" inset="62,0,0,0" childpadding="1">
+            <Label text="0" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="2" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="4" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="6" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="8" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="10" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="12" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="14" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="16" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="18" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="20" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="22" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+            <Label text="24" style="s_schedule_hour" />
+            <Control style="s_schedule_hour" />
+          </HorizontalLayout>
+        </Schedule>
+      </VerticalLayout>
+
+      <HorizontalLayout height="30" childvalign="vcenter">
+        <Option name="opt_totaltime" style="gs_radio_left" height="20" group="time_ctrl" string="all_online_time_control"
+          tab="id='100'"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout name="group_workday" height="30" inset="24,0,0,0"
+        childvalign="vcenter" childpadding="10">
+        <CheckBox name="chk_apply" style="gs_check_left" size="14,20"
+          tab="id='100'"/>
+        <Label string="workday_online_nomorethan1"/>
+        <Component xml="cmpt/edit_btn.xml"
+          tab="edit:id='102'"
+          name="edit:edit_hour" name="lbtn:btn_dec" name="rbtn:btn_inc"
+          name="box:edit_group"/>
+        <Label string="hour"/>
+      </HorizontalLayout>
+
+      <HorizontalLayout name="group_weekend" height="30" inset="24,0,0,0"
+        childvalign="vcenter" childpadding="10">
+        <CheckBox name="chk_apply" style="gs_check_left" size="14,20"
+          tab="id='200'"/>
+        <Label string="weekend_online_nomorethan1"/>
+        <Component xml="cmpt/edit_btn.xml"
+          tab="edit:id='300'"
+          name="edit:edit_hour" name="lbtn:btn_dec" name="rbtn:btn_inc"
+          name="box:edit_group"/>
+        <Label string="hour"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

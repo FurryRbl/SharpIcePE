@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="400,280" mininfo="400,280" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/about.xml"/>
+	<Font id="200" name="微软雅黑" size="20" />
+	<Font id="121" name="Arial" size="12" />
+  <VerticalLayout  bkcolor="#ffffffff">
+		<VerticalLayout size="400,205" bkimage="name='aboutbk'">
+			<HorizontalLayout height="40" inset="10,0,10,0" childvalign="vcenter">
+				<Control size="24,24" bkimage="name='logoicon'"/>
+				<Label name="sys_title" font="160" textcolor="#ff303030" textpadding="6,0,0,0"
+					string="about_huorong"/>
+				<Control />
+				<Button name="sysclosebutton" style="gs_sys_btn_close_gray" size="36,24"
+					stringtip="close" tab="id='4'" accser="name='关闭'"/>
+			</HorizontalLayout>
+			<Control height="4"/>
+			<Label height="34" align="center" font="200" textcolor="fff99012" string="huorong_safe_software"/>
+		</VerticalLayout>
+		<VerticalLayout inset="20,10,20,0">
+			<Label height="18" align="center" font="120" textcolor="#ff777777" string="huorong_copyright_title"/>
+			<Label height="18" align="center" font="121" textcolor="#ff777777" text="Copyright © 2012-2021 Huorong.All rights reserved."/>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View>
+	<Fonts xmlfile="res/fonts.xml"/>
+	<Styles xmlfile="res/styles.xml"/>
+	<ImageStyles xmlfile="res/images.xml"/>
+	<Styles xmlfile="res/styles/virscan.xml"/>
+	<ImageStyles xmlfile="res/images/virscan.xml"/>
+
+	<VerticalLayout bkcolor="#ffffffff">
+		<HorizontalLayout height="92" inset="40,20,40,12">
+			<TabLayout name="tab_icon" width="60" height="60">
+				<Control size="60,60" bkimage="name='quick_title'"/>
+				<Control size="60,60" bkimage="name='full_title'"/>
+				<Control size="60,60" bkimage="name='custom_title'"/>
+			</TabLayout>
+			<TabLayout name="tab_header" selectedid="2">
+				<VerticalLayout inset="30,0,0,0" childpadding="8">
+					<HorizontalLayout height="30" childvalign="vcenter" >
+						<Label name="lab_scan_title" font="220" textcolor="#ff444444" showhtml="true"/>
+						<Control width="20"/>
+						<TabLayout name="tab_show_detail" size="60,18">
+							<Control />
+							<Button name="btn_show_detail" size="60,18" font="120" style="gs_btn_orange"
+								string="virscan_detail_enter" tab="id='1'"/>
+							<Button name="btn_hide_detail" size="60,18" font="120" style="gs_btn_orange"
+								string="virscan_detail_exit" tab="id='1'"/>
+						</TabLayout>
+						<Control />
+						<Button name="btn_scan_stop" height="18" font="120" style="gs_btn_text"
+							string="virscan_stop" tab="id='2'"/>
+						<Control width="30"/>
+						<Button name="btn_scan_pause" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="virscan_pause" tab="id='3'"/>
+						<Button name="btn_scan_resume" visible="false" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="virscan_continue" tab="id='4'"/>
+					</HorizontalLayout>
+					<Label name="lab_path" font="120" textcolor="#ff777777" pathellipsis="true"/>
+				</VerticalLayout>
+				<VerticalLayout inset="30,0,0,0" childpadding="8">
+					<HorizontalLayout height="30" childvalign="vcenter" >
+						<Label name="lab_risk_found" font="220" textcolor="#ff444444" showhtml="true"
+							string="found_risks_suggest"/>
+						<Control />
+						<Button name="btn_pass" height="18" font="120" style="gs_btn_text"
+							string="ignore_all" tab="id='5'"/>
+						<Control width="30"/>
+						<Button name="btn_clean" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="handle_immediately" tab="id='6'"/>
+					</HorizontalLayout>
+					<Label font="120" textcolor="#ff777777" showhtml="true"
+						string="scan_done"/>
+				</VerticalLayout>
+				<VerticalLayout inset="30,0,0,0" childpadding="8">
+					<HorizontalLayout height="30" childvalign="vcenter" >
+						<Label font="220" textcolor="#ff444444" showhtml="true"
+							string="handling_risk"/>
+						<Control />
+						<Button name="btn_clean_stop" height="18" font="120" style="gs_btn_text"
+							string="virscan_stop" tab="id='7'"/>
+						<Control width="30"/>
+						<Button name="btn_clean_pause" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="virscan_pause" tab="id='8'"/>
+						<Button name="btn_clean_resume" visible="false" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="virscan_continue" tab="id='9'"/>
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<Label name="lab_clean_count" font="120" textcolor="#ff777777" pathellipsis="true" showhtml="true"
+							string="handled_risks_desc"/>
+						<Control />
+						<Option name="opt_clean_auto_scroll" style="gs_option_left" font="120" textcolor="#ff777777" string="auto_list_scroll"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout inset="30,0,0,0" childpadding="8">
+					<HorizontalLayout height="30" childvalign="vcenter" >
+						<TabLayout name="tab_result_text">
+							<Label font="220" textcolor="#ff444444" showhtml="true" valign="top" string="no_risks_found"/>
+							<Label font="220" textcolor="#ff444444" showhtml="true" valign="top" string="all_risks_handled"/>
+							<Label font="220" textcolor="#ff444444" showhtml="true" valign="top" string="had_unhandled_risk"/>
+						</TabLayout>
+						<Button name="btn_completed" size="66,26" font="120" style="gs_btn_orange_ok"
+							string="done" tab="id='10'"/>
+					</HorizontalLayout>
+					<TabLayout name="tab_result_control">
+						<Control />
+						<Label font="120" textcolor="#ff777777" showhtml="true"
+							string="scan_done"/>
+						<Text name="link_quarantine" font="120" textcolor="#ff777777" showhtml="true" 
+							string="risk_backup_to_isolation"/>
+					</TabLayout>
+				</VerticalLayout>
+			</TabLayout>
+		</HorizontalLayout>
+
+		<TabLayout name="tab_body" selectedid="2">
+			<VerticalLayout>
+				<VerticalLayout height="47" userdata="47" inset="30,0,30,0">
+					<Progress name="progress_scan" height="3" value="50" style="gs_progress" />
+					<HorizontalLayout inset="10,0,10,0" childvalign="vcenter">
+						<Option name="opt_speed_normal" size="44,20" font="120"
+							group="scan_speed" style="s_normal_speed" selected="true"
+							stringtip="virscan_normal_speed_desc" string="virscan_normal_speed"
+							tab="id='100'" tabpadding="-3,-3,-3,-3"/>
+						<Option name="opt_speed_high" size="44,20" font="120"
+							group="scan_speed" style="s_high_speed"
+							stringtip="virscan_high_speed_desc" string="virscan_high_speed"
+							tab="id='101'" tabpadding="-3,-3,-3,-3"/>
+						<Control width="30"/>
+						<Option name="chk_shutdow" style="gs_option_left" height="20" font="120"
+							textcolor="#ff777777" string="virscan_auto_poweroff"
+							tab="id='102'"/>
+						<Control />
+						<Label name="lab_time" font="120" textcolor="#ff777777" showhtml="true" string="virscan_used_time"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<TabLayout name="tab_object" selectedid="0">
+					<TileLayout inset="40,0,0,0" childpadding="7" childvpadding="7" itemsize="242,162" columns="3">
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_bootsec" bkimage="icon_normal:name='boot_sector_normal'" bkimage="icon_exception:name='boot_sector_hot'"
+							string="title:virscan_boot_sector"/>
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_module" bkimage="icon_normal:name='sys_program_normal'" bkimage="icon_exception:name='sys_program_hot'"
+							string="title:virscan_sys_program"/>
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_autorun" bkimage="icon_normal:name='startup_normal'" bkimage="icon_exception:name='startup_hot'"
+							string="title:virscan_startup"/>
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_service" bkimage="icon_normal:name='sevices_drives_normal'" bkimage="icon_exception:name='sevices_drives_hot'"
+							string="title:virscan_sevices_drives"/>
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_bho" bkimage="icon_normal:name='browser_plugin_normal'" bkimage="icon_exception:name='browser_plugin_hot'"
+							string="title:virscan_sys_components"/>
+						<Component xml="cmpt/scan.xml" name="box:gp_scan_critarea" bkimage="icon_normal:name='sys_position_normal'" bkimage="icon_exception:name='sys_position_hot'"
+							string="title:virscan_sys_position"/>
+					</TileLayout>
+					<HorizontalLayout>
+						<TileLayout inset="40,0,0,0" childpadding="7" childvpadding="7" itemsize="180,162" columns="3" width="601">
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_bootsec" bkimage="icon_normal:name='boot_sector_normal'" bkimage="icon_exception:name='boot_sector_hot'"
+								string="title:virscan_boot_sector"/>
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_module" bkimage="icon_normal:name='sys_program_normal'" bkimage="icon_exception:name='sys_program_hot'"
+								string="title:virscan_sys_program"/>
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_autorun" bkimage="icon_normal:name='startup_normal'" bkimage="icon_exception:name='startup_hot'"
+								string="title:virscan_startup"/>
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_service" bkimage="icon_normal:name='sevices_drives_normal'" bkimage="icon_exception:name='sevices_drives_hot'"
+								string="title:virscan_sevices_drives"/>
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_bho" bkimage="icon_normal:name='browser_plugin_normal'" bkimage="icon_exception:name='browser_plugin_hot'"
+								string="title:virscan_sys_components"/>
+							<Component xml="cmpt/scan.xml" name="box:gp_scan_critarea" bkimage="icon_normal:name='sys_position_normal'" bkimage="icon_exception:name='sys_position_hot'"
+								string="title:virscan_sys_position"/>
+						</TileLayout>
+						<Component xml="cmpt/scan.xml" bkimage="icon_normal:name='local_disk_normal'" bkimage="icon_exception:name='local_disk_hot'"
+							string="title:virscan_local_disk" size="box:180,331" name="box:gp_scan_disk"/>
+						<Control />
+					</HorizontalLayout>
+					<VerticalLayout inset="30,0,30,30" childpadding="4">
+						<VirtualListUI name="list_custom_scan" containeritemxml="item_custom_scan.xml"
+							style="gs_list_common" header="true">
+							<ListHeader style="gs_header_common">
+								<ListHeaderItem style="gs_header_item_common" width="670" string="scan_path"/>
+								<ListHeaderItem style="gs_header_item_common" string="status"/>
+							</ListHeader>
+						</VirtualListUI>
+					</VerticalLayout>
+				</TabLayout>
+			</VerticalLayout>
+			<VerticalLayout inset="30,0,30,30" childpadding="4">
+				<VirtualListUI name="list_risk" containeritemxml="item_risk.xml"
+					style="gs_list_common" header="true">
+					<ListHeader style="gs_header_common">
+						<Component xml="cmpt/list_opt.xml" name="opt:chk_sel_all_vir"/>
+						<ListHeaderItem style="gs_header_item_common" width="600" string="risks"/>
+						<ListHeaderItem style="gs_header_item_common" string="status"/>
+					</ListHeader>
+				</VirtualListUI>
+			</VerticalLayout>
+			<VerticalLayout inset="30,0,30,30" childpadding="4">
+				<Control height="3" bkcolor="fff0f0f0"/>
+				<Control height="70" />
+				<HorizontalLayout height="100" inset="330,0,0,0">
+					<TabLayout name="tab_completed" size="100,100">
+						<Control size="100,100" bkimage="name='icon_scan_completed'"/>
+						<Control size="100,100" bkimage="name='icon_scan_completed'"/>
+						<Control size="100,100" bkimage="name='icon_scan_completed_risk'"/>
+					</TabLayout>
+				</HorizontalLayout>
+				<Control height="40" />
+				<TileLayout height="64" inset="142,0,20,0" childpadding="20" childvpadding="20" itemsize="300,22" columns="2">
+					<HorizontalLayout childpadding="20">
+						<Control size="22,22" bkimage="name='icon_scaned_count'" />
+						<Label name="lab_scaned_count" font="140" textcolor="#ff777777" showhtml="true"
+							string="scaned_count"/>
+					</HorizontalLayout>
+					<HorizontalLayout childpadding="20">
+						<Control size="22,22" bkimage="name='icon_scan_time'" />
+						<Label name="lab_scan_time" font="140" textcolor="#ff777777" showhtml="true"
+							string="time_all"/>
+					</HorizontalLayout>
+					<HorizontalLayout childpadding="20">
+						<Control size="22,22" bkimage="name='icon_found_count'" />
+						<Label name="lab_found_count" font="140" textcolor="#ff777777" showhtml="true"
+							string="risks_count"/>
+					</HorizontalLayout>
+					<HorizontalLayout childpadding="20">
+						<Control size="22,22" bkimage="name='icon_treat_count'" />
+						<Label name="lab_treat_count" font="140" textcolor="#ff777777" showhtml="true"
+							string="handled_count"/>
+					</HorizontalLayout>
+				</TileLayout>
+				<Control />
+				<Control height="1" bkcolor="#fff0f0f0"/>
+			</VerticalLayout>
+		</TabLayout>
+	</VerticalLayout>
+</View>

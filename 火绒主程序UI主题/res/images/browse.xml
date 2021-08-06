@@ -1,0 +1,99 @@
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="browse_back_normal" value="file='img/100/arrow1_left.png' source='0,0,20,20'"/>
+    <ImageStyle name="browse_back_hot" value="file='img/100/arrow1_left.png' source='20,0,40,20'"/>
+    <ImageStyle name="browse_back_pushed" value="file='img/100/arrow1_left.png' source='40,0,60,20'"/>
+    <ImageStyle name="browse_back_disable" value="file='img/100/arrow1_left.png' source='60,0,80,20'"/>
+    <ImageStyle name="browse_uplevel_normal" value="file='img/100/arrow1_up.png' source='0,0,20,20'"/>
+    <ImageStyle name="browse_uplevel_hot" value="file='img/100/arrow1_up.png' source='20,0,40,20'"/>
+    <ImageStyle name="browse_uplevel_pushed" value="file='img/100/arrow1_up.png' source='40,0,60,20'"/>
+    <ImageStyle name="browse_uplevel_disable" value="file='img/100/arrow1_up.png' source='60,0,80,20'"/>
+    <ImageStyle name="browse_prev_normal" value="file='img/100/arrow1_right.png' source='0,0,20,20'"/>
+    <ImageStyle name="browse_prev_hot" value="file='img/100/arrow1_right.png' source='20,0,40,20'"/>
+    <ImageStyle name="browse_prev_pushed" value="file='img/100/arrow1_right.png' source='40,0,60,20'"/>
+    <ImageStyle name="browse_prev_disable" value="file='img/100/arrow1_right.png' source='60,0,80,20'"/>
+
+    <ImageStyle name="browse_update_normal" value="file='img/100/update.png' source='0,0,28,28'"/>
+    <ImageStyle name="browse_update_hot" value="file='img/100/update.png' source='28,0,56,28'"/>
+    <ImageStyle name="browse_update_pushed" value="file='img/100/update.png' source='56,0,84,28'"/>
+    <ImageStyle name="browse_jump_normal" value="file='img/100/jump.png' source='0,0,28,28'"/>
+    <ImageStyle name="browse_jump_hot" value="file='img/100/jump.png' source='28,0,56,28'"/>
+    <ImageStyle name="browse_jump_pushed" value="file='img/100/jump.png' source='56,0,84,28'"/>
+
+    <ImageStyle name="browse_arrow_expand" value="file='img/100/arrow_tree.png' source='0,0,14,14'"/>
+    <ImageStyle name="browse_arrow_shrink" value="file='img/100/arrow_tree.png' source='14,0,28,14'"/>
+
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="browse_back_normal" value="file='img/125/arrow1_left.png' source='0,0,25,25'"/>
+    <ImageStyle name="browse_back_hot" value="file='img/125/arrow1_left.png' source='25,0,50,25'"/>
+    <ImageStyle name="browse_back_pushed" value="file='img/125/arrow1_left.png' source='50,0,75,25'"/>
+    <ImageStyle name="browse_back_disable" value="file='img/125/arrow1_left.png' source='75,0,100,20'"/>
+    <ImageStyle name="browse_uplevel_normal" value="file='img/125/arrow1_up.png' source='0,0,25,25'"/>
+    <ImageStyle name="browse_uplevel_hot" value="file='img/125/arrow1_up.png' source='25,0,50,25'"/>
+    <ImageStyle name="browse_uplevel_pushed" value="file='img/125/arrow1_up.png' source='50,0,75,25'"/>
+    <ImageStyle name="browse_uplevel_disable" value="file='img/125/arrow1_up.png' source='75,0,100,20'"/>
+    <ImageStyle name="browse_prev_normal" value="file='img/125/arrow1_right.png' source='0,0,25,25'"/>
+    <ImageStyle name="browse_prev_hot" value="file='img/125/arrow1_right.png' source='25,0,50,25'"/>
+    <ImageStyle name="browse_prev_pushed" value="file='img/125/arrow1_right.png' source='50,0,75,25'"/>
+    <ImageStyle name="browse_prev_disable" value="file='img/125/arrow1_right.png' source='75,0,100,20'"/>
+
+    <ImageStyle name="browse_update_normal" value="file='img/125/update.png' source='0,0,35,35'"/>
+    <ImageStyle name="browse_update_hot" value="file='img/125/update.png' source='35,0,70,35'"/>
+    <ImageStyle name="browse_update_pushed" value="file='img/125/update.png' source='70,0,105,35'"/>
+    <ImageStyle name="browse_jump_normal" value="file='img/125/jump.png' source='0,0,35,35'"/>
+    <ImageStyle name="browse_jump_hot" value="file='img/125/jump.png' source='35,0,70,35'"/>
+    <ImageStyle name="browse_jump_pushed" value="file='img/125/jump.png' source='70,0,105,35'"/>
+    
+    <ImageStyle name="browse_arrow_expand" value="file='img/125/arrow_tree.png' source='0,0,18,18'"/>
+    <ImageStyle name="browse_arrow_shrink" value="file='img/125/arrow_tree.png' source='18,0,36,18'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="browse_back_normal" value="file='img/150/arrow1_left.png' source='0,0,30,30'"/>
+    <ImageStyle name="browse_back_hot" value="file='img/150/arrow1_left.png' source='30,0,60,30'"/>
+    <ImageStyle name="browse_back_pushed" value="file='img/150/arrow1_left.png' source='60,0,90,30'"/>
+    <ImageStyle name="browse_back_disable" value="file='img/150/arrow1_left.png' source='90,0,120,20'"/>
+    <ImageStyle name="browse_uplevel_normal" value="file='img/150/arrow1_up.png' source='0,0,30,30'"/>
+    <ImageStyle name="browse_uplevel_hot" value="file='img/150/arrow1_up.png' source='30,0,60,30'"/>
+    <ImageStyle name="browse_uplevel_pushed" value="file='img/150/arrow1_up.png' source='60,0,90,30'"/>
+    <ImageStyle name="browse_uplevel_disable" value="file='img/150/arrow1_up.png' source='90,0,120,20'"/>
+    <ImageStyle name="browse_prev_normal" value="file='img/150/arrow1_right.png' source='0,0,30,30'"/>
+    <ImageStyle name="browse_prev_hot" value="file='img/150/arrow1_right.png' source='30,0,60,30'"/>
+    <ImageStyle name="browse_prev_pushed" value="file='img/150/arrow1_right.png' source='60,0,90,30'"/>
+    <ImageStyle name="browse_prev_disable" value="file='img/150/arrow1_right.png' source='90,0,120,20'"/>
+    
+    <ImageStyle name="browse_update_normal" value="file='img/150/update.png' source='0,0,42,42'"/>
+    <ImageStyle name="browse_update_hot" value="file='img/150/update.png' source='42,0,84,42'"/>
+    <ImageStyle name="browse_update_pushed" value="file='img/150/update.png' source='84,0,126,42'"/>
+    <ImageStyle name="browse_jump_normal" value="file='img/150/jump.png' source='0,0,42,42'"/>
+    <ImageStyle name="browse_jump_hot" value="file='img/150/jump.png' source='42,0,84,42'"/>
+    <ImageStyle name="browse_jump_pushed" value="file='img/150/jump.png' source='84,0,126,42'"/>
+    
+    <ImageStyle name="browse_arrow_expand" value="file='img/150/arrow_tree.png' source='0,0,21,21'"/>
+    <ImageStyle name="browse_arrow_shrink" value="file='img/150/arrow_tree.png' source='21,0,42,21'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="browse_back_normal" value="file='img/175/arrow1_left.png' source='0,0,35,35'"/>
+    <ImageStyle name="browse_back_hot" value="file='img/175/arrow1_left.png' source='35,0,70,35'"/>
+    <ImageStyle name="browse_back_pushed" value="file='img/175/arrow1_left.png' source='70,0,105,35'"/>
+    <ImageStyle name="browse_back_disable" value="file='img/175/arrow1_left.png' source='105,0,140,35'"/>
+    <ImageStyle name="browse_uplevel_normal" value="file='img/175/arrow1_up.png' source='0,0,35,35'"/>
+    <ImageStyle name="browse_uplevel_hot" value="file='img/175/arrow1_up.png' source='35,0,70,35'"/>
+    <ImageStyle name="browse_uplevel_pushed" value="file='img/175/arrow1_up.png' source='70,0,105,35'"/>
+    <ImageStyle name="browse_uplevel_disable" value="file='img/175/arrow1_up.png' source='105,0,140,35'"/>
+    <ImageStyle name="browse_prev_normal" value="file='img/175/arrow1_right.png' source='0,0,35,35'"/>
+    <ImageStyle name="browse_prev_hot" value="file='img/175/arrow1_right.png' source='35,0,70,35'"/>
+    <ImageStyle name="browse_prev_pushed" value="file='img/175/arrow1_right.png' source='70,0,105,35'"/>
+    <ImageStyle name="browse_prev_disable" value="file='img/175/arrow1_right.png' source='105,0,140,35'"/>
+
+    <ImageStyle name="browse_update_normal" value="file='img/175/update.png' source='0,0,49,49'"/>
+    <ImageStyle name="browse_update_hot" value="file='img/175/update.png' source='49,0,98,49'"/>
+    <ImageStyle name="browse_update_pushed" value="file='img/175/update.png' source='98,0,147,49'"/>
+    <ImageStyle name="browse_jump_normal" value="file='img/175/jump.png' source='0,0,49,49'"/>
+    <ImageStyle name="browse_jump_hot" value="file='img/175/jump.png' source='49,0,98,49'"/>
+    <ImageStyle name="browse_jump_pushed" value="file='img/175/jump.png' source='98,0,147,49'"/>
+    
+    <ImageStyle name="browse_arrow_expand" value="file='img/175/arrow_tree.png' source='0,0,25,25'"/>
+    <ImageStyle name="browse_arrow_shrink" value="file='img/175/arrow_tree.png' source='25,0,50,25'"/>
+  </dpiscale>
+</ImageStyles>

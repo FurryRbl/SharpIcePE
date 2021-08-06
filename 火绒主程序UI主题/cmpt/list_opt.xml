@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <HorizontalLayout width="34" inset="10,0,0,0" childvalign="vcenter">
+    <CheckBox name="opt" style="gs_check_left" style="gs_label_common" size="14,20"/>
+  </HorizontalLayout>
+</cmpt>

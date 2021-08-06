@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="aboutbk" value="file='img/100/aboutbk.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="aboutbk" value="file='img/125/aboutbk.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="aboutbk" value="file='img/150/aboutbk.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="aboutbk" value="file='img/175/aboutbk.png'"/>
+  </dpiscale>
+</ImageStyles>

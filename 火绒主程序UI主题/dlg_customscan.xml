@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="452,287" mininfo="452,287">
+  <Fonts xmlfile="res/fonts.xml"/>
+	<VerticalLayout bkcolor="#ffffffff">
+		<Component xml="cmpt/title.xml" string="sys_title:choose_scan_dir"
+			visible="btn_sys_min:false"/>
+    <VerticalLayout inset="20,10,20,0">
+      <TreeViewEx style="gs_list_common" bordersize="0"
+        vscrollbar="true" hscrollbar="true"
+        containeritemxml="item_custom_tree_node.xml"
+        horizattr="inset=&quot;10,0,0,0&quot; childvalign=&quot;vcenter&quot;"
+        folderattr="visible=&quot;true&quot; width=&quot;14&quot; height=&quot;14&quot; normalimage=&quot;name='arrow_shrink'&quot; hotimage=&quot;name='arrow_shrink'&quot; disabledimage=&quot;name=''&quot; selectedimage=&quot;name='arrow_expand'&quot; selectedhotimage=&quot;name='arrow_expand'&quot; selecteddisabledimage=&quot;name=''&quot; name=&quot;tree_node_folder&quot;" 
+        checkboxattr="visible=&quot;true&quot; selected=&quot;false&quot; uncheckedimage=&quot;name='check_unchecked'&quot; uncheckedhotimage=&quot;name='check_unchecked_hot'&quot; uncheckeddisabledimage=&quot;name='check_unchecked_disabled'&quot; checkedimage=&quot;name='check_checked'&quot; checkedhotimage=&quot;name='check_checked_hot'&quot; checkeddisabledimage=&quot;name='check_checked_disabled'&quot; indeterminateimage=&quot;name='check_indeterminate'&quot; indeterminatehotimage=&quot;name='check_indeterminate_hot'&quot; indeterminatedisabledimage=&quot;name='check_indeterminate_disabled'&quot;"
+        imageattr="visible=&quot;true&quot; size=&quot;16,16&quot;"
+        itemattr="textpadding=&quot;2,0,0,0&quot; textcolor=&quot;ff777777&quot;"
+        name="tree_custom"/>
+
+      <Control height="1" bkcolor="#fff0f0f0"/>
+    </VerticalLayout>
+		<HorizontalLayout height="50" inset="20,0,20,0"
+      childvalign="vcenter" childpadding="10">
+      <Control />
+			<Button name="btn_ok" style="gs_btn_orange_ok" size="70,26" string="ok"/>
+			<Button name="btn_sys_close" style="gs_btn_cancel" size="70,26" string="cancel"/>
+		</HorizontalLayout>
+  </VerticalLayout>
+</Window>

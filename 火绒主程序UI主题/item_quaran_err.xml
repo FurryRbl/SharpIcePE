@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement name="box" minheight="36">
+    <Label style="gs_item_label_common" name="label_path"/>
+    <HorizontalLayout style="gs_item_hor_common">
+      <Button style="gs_btn_text" string="ignore" name="btn_ignore"/>
+    </HorizontalLayout>
+  </ListContainerElement>
+</item>

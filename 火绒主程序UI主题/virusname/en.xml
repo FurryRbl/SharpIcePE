@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="Trojan">Trojan</string>
+    <string id="Trojan_desc">Trojans usually infect your system through network or vulnerabilities. Wrack the security of the system or softwares, and may cause data breach.</string>
+    <string id="TrojanDownloader">TrojanDownloader</string>
+    <string id="TrojanDownloader_desc">A type of Trojan that compromises your system indirectly by downloading other malware. Such malware are usually small and seduce users with seductive names and icons.</string>
+    <string id="TrojanSpy">TrojanSpy</string>
+    <string id="TrojanSpy_desc">A type of Trojan that will be hidden in your system, and wait for opportunities to steal account passwords, etc.</string>
+    <string id="TrojanDropper">TrojanDropper</string>
+    <string id="TrojanDropper_desc">A type of Trojan that compromises your system indirectly by dropping other malware.</string>
+    <string id="TrojanClicker">TrojanClicker</string>
+    <string id="TrojanClicker_desc">A type of Trojan that generate revenue from clicks on advertising links, etc. Such malware will consume network traffic of the infected hosts.</string>
+    <string id="TrojanProxy">TrojanProxy</string>
+    <string id="TrojanProxy_desc">A type of Trojan that installs proxy server on infected hosts. Hackers may use such hosts as a trampoline to attack other computers in order to hide from network tracking from law enforcements.</string>
+    <string id="Backdoor">Backdoor</string>
+    <string id="Backdoor_desc">Backdoors secretly grant permissions for remote control and turn infected hosts into "Zombies" that can be controlled by hackers.</string>
+    <string id="Worm">Worm</string>
+    <string id="Worm_desc">Worms proactively spread through removable storage devices, networks, and vulnerabilities, such malware are highly infective.</string>
+    <string id="Virus">Virus</string>
+    <string id="Virus_desc">Viruses infect host files with malicious code in a parasitism manner. Infected files will continue the infection to spread malicious code.</string>
+    <string id="Rootkit">Rootkit</string>
+    <string id="Rootkit_desc">Rootkits hijack the operating system kernel. It's usually used by other malware to hide their processes, registry or files, etc.</string>
+    <string id="Bootkit">Bootkit</string>
+    <string id="Bootkit_desc">Bootkits hijack the operating system kernel before or during startup. It's usually used by other malware to hide their processes, registry or files, etc.</string>
+    <string id="OMacro">OMacro</string>
+    <string id="OMacro_desc">A type of Trojan will infect the documents saved by the OFFICE software on your computer and spread through the OFFICE universal template.</string>
+    <string id="DOC">DOC</string>
+    <string id="DOC_desc">The document that carries malicious code, or the document structure has the potential to be exploited.</string>
+    <string id="Adware">Adware</string>
+    <string id="Adware_desc">A type of grayware will not directly harm your system, but will pop up advertisements, etc.</string>
+    <string id="Constructor">Constructor</string>
+    <string id="Constructor_desc">A type of program that generates new malware variations in batches in order hide from anti-malware softwares.</string>
+    <string id="HackTool">HackTool</string>
+    <string id="HackTool_desc">A type of program that can be used by hackers to control other computers or initiate network attacks.</string>
+    <string id="VirTool">VirTool</string>
+    <string id="VirTool_desc">A type of malware that utilize code obfuscations to hide from anti-malware softwares.</string>
+    <string id="Exploit">Exploit</string>
+    <string id="Exploit_desc">A type of malware that exploits software or system vulnerabilities.</string>
+    <string id="Joke">Joke</string>
+    <string id="Joke_desc">A type of program that not really harms your system, but usually scare people by sounds, images, etc.</string>
+    <string id="TEST">TEST</string>
+    <string id="TEST_desc">A type of program that dosen't carries malicious code. They're only used to check if anti-malware engine works.</string>
+    <string id="Ransom">Ransom</string>
+    <string id="Ransom_desc">A type of malware that extort money from uses by encrypting user's files, forcely modifying computer login passwords, locking computer screens, etc.</string>
+    <string id="Rogue">Rogue</string>
+    <string id="Rogue_desc">Intimidate users by means of inducement, deception, threatening, etc., or manipulate network traffic through tampering, hijacking, etc., in order to achieve illegal profit.</string>
+    <string id="Malicious">Malicious</string>
+    <string id="Malicious_desc">The file has known malicious code that may compromise your system.</string>
+
+    <string id="Behavior Sandbox">(Behavior Sandbox)</string>
+</stringtable>

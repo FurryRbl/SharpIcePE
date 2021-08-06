@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="online" value="file='img/100/kidprotect/online.png'"/>
+    <ImageStyle name="website" value="file='img/100/kidprotect/website.png'"/>
+    <ImageStyle name="program" value="file='img/100/kidprotect/program.png'"/>
+    <ImageStyle name="udisk" value="file='img/100/kidprotect/udisk.png'"/>
+
+    <ImageStyle name="edit_normal" value="file='img/100/kidprotect/udisk/edit.png' source='0,0,20,20'"/>
+    <ImageStyle name="edit_hot" value="file='img/100/kidprotect/udisk/edit.png' source='20,0,40,20'"/>
+    <ImageStyle name="edit_pushed" value="file='img/100/kidprotect/udisk/edit.png' source='40,0,60,20'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="online" value="file='img/125/kidprotect/online.png'"/>
+    <ImageStyle name="website" value="file='img/125/kidprotect/website.png'"/>
+    <ImageStyle name="program" value="file='img/125/kidprotect/program.png'"/>
+    <ImageStyle name="udisk" value="file='img/125/kidprotect/udisk.png'"/>
+
+    <ImageStyle name="edit_normal" value="file='img/125/kidprotect/udisk/edit.png' source='0,0,25,25'"/>
+    <ImageStyle name="edit_hot" value="file='img/125/kidprotect/udisk/edit.png' source='25,0,50,25'"/>
+    <ImageStyle name="edit_pushed" value="file='img/125/kidprotect/udisk/edit.png' source='50,0,75,25'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="online" value="file='img/150/kidprotect/online.png'"/>
+    <ImageStyle name="website" value="file='img/150/kidprotect/website.png'"/>
+    <ImageStyle name="program" value="file='img/150/kidprotect/program.png'"/>
+    <ImageStyle name="udisk" value="file='img/150/kidprotect/udisk.png'"/>
+
+    <ImageStyle name="edit_normal" value="file='img/150/kidprotect/udisk/edit.png' source='0,0,30,30'"/>
+    <ImageStyle name="edit_hot" value="file='img/150/kidprotect/udisk/edit.png' source='30,0,60,30'"/>
+    <ImageStyle name="edit_pushed" value="file='img/150/kidprotect/udisk/edit.png' source='60,0,90,30'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="online" value="file='img/175/kidprotect/online.png'"/>
+    <ImageStyle name="website" value="file='img/175/kidprotect/website.png'"/>
+    <ImageStyle name="program" value="file='img/175/kidprotect/program.png'"/>
+    <ImageStyle name="udisk" value="file='img/175/kidprotect/udisk.png'"/>
+
+    <ImageStyle name="edit_normal" value="file='img/175/kidprotect/udisk/edit.png' source='0,0,35,35'"/>
+    <ImageStyle name="edit_hot" value="file='img/175/kidprotect/udisk/edit.png' source='35,0,70,35'"/>
+    <ImageStyle name="edit_pushed" value="file='img/175/kidprotect/udisk/edit.png' source='70,0,105,35'"/>
+  </dpiscale>
+</ImageStyles>

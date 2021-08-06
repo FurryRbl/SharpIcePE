@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+	<AniRectScan name="box" style="gs_anirectscan" childalign="center">
+		<Control />
+		<TabLayout name="tab_status_icon" size="50,50">
+			<Control name="icon_normal" size="50,50"/>
+			<Control name="icon_exception" size="50,50"/>
+		</TabLayout>
+		<Control height="10"/>
+		<Label name="title" height="28" align="center" font="140" textcolor="#ff444444"/>
+		<TabLayout name="tab_status_text" size="100,28">
+			<Label size="100,28" align="center" font="120" textcolor="#ff777777" string="virscan_toscan"/>
+			<Label size="100,28" align="center" font="120" textcolor="#ff777777" string="virscan_scaning"/>
+			<Label size="100,28" align="center" font="120" textcolor="#ff66b610" string="virscan_security"/>
+			<Label size="100,28" align="center" font="120" textcolor="#ffed3a0a" string="virscan_dangerous"/>
+		</TabLayout>
+		<Control />
+	</AniRectScan>
+</cmpt>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="560,400" mininfo="560,400" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/quaran.xml"/>
+  <VerticalLayout  bkcolor="#ffffffff">
+		<Component xml="cmpt/title.xml"
+			name="btn_sys_close:sysclosebutton"/>
+		<VerticalLayout inset="20,0,20,0">
+			<Label name="content" style="gs_label_common" height="45" textpadding="10,0,0,0"/>
+			<List name="list_info" containeritemxml="item_quaran_err.xml"
+				style="gs_list_common" header="true">
+				<ListHeader style="gs_header_common" percent="true">
+					<ListHeaderItem style="gs_header_item_common" string="target_file" percent="88"/>
+					<ListHeaderItem style="gs_header_item_common" string="operation" percent="12"/>
+				</ListHeader>
+			</List>
+			<HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+				height="50" childvalign="vcenter" childpadding="10">
+				<Control />
+				<Button name="btn_browse" style="gs_btn_orange_ok" size="80,26" string="choose_dir"/>
+				<Button name="btn_cancel" style="gs_btn_cancel" size="80,26" string="cancel"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

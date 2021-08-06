@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="min">最小化</string>
+    <string id="max">最大化</string>
+    <string id="restore">還原</string>
+    <string id="close">關閉</string>
+    <string id="menu">選單</string>
+    <string id="title">火絨正在保護您的電腦</string>
+    <string id="title_link_deamon_err">安全服務異常，無法保障電腦安全 {a repare}{c #ed3a0a}修復{/c}{/a}</string>
+    <string id="title_link_deamon_err_repairing">正在修復安全服務...</string>
+    <string id="title_link_deamon_err_reboot">修復安全服務失敗，建議重啟電腦 {a reboot}{c #ed3a0a}重啟{/c}{/a}</string>
+    <string id="title_link_deamon_err_driver">驅動版本不匹配，重啓電腦即可修復 {a reboot}{c #ed3a0a}重啟{/c}{/a}</string>
+    <string id="update_check">檢查更新</string>
+    <string id="protected_days">已保護 {f 240}{c #ffa924}{days}{/c}{/f} 天</string>
+    <string id="version_status">版本：{version}  病毒庫：{virus}</string>
+    <string id="virscan">病毒掃描</string>
+    <string id="sysprotect">防護中心</string>
+    <string id="kidsprotect">存取控制</string>
+    <string id="tools">安全工具</string>
+    <string id="background_scanning">背景掃描</string>
+
+    <string id="about_huorong">關於火絨</string>
+    <string id="detail">詳情</string>
+    <string id="status">狀態</string>
+    <string id="scan_path">掃描路徑</string>
+    <string id="risk">風險項</string>
+    <string id="risks">風險項目</string>
+    <string id="risk_detail">風險詳情</string>
+    <string id="open_file_dir">開啟檔案位置</string>
+    <string id="trust_file">信任檔案</string>
+    <string id="cancel_trust_file">取消信任檔案</string>
+    <string id="risk_detail_text">{b}{c #444444}病毒類型：{/c}{/b}{c #777777}{type}{/c}{n}{n}{b}{c #444444}病毒描述：{/c}{/b}{c #777777}{desc}{/c}{n}{n}{b}{c #444444}風險路徑：{/c}{/b }{c #777777}{path}{/c}{n}{n}{b}{c #444444}處理建議：{/c}{/b}{c #777777}立即處理{/c}</string>
+    <string id="tip">提示</string>
+    <string id="safe_tip">安全提示</string>
+
+    <string id="huorong_safe_software">火絨安全軟體</string>
+    <string id="huorong_copyright_title">北京火絨網路科技有限公司版權所有</string>
+
+    <string id="msg_exit_scanning_title">確定關閉主界面嗎？ </string>
+    <string id="msg_exit_scanning_desc">正在進行病毒掃描，關閉即表示結束掃描</string>
+    <string id="msg_exit_treating_title">確定關閉主界面嗎？ </string>
+    <string id="msg_exit_treating_desc">關閉後將自動忽略風險檔案</string>
+    <string id="msg_stop_scanning_title">確定停止掃描嗎？ </string>
+    <string id="msg_stop_scanning_desc">當前正在進行病毒掃描</string>
+    <string id="msg_stop_treating_title">確定停止處理風險嗎？ </string>
+    <string id="msg_stop_treating_desc">忽略風險檔案可能對您的電腦造成威脅</string>
+    <string id="msg_trust_rm_file_title">確定要刪除信任檔案嗎？ </string>
+    <string id="msg_trust_rm_file_desc">刪除後該檔案將不再被火絨信任</string>
+    <string id="msg_trust_rm_website_title">確定要刪除信任網址嗎？ </string>
+    <string id="msg_trust_rm_website_desc">刪除後該網址將不再被火絨信任</string>
+    <string id="msg_auaran_rm_title">您確定要刪除選擇的檔案嗎？ </string>
+    <string id="msg_auaran_rm_desc">刪除後無法找回該檔案，請謹慎操作</string>
+    <string id="msg_auaran_recovery_title">確定要復原所選檔案嗎？ </string>
+    <string id="msg_auaran_recovery_desc">隔離區的項目是包含病毒風險的檔案</string>
+    <string id="msg_webctrl_rm_title">確定要刪除規則嗎？ </string>
+    <string id="msg_webctrl_rm_desc">規則刪除後無法復原，請謹慎操作</string>
+    <string id="msg_appctrl_rm_title">確定要刪除規則嗎？ </string>
+    <string id="msg_appctrl_rm_desc">規則刪除後無法復原，請謹慎操作</string>
+    <string id="msg_tools_uninst_title">您確定卸載此工具嗎？ </string>
+    <string id="msg_tools_uninst_desc">卸載後，如需使用您可重新下載安裝</string>
+    <string id="msg_right_scan_title">您正在進行掃描，請稍後再試</string>
+    <string id="msg_right_scan_desc">當前程式正在執行掃描任務，請本次掃描任務結束後，再進行新的掃描。 </string>
+    <string id="msg_udisk_cancel_trust_title">確定不再信任該隨身碟嗎？</string>
+    <string id="msg_udisk_cancel_trust_desc">取消信任後該隨身碟會被停用</string>
+    <string id="msg_syspt_start_netctrl_title">正在開啟聯網控制</string>
+    <string id="msg_syspt_start_netctrl_desc">開啟後，火絨會提示您程式每次的聯網請求，可能會產生較多彈窗。</string>
+    <string id="msg_syspt_start_advance_title">正在開啟高級防護項目</string>
+    <string id="msg_syspt_start_advance_desc">推薦您在瞭解相關功能後開啟，以免誤加規則影響電腦的正常使用。</string>
+    <string id="msg_tools_update_title">當前火絨版本過低，無法啟動工具</string>
+    <string id="msg_tools_update_desc">請嘗試運行更新</string>
+    <string id="msg_tools_notepad_notexist_title">無法修改Hosts檔案</string>
+    <string id="msg_tools_notepad_notexist_desc">未找到用來打開此檔案的'notepad.exe'程式</string>
+
+    <string id="password_tip">當前操作需要您輸入安全密碼</string>
+
+    <string id="file_recovery_done">檔案復原完成</string>
+    <string id="file_recovery_done1">{fail}個檔案復原失敗</string>
+    <string id="file_recovery_done_desc">成功復原{all}個隔離區檔案，{fail}個檔案復原失敗</string>
+    <string id="file_recovery_done_desc1">成功復原{all}個隔離區檔案</string>
+    <string id="file_extract_done">檔案提取完成</string>
+    <string id="file_extract_done1">{fail}個檔案提取失敗</string>
+    <string id="file_extract_done_desc">成功提取{all}個隔離區檔案，{fail}個檔案提取失敗</string>
+    <string id="file_extract_done_desc1">成功提取{all}個隔離區檔案</string>
+    <string id="file_extract_done_desc2">檔案已刪除或移至其他位置</string>
+    <string id="file_deleted_done">檔案刪除完成</string>
+    <string id="file_deleted_done_desc">成功刪除{all}個隔離區檔案，{fail}個檔案刪除失敗</string>
+    <string id="file_deleted_done_desc1">成功刪除{all}個隔離區檔案</string>
+
+    <string id="recovering">正在復原：{cur}/{all}項</string>
+    <string id="being_extracted">正在提取：{cur}/{all}項</string>
+    <string id="being_deleted">正在刪除：{cur}/{all}項</string>
+
+    <string id="recovery_failed_tip">以下檔案復原失敗，是否提取至其它資料夾？ </string>
+    <string id="extract_failed_tip">以下檔案提取失敗，是否提取至其它資料夾？ </string>
+
+    <string id="choose_dir">選擇資料夾</string>
+    <string id="target_file">目標檔案</string>
+    <string id="operation">操作</string>
+
+    <string id="ignore">忽略</string>
+    <string id="ignore_all">全部忽略</string>
+    <string id="handle_immediately">立即處理</string>
+    <string id="scan_done">掃描已完成</string>
+    <string id="handling_risk">正在處理風險</string>
+    <string id="no_risks_found">​​本次掃描未發現風險</string>
+    <string id="all_risks_handled">所有風險項處理完成</string>
+    <string id="had_unhandled_risk">{c #e12d0f}仍有風險項未處理{/c}</string>
+    <string id="done">完成</string>
+    <string id="risk_backup_to_isolation">風險已備份至 {a}{c #ed3a0a}隔離區{/c}{/a}</string>
+    <string id="scaned_count">掃描物件 : {count}個</string>
+    <string id="handled_count">處理風險 : {count}個</string>
+    <string id="risks_count">發現風險 : {count}個</string>
+    <string id="time_all">總用時 : {time}</string>
+    <string id="handled_risks_desc">已處理風險{c #e12d0f}{cleaned}/{count}{/c}</string>
+    <string id="found_risks_suggest">共發現風險項目{c #e12d0f}{count}{/c}個，建議立即處理</string>
+    <string id="found_risks_count">發現{c #e12d0f}{count}{/c}項風險項目</string>
+    <string id="initializing_engine">正在初始化引擎</string>
+
+    <string id="virscan_all">完整掃描</string>
+    <string id="virscan_quick">快速掃描</string>
+    <string id="virscan_custom">自訂掃描</string>
+    <string id="virscan_full_title">正在進行完整掃描</string>
+    <string id="virscan_quick_title">正在進行快速掃描</string>
+    <string id="virscan_custom_title">正在進行自訂掃描</string>
+    <string id="virscan_detail_enter">檢視詳情</string>
+    <string id="virscan_detail_exit">退出詳情</string>
+    <string id="virscan_stop">停止</string>
+    <string id="virscan_pause">暫停</string>
+    <string id="virscan_continue">繼續</string>
+    <string id="virscan_high_speed">高速</string>
+    <string id="virscan_high_speed_desc">高速掃描，速度快但影響電腦性能</string>
+    <string id="virscan_normal_speed">一般</string>
+    <string id="virscan_normal_speed_desc">一般掃描，不影響電腦性能</string>
+    <string id="virscan_auto_poweroff">掃描完成後自動關機</string>
+    <string id="virscan_used_time">已用時間：{time}</string>
+    <string id="virscan_dangerous">風險</string>
+    <string id="virscan_security">安全</string>
+    <string id="virscan_scaning">正在掃描...</string>
+    <string id="virscan_toscan">等待掃描</string>
+
+    <string id="virscan_status_scaning">正在掃描</string>
+    <string id="virscan_status_wait_scan">等待掃描</string>
+    <string id="virscan_status_dangerous">此項風險</string>
+    <string id="virscan_status_security">此項安全</string>
+    <string id="virscan_status_wait_clean">待處理</string>
+    <string id="virscan_status_cleanning">正在處理</string>
+    <string id="virscan_status_cleaned">已處理</string>
+    <string id="virscan_status_ignored">暫不處理</string>
+    <string id="virscan_status_trusted">已信任</string>
+    <string id="virscan_status_clean_failed">處理失敗</string>
+
+    <string id="virscan_boot_sector">主開機紀錄</string>
+    <string id="virscan_sys_program">系統處理程序</string>
+    <string id="virscan_startup">啟動項目</string>
+    <string id="virscan_sevices_drives">服務與驅動</string>
+    <string id="virscan_sys_components">系統元件</string>
+    <string id="virscan_sys_position">系統關鍵位置</string>
+    <string id="virscan_local_disk">本機硬碟</string>
+    <string id="virscan_net_disk">網路硬碟</string>
+
+    <string id="syspt_virus">病毒防護</string>
+    <string id="syspt_sys">系統防護</string>
+    <string id="syspt_net">網路防護</string>
+    <string id="syspt_advance">進階防護</string>
+    <string id="syspt_virus_filemon">檔案即時監控</string>
+    <string id="syspt_virus_filemon_desc">當檔案被執行、建立、開啟時，進行病毒掃描</string>
+    <string id="syspt_virus_behavior">惡意行為監控</string>
+    <string id="syspt_virus_behavior_desc">監控程式在執行過程中，是否有惡意行為</string>
+    <string id="syspt_virus_udisk">隨身碟保護</string>
+    <string id="syspt_virus_udisk_desc">在接入隨身碟時，自動對隨身碟檔案進行病毒掃描</string>
+    <string id="syspt_virus_download">下載保護</string>
+    <string id="syspt_virus_download_desc">即時掃描透過瀏覽器、即時通訊軟體下載的檔案</string>
+    <string id="syspt_virus_mail">郵件監控</string>
+    <string id="syspt_virus_mail_desc">對郵件客戶端收發的郵件及附件進行病毒掃描</string>
+    <string id="syspt_virus_web">Web掃描</string>
+    <string id="syspt_virus_web_desc">對HTTP協定接收的資料進行病毒掃描</string>
+
+    <string id="syspt_sys_sys">增強系統防護</string>
+    <string id="syspt_sys_sys_desc">針對電腦系統潛在弱點進行防護</string>
+    <string id="syspt_sys_app">程式漏洞防護</string>
+    <string id="syspt_sys_app_desc">控制應用程式的行為，防止被惡意軟體利用</string>
+    <string id="syspt_sys_install">軟體安裝攔截</string>
+    <string id="syspt_sys_install_desc">即時監控並提示軟體安裝行為</string>
+    <string id="syspt_sys_camera">攝影機保護</string>
+    <string id="syspt_sys_camera_desc">發現並提示應用程式開啟攝影機</string>
+    <string id="syspt_sys_browser">瀏覽器保護</string>
+    <string id="syspt_sys_browser_desc">保護瀏覽器首頁和搜索不被篡改</string>
+    <string id="syspt_sys_appnetctrl">上網控制</string>
+    <string id="syspt_sys_appnetctrl_desc">管控應用程式的上網行為</string>
+
+    <string id="syspt_net_hack">網路入侵攔截</string>
+    <string id="syspt_net_hack_desc">在網路層攔截漏洞攻擊、駭客入侵等威脅</string>
+    <string id="syspt_net_tpprot">橫向滲透防護</string>
+    <string id="syspt_net_tpprot_desc">在網路層攔截橫向滲透攻擊</string>
+    <string id="syspt_net_attack">對外攻擊攔截</string>
+    <string id="syspt_net_attack_desc">在網路層攔截本機對外部電腦的漏洞攻擊等行為</string>
+    <string id="syspt_net_zombie_net">殭屍網路防護</string>
+    <string id="syspt_net_zombie_net_desc">在網路層攔截潛在後門攻擊</string>
+    <string id="syspt_net_remote_login">暴破攻擊防護</string>
+    <string id="syspt_net_remote_login_desc">發現暴破攻擊行為，攔截潜在暴力破解攻擊</string>
+    <string id="syspt_net_web_service">Web服務保護</string>
+    <string id="syspt_net_web_service_desc">針對高危Web服務漏洞滲透攻擊進行防護</string>
+    <string id="syspt_net_malicious_web">惡意網址攔截</string>
+    <string id="syspt_net_malicious_web_desc">自動阻止木馬、欺詐、釣魚類等網址</string>
+
+    <string id="syspt_advance_custom">自訂防護</string>
+    <string id="syspt_advance_custom_desc">對檔案、登錄檔以及程式的執行進行控制以及防護</string>
+    <string id="syspt_advance_ip_backlist">IP黑名單</string>
+    <string id="syspt_advance_ip_backlist_desc">限制對指定IP的出站、入站請求</string>
+    <string id="syspt_advance_ip_protocol">IP協定控制</string>
+    <string id="syspt_advance_ip_protocol_desc">在IP協定層進行網路存取控制</string>
+
+    <string id="kidpt_title">將電腦調整為更適合訪客使用的狀態</string>
+    <string id="kidpt_title_desc">為防止存取控制配置以及其它配置被修改，推薦使用密碼保護</string>
+    <string id="kidpt_password">密碼保護</string>
+    <string id="kidpt_online">上網時段控制</string>
+    <string id="kidpt_online_desc">控制電腦上網的時段或者累計的上網時長</string>
+    <string id="kidpt_website">網站內容控制</string>
+    <string id="kidpt_website_desc">限制電腦瀏覽特定類型網站</string>
+    <string id="kidpt_program">程式執行控制</string>
+    <string id="kidpt_program_desc">限制指定應用程式的執行</string>
+    <string id="kidpt_udisk">隨身碟使用控制</string>
+    <string id="kidpt_udisk_desc">管理隨身碟的接入使用，防止檔案外傳及病毒入侵</string>
+
+    <string id="tools_sys_tool">系統工具</string>
+    <string id="tools_net_tool">網路工具</string>
+    <string id="tools_advance_tool">進階工具</string>
+    <string id="tools_leak_repair">漏洞修復</string>
+    <string id="tools_leak_repair_desc">掃描並修復系統漏洞</string>
+    <string id="tools_sys_repair">系統修復</string>
+    <string id="tools_sys_repair_desc">修復因病毒等導致的系統異常</string>
+    <string id="tools_pop_block">彈窗攔截</string>
+    <string id="tools_pop_block_desc">攔截程式推送的不受歡迎彈窗</string>
+    <string id="tools_sys_clean">垃圾清理</string>
+    <string id="tools_sys_clean_desc">清理各種系統垃圾</string>
+    <string id="tools_autoruns">啟動項目管理</string>
+    <string id="tools_autoruns_desc">管理各類軟體的開機自啟動</string>
+    <string id="tools_file_shred">檔案粉碎</string>
+    <string id="tools_file_shred_desc">強制刪除或徹底粉碎檔案</string>
+    <string id="tools_right_click">右鍵管理</string>
+    <string id="tools_right_click_desc">管理檔案、桌面、IE右鍵選單</string>
+
+    <string id="tools_net_repair">網路修復</string>
+    <string id="tools_net_repair_desc">檢測並修復斷網問題</string>
+    <string id="tools_net_flow">流量監控</string>
+    <string id="tools_net_flow_desc">檢測及控制程式的網路流量</string>
+    <string id="tools_net_speed">網速保護</string>
+    <string id="tools_net_speed_desc">針對不同程式合理分配網速</string>
+    <string id="tools_host">修改HOST檔案</string>
+    <string id="tools_host_desc">修改負責域名快速解析的檔案</string>
+
+    <string id="tools_sword">火絨劍</string>
+    <string id="tools_sword_desc">安全專業人士的分析工具</string>
+    <string id="tools_kill">專殺工具</string>
+    <string id="tools_kill_desc">掃描各類惡性頑固病毒</string>
+
+    <string id="menu_syscfg_config">安全設定</string>
+    <string id="menu_syscfg_log">安全記錄</string>
+    <string id="menu_syscfg_isolation">隔離區</string>
+    <string id="menu_syscfg_trust">信任區</string>
+    <string id="menu_syscfg_update">檢查更新</string>
+    <string id="menu_syscfg_language">語言設定</string>
+    <string id="menu_syscfg_feedback">問題反應</string>
+    <string id="menu_syscfg_virus_report">病毒上報</string>
+    <string id="menu_syscfg_about">關於我們</string>
+
+    <string id="control_online_time">控制上網時段</string>
+    <string id="allow_online">允許上網</string>
+    <string id="stop_online">阻止上網</string>
+    <string id="monday">星期一</string>
+    <string id="tuesday">星期二</string>
+    <string id="wednesday">星期三</string>
+    <string id="thursday">星期四</string>
+    <string id="friday">星期五</string>
+    <string id="saturday">星期六</string>
+    <string id="sunday">星期日</string>
+    <string id="all_online_time_control">控制累計時間</string>
+    <string id="workday_online_nomorethan1">工作日每天上網時間不超過</string>
+    <string id="weekend_online_nomorethan1">週末每天上網時間不超過</string>
+    <string id="hour">小時</string>
+    <string id="control_website">控制網站</string>
+    <string id="status">狀態</string>
+    <string id="news_website">新聞網站</string>
+    <string id="shopping_website">網購網站</string>
+    <string id="sexy_website">色情網站</string>
+    <string id="religion_website">宗教網站</string>
+    <string id="foul_website">污言網站</string>
+    <string id="game_website">遊戲網站</string>
+    <string id="add_website">新增網站</string>
+    <string id="add_url">新增網址</string>
+    <string id="input_policy_name">輸入程式路徑，支持萬用字元</string>
+    <string id="mulity_website_tip">多個網址透過換行符區分，支持通配符</string>
+    <string id="save">儲存</string>
+    <string id="ok">確定</string>
+    <string id="cancel">取消</string>
+    <string id="back">返回</string>
+    <string id="app">應用程式</string>
+    <string id="console_game">單機遊戲</string>
+    <string id="online_game">網路遊戲</string>
+    <string id="leisure_game">休閒益智遊戲</string>
+    <string id="battle_platform">對戰平台</string>
+    <string id="entertainment">影音娛樂</string>
+    <string id="chat_tools">聊天工具</string>
+    <string id="rogue_downloader">下載站下載器</string>
+    <string id="risk_tools">風險工具</string>
+    <string id="remote_access_tools">遠端控制工具</string>
+    <string id="edit_app">編輯程式</string>
+    <string id="add_app">新增程式</string>
+    <string id="choose_app">選擇程式</string>
+    <string id="lastest_run_app">最近執行的程式</string>
+    <string id="lastest_run_app_3d">最近三天執行的程式</string>
+    <string id="trust_udisk">信任的隨身碟</string>
+    <string id="udisk">隨身碟</string>
+    <string id="serial_number">序列號</string>
+    <string id="unconnected">未連接</string>
+    <string id="connected">已連接</string>
+    <string id="cancel_trust">取消信任</string>
+    <string id="add_device">新增裝置</string>
+    <string id="add_trust">信任隨身碟</string>
+    <string id="insert_udisk_first">請先插入隨身碟裝置</string>
+    <string id="open_udisk_first">請先開啟隨身碟使用控制</string>
+
+    <string id="choose_scan_dir">選擇掃描目錄</string>
+
+    <string id="trust_zone_empty_desc">信任區內的項目將不被反病毒引擎掃描及監控</string>
+    <string id="isolation_empty_desc">隔離的檔案存在風險，請謹慎操作</string>
+    <string id="udiskctrl_empty_desc">您可透過新增隨身碟來增加需要信任的隨身碟</string>
+    <string id="webctrl_empty_desc">您可點擊新增網站來增加需要控制的網站</string>
+    <string id="appctrl_empty_desc">您可透過新增程式來增加需要控制的程式</string>
+    <string id="appctrl_lastest_empty_desc">沒有最近執行的程式</string>
+
+    <string id="trust_zone_title_file">以下檔案已經被信任，已被認為是安全的；如果發生誤報，您也可以在此加入信任</string>
+    <string id="trust_zone_title_website">以下網址已經被信任，已被認為是安全的；如果發生誤報，您也可以在此加入信任</string>
+    <string id="isolation_zone_title">病毒處理後的檔案或網址在此做了安全備份，佔用硬碟空間：{size}</string>
+    <string id="add_recovery_to_trust_zone">將復原的檔案加入信任區</string>
+
+    <string id="file">檔案</string>
+    <string id="website">網址</string>
+    <string id="path">路徑</string>
+    <string id="type">類型</string>
+    <string id="clear_invalid_item">清除無效項</string>
+    <string id="add_file">新增檔案</string>
+    <string id="add_dir">新增資料夾</string>
+    <string id="virus_name">病毒名稱</string>
+    <string id="isolation_time">隔離時間</string>
+    <string id="classification">分類</string>
+    <string id="delete">刪除</string>
+    <string id="edit">編輯</string>
+    <string id="extract">提取</string>
+    <string id="recovery">復原</string>
+    <string id="not_exist">不存在</string>
+    <string id="dir">資料夾</string>
+    <string id="other">其他</string>
+
+    <string id="create_link">建立捷徑</string>
+    <string id="uninstall_tools">卸載工具</string>
+
+    <string id="autofill_custom_url">自訂網址</string>
+
+    <string id="undisposed">已忽略</string>
+    <string id="trusted">已信任</string>
+    <string id="disposed">已處理</string>
+    <string id="disposed_deleted">已處理，刪除文件</string>
+    <string id="disposed_cleaned">已處理，清除惡意代碼</string>
+    <string id="disposed_cleaned_by_del">已處理，刪除感染源文件</string>
+    <string id="disposed_del_coz_readonly">已處理，刪除無法寫入的文件</string>
+    <string id="disposed_del_coz_clean_fail">已處理，刪除清除失敗的文件</string>
+    <string id="disposed_del_coz_empty">已處理，刪除空文件</string>
+    <string id="dispose_failed">處理失敗</string>
+    <string id="dispose_failed_still">處理失敗，文件未處理</string>
+    <string id="dispose_failed_quaran_failed">處理失敗，文件隔離失敗</string>
+    <string id="dispose_failed_intern_error">處理失敗，引擎內部錯誤</string>
+    <string id="dispose_failed_postops_failed">處理失敗，後處理失敗</string>
+    <string id="scan_log_detial">病毒庫時間：{dbtime}\r\n開始時間：{begintime}\r\n總計用時：{duration}\r\n掃描物件：{objects}\r\n掃描檔案：{files}\r\n發現風險：{detected}\r\n已處理風險：{neutralized}\r\n</string>
+    <string id="scan_log_detial_list">\r\n病毒詳情\r\n\r\n</string>
+    <string id="scan_log_detial_row">風險路徑：{path}, 病毒名：{virname}, 病毒ID：{virid}, 處理結果：{result}</string>
+
+    <string id="fill_trust_website_please">請填寫信任網址</string>
+    <string id="check_trust_website_format">請檢查網址格式</string>
+    <string id="policy_name_exist">規則名稱已存在</string>
+    <string id="fill_policy_name_please">請填寫規則名稱</string>
+    <string id="fill_website_please">請填寫控制網址</string>
+    <string id="password_error">密碼錯誤</string>
+
+    <string id="hide_system_app">隱藏系統程式</string>
+    <string id="choose_app_please">請選擇程式</string>
+
+    <string id="iknow">我知道了</string>
+
+    <string id="browse_title_file">新增檔案</string>
+    <string id="browse_title_save">另存為</string>
+    <string id="browse_title_folder">添加資料夾</string>
+    <string id="browse_search_pos1">查找範圍：</string>
+    <string id="browse_file_name1">檔名：</string>
+    <string id="browse_file_type1">檔案類型：</string>
+    <string id="browse_open">打開</string>
+    <string id="browse_save">保存</string>
+    <string id="browse_cancel">取消</string>
+    <string id="browse_name">名稱</string>
+    <string id="browse_modify_date">修改日期</string>
+    <string id="browse_type">類型</string>
+    <string id="browse_size">大小</string>
+    <string id="browse_filter_all">所有檔案(*.*)</string>
+    <string id="browse_filter_ext">檔案(*.{ext})</string>
+    
+    <string id="browse_tip_back">返回到 {path}</string>
+    <string id="browse_tip_prev">前進到 {path}</string>
+    <string id="browse_tip_up">上移到 {path}</string>
+
+    <string id="browse_tip_update">刷新</string>
+    <string id="browse_tip_jmp">跳轉到</string>
+
+    <string id="browse_path_notexit">路徑不存在</string>
+
+    <string id="saveas_fail">保存失敗</string>
+    <string id="browse_path_exist">此位置已經包含同名檔案</string>
+    <string id="browse_overwrite">要替換它嗎？</string>
+
+    <string id="browse_path_cnt_save">無法保存到此位置</string>
+    <string id="browse_sel_other_dir">請選擇其他目錄</string>
+
+    <string id="download_err_no_network">下載失敗，無網絡連接</string>
+    <string id="tools_install_failed">安全工具安裝失敗</string>
+
+    <string id="err_other_user_operation">操作失敗，有其他用戶在進行操作</string>
+
+    <string id="tip_main_sys">系統防護項中“監視器保護”需要重啓電腦後才能生效</string>
+    <string id="tip_main_net">網絡防護項需重啓電腦後才能生效</string>
+    <string id="tip_main_the">此防護項需要重啓電腦後才能生效</string>
+
+    <string id="auto_list_scroll">清單自動滾動</string>
+
+    <!--  -->
+    <string id="forget_password">忘記密碼？</string>
+    <string id="error_anwser">答案錯誤</string>
+    <string id="modify_password">修改密碼</string>
+    <string id="please_enter_answer">請輸入答案</string>
+    <string id="another_question">換個問題試試？</string>
+    <string id="verify">驗證</string>
+    <string id="set_password_on_verifyed">已通過驗證請設定新密碼</string>
+    <string id="please_enter_password">請輸入密碼</string>
+    <string id="password_nomatch">密碼不一致，請重新輸入</string>
+    <string id="notlimit_space">不允許包含空格</string>
+
+    <string id="password_new">新密碼:</string>
+    <string id="password_confirm">確認密碼:</string>
+    <string id="password_enter">請輸入新密碼</string>
+    <string id="password_enter_again">請再次輸入新密碼</string>
+
+    <string id="huorong_title">火絨安全</string>
+    <string id="msgbox_daemon_err">服務異常</string>
+    <string id="msgbox_daemon_err_decs">檢測到火絨服務異常！請立即修復火絨服務</string>
+</stringtable>

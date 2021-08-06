@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="460,240" mininfo="460,240" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <VerticalLayout  bkcolor="#ffffffff">
+		<Component xml="cmpt/title.xml" string="sys_title:tip"
+			visible="btn_sys_min:false"
+			name="btn_sys_close:sysclosebutton"/>
+		<VerticalLayout inset="20,0,20,0">
+			<HorizontalLayout childvalign="vcenter">
+				<VerticalLayout size="124,80" childalign="center">
+					<Control name="icon" size="80,80" bkimage="name='msgboxtip'"/>
+				</VerticalLayout>
+				<VerticalLayout inset="12,0,0,0" childpadding="4">
+					<Control />
+					<Label name="title" style="gs_title_common" font="160" height="26"
+						string="msg_webctrl_rm_title"/>
+					<Text name="text" style="gs_label_common"
+						string="msg_webctrl_rm_desc"/>
+					<Control />
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+			  height="50" childvalign="vcenter" childpadding="10">
+				<CheckBox name="opt_check" style="gs_label_common" style="gs_check_left" visible="false" tab="id='100'"/>
+				<Control />
+				<Button name="btn_continue" style="gs_btn_orange_ok" size="70,26" string="min" visible="false" tab="id='101'"/>
+				<Button name="btn_ok" style="gs_btn_orange_ok" size="70,26" string="ok" tab="id='102'"/>
+				<Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel" tab="id='103'"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

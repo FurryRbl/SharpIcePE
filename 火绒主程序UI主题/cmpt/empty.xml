@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <HorizontalLayout name="empty" childvalign="vcenter" inset="0,38,0,0">
+    <VerticalLayout height="130" childalign="center" childpadding="10">
+      <Control name="icon" size="100,100" bkimage="name='empty'"/>
+      <Label name="desc" style="gs_label_common" align="center"/>
+    </VerticalLayout>
+  </HorizontalLayout>
+</cmpt>

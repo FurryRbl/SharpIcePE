@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="820,540" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:menu_syscfg_isolation"
+      visible="btn_sys_max:true"/>
+    <VerticalLayout inset="30,10,30,0">
+      <HorizontalLayout height="40" inset="10,0,10,0" childvalign="vcenter">
+        <Label name="lab_title" style="gs_title_common" string="isolation_zone_title"/>
+      </HorizontalLayout>
+      <Control height="5"/>
+      <Container>
+        <VirtualListUI name="list_ui" containeritemxml="item_quarantine.xml"
+          style="gs_list_common" header="true">
+          <ListHeader style="gs_header_common" percent="true" inset="0,1,0,1" tab="id='10'">
+            <Component xml="cmpt/list_opt.xml" tab="opt:id='20'" name="opt:chk_sel_all"/>
+            <ListHeaderItem style="gs_header_sort" string="risk" percent="42"/>
+            <ListHeaderItem style="gs_header_sort" string="virus_name" percent="30"/>
+            <ListHeaderItem style="gs_header_sort" string="isolation_time" percent="16"/>
+            <ListHeaderItem style="gs_header_sort" string="classification" percent="12"/>
+          </ListHeader>
+        </VirtualListUI>
+        <Component xml="cmpt/empty.xml" string="desc:isolation_empty_desc"/>
+      </Container>
+      <HorizontalLayout height="50" childvalign="vcenter" childpadding="20">
+        <Button name="btn_delete" style="gs_btn_text" height="20" string="delete" tab="id='100'"/>
+        <Control />
+        <Button name="btn_restore" style="gs_btn_text" height="20" string="recovery" tab="id='100'" />
+        <Button name="btn_extract" style="gs_btn_text" height="20" string="extract" tab="id='100'"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

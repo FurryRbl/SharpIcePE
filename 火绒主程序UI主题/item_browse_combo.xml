@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listitem>
+  <ListContainerElement name="comboitem" height="28">
+    <Label name="text" style="gs_label_common" textpadding="10,0,0,0"/>
+  </ListContainerElement>
+</listitem>

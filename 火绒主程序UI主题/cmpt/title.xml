@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <HorizontalLayout height="40" inset="20,8,10,0" bkcolor="#fff8f9f9"
+    bordersize="0,0,0,1" bordercolor="#fff0f0f0">
+    <Control size="24,24" bkimage="name='logoicon'"/>
+    <Label name="sys_title" height="24" font="160" textcolor="#ff303030" padding="6,0,0,0"/>
+    <Control />
+    <Button name="btn_sys_menu" style="gs_sys_btn_menu_gray" size="36,24"
+      stringtip="menu" tab="id='0'" accser="name='菜单'" visible="false"/>
+    <Button name="btn_sys_min" style="gs_sys_btn_min_gray" size="36,24"
+      stringtip="min" tab="id='1'" accser="name='最小化'"/>
+    <Button name="btn_sys_max" style="gs_sys_btn_max_gray" size="36,24"
+      stringtip="max" tab="id='2'" accser="name='最大化'" visible="false"/>
+    <Button name="btn_sys_restore" style="gs_sys_btn_restore_gray" size="36,24"
+      stringtip="restore" tab="id='3'" accser="name='恢复'" visible="false"/>
+    <Button name="btn_sys_close" style="gs_sys_btn_close_gray" size="36,24"
+      stringtip="close" tab="id='4'" accser="name='关闭'"/>
+  </HorizontalLayout>
+</cmpt>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="full_title" value="file='img/100/viruscan/full_title.png'"/>
+    <ImageStyle name="custom_title" value="file='img/100/viruscan/custom_title.png'"/>
+    <ImageStyle name="quick_title" value="file='img/100/viruscan/quick_title.png'"/>
+
+    <ImageStyle name="boot_sector_normal" value="file='img/100/viruscan/boot_sector.png' source='0,0,50,50'"/>
+    <ImageStyle name="boot_sector_hot" value="file='img/100/viruscan/boot_sector.png' source='50,0,100,50'"/>
+    <ImageStyle name="sys_program_normal" value="file='img/100/viruscan/sys_program.png' source='0,0,50,50'"/>
+    <ImageStyle name="sys_program_hot" value="file='img/100/viruscan/sys_program.png' source='50,0,100,50'"/>
+    <ImageStyle name="startup_normal" value="file='img/100/viruscan/startup.png' source='0,0,50,50'"/>
+    <ImageStyle name="startup_hot" value="file='img/100/viruscan/startup.png' source='50,0,100,50'"/>
+    <ImageStyle name="sevices_drives_normal" value="file='img/100/viruscan/sevices_drives.png' source='0,0,50,50'"/>
+    <ImageStyle name="sevices_drives_hot" value="file='img/100/viruscan/sevices_drives.png' source='50,0,100,50'"/>
+    <ImageStyle name="browser_plugin_normal" value="file='img/100/viruscan/browser_plugin.png' source='0,0,50,50'"/>
+    <ImageStyle name="browser_plugin_hot" value="file='img/100/viruscan/browser_plugin.png' source='50,0,100,50'"/>
+    <ImageStyle name="sys_position_normal" value="file='img/100/viruscan/sys_position.png' source='0,0,50,50'"/>
+    <ImageStyle name="sys_position_hot" value="file='img/100/viruscan/sys_position.png' source='50,0,100,50'"/>
+    <ImageStyle name="local_disk_normal" value="file='img/100/viruscan/local_disk.png' source='0,0,50,50'"/>
+    <ImageStyle name="local_disk_hot" value="file='img/100/viruscan/local_disk.png' source='50,0,100,50'"/>
+  
+    <ImageStyle name="icon_scaned_count" value="file='img/100/viruscan/icon_scaned_count.png'"/>
+    <ImageStyle name="icon_treat_count" value="file='img/100/viruscan/icon_treat_count.png'"/>
+    <ImageStyle name="icon_found_count" value="file='img/100/viruscan/icon_found_count.png'"/>
+    <ImageStyle name="icon_scan_time" value="file='img/100/viruscan/icon_scan_time.png'"/>
+
+    <ImageStyle name="icon_scan_completed" value="file='img/100/viruscan/icon_scan_completed.png'"/>
+    <ImageStyle name="icon_scan_completed_risk" value="file='img/100/viruscan/icon_scan_completed_risk.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="full_title" value="file='img/125/viruscan/full_title.png'"/>
+    <ImageStyle name="custom_title" value="file='img/125/viruscan/custom_title.png'"/>
+    <ImageStyle name="quick_title" value="file='img/125/viruscan/quick_title.png'"/>
+
+    <ImageStyle name="boot_sector_normal" value="file='img/125/viruscan/boot_sector.png' source='0,0,62,63'"/>
+    <ImageStyle name="boot_sector_hot" value="file='img/125/viruscan/boot_sector.png' source='62,0,124,63'"/>
+    <ImageStyle name="sys_program_normal" value="file='img/125/viruscan/sys_program.png' source='0,0,62,63'"/>
+    <ImageStyle name="sys_program_hot" value="file='img/125/viruscan/sys_program.png' source='62,0,124,63'"/>
+    <ImageStyle name="startup_normal" value="file='img/125/viruscan/startup.png' source='0,0,62,63'"/>
+    <ImageStyle name="startup_hot" value="file='img/125/viruscan/startup.png' source='62,0,124,63'"/>
+    <ImageStyle name="sevices_drives_normal" value="file='img/125/viruscan/sevices_drives.png' source='0,0,62,63'"/>
+    <ImageStyle name="sevices_drives_hot" value="file='img/125/viruscan/sevices_drives.png' source='62,0,124,63'"/>
+    <ImageStyle name="browser_plugin_normal" value="file='img/125/viruscan/browser_plugin.png' source='0,0,62,63'"/>
+    <ImageStyle name="browser_plugin_hot" value="file='img/125/viruscan/browser_plugin.png' source='62,0,124,63'"/>
+    <ImageStyle name="sys_position_normal" value="file='img/125/viruscan/sys_position.png' source='0,0,62,63'"/>
+    <ImageStyle name="sys_position_hot" value="file='img/125/viruscan/sys_position.png' source='62,0,124,63'"/>
+    <ImageStyle name="local_disk_normal" value="file='img/125/viruscan/local_disk.png' source='0,0,62,63'"/>
+    <ImageStyle name="local_disk_hot" value="file='img/125/viruscan/local_disk.png' source='62,0,124,63'"/>
+
+    <ImageStyle name="icon_scaned_count" value="file='img/125/viruscan/icon_scaned_count.png'"/>
+    <ImageStyle name="icon_treat_count" value="file='img/125/viruscan/icon_treat_count.png'"/>
+    <ImageStyle name="icon_found_count" value="file='img/125/viruscan/icon_found_count.png'"/>
+    <ImageStyle name="icon_scan_time" value="file='img/125/viruscan/icon_scan_time.png'"/>
+  
+    <ImageStyle name="icon_scan_completed" value="file='img/125/viruscan/icon_scan_completed.png'"/>
+    <ImageStyle name="icon_scan_completed_risk" value="file='img/125/viruscan/icon_scan_completed_risk.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="full_title" value="file='img/150/viruscan/full_title.png'"/>
+    <ImageStyle name="custom_title" value="file='img/150/viruscan/custom_title.png'"/>
+    <ImageStyle name="quick_title" value="file='img/150/viruscan/quick_title.png'"/>
+
+    <ImageStyle name="boot_sector_normal" value="file='img/150/viruscan/boot_sector.png' source='0,0,75,75'"/>
+    <ImageStyle name="boot_sector_hot" value="file='img/150/viruscan/boot_sector.png' source='75,0,150,75'"/>
+    <ImageStyle name="sys_program_normal" value="file='img/150/viruscan/sys_program.png' source='0,0,75,75'"/>
+    <ImageStyle name="sys_program_hot" value="file='img/150/viruscan/sys_program.png' source='75,0,150,75'"/>
+    <ImageStyle name="startup_normal" value="file='img/150/viruscan/startup.png' source='0,0,75,75'"/>
+    <ImageStyle name="startup_hot" value="file='img/150/viruscan/startup.png' source='75,0,150,75'"/>
+    <ImageStyle name="sevices_drives_normal" value="file='img/150/viruscan/sevices_drives.png' source='0,0,75,75'"/>
+    <ImageStyle name="sevices_drives_hot" value="file='img/150/viruscan/sevices_drives.png' source='75,0,150,75'"/>
+    <ImageStyle name="browser_plugin_normal" value="file='img/150/viruscan/browser_plugin.png' source='0,0,75,75'"/>
+    <ImageStyle name="browser_plugin_hot" value="file='img/150/viruscan/browser_plugin.png' source='75,0,150,75'"/>
+    <ImageStyle name="sys_position_normal" value="file='img/150/viruscan/sys_position.png' source='0,0,75,75'"/>
+    <ImageStyle name="sys_position_hot" value="file='img/150/viruscan/sys_position.png' source='75,0,150,75'"/>
+    <ImageStyle name="local_disk_normal" value="file='img/150/viruscan/local_disk.png' source='0,0,75,75'"/>
+    <ImageStyle name="local_disk_hot" value="file='img/150/viruscan/local_disk.png' source='75,0,150,75'"/>
+
+    <ImageStyle name="icon_scaned_count" value="file='img/150/viruscan/icon_scaned_count.png'"/>
+    <ImageStyle name="icon_treat_count" value="file='img/150/viruscan/icon_treat_count.png'"/>
+    <ImageStyle name="icon_found_count" value="file='img/150/viruscan/icon_found_count.png'"/>
+    <ImageStyle name="icon_scan_time" value="file='img/150/viruscan/icon_scan_time.png'"/>
+
+    <ImageStyle name="icon_scan_completed" value="file='img/150/viruscan/icon_scan_completed.png'"/>
+    <ImageStyle name="icon_scan_completed_risk" value="file='img/150/viruscan/icon_scan_completed_risk.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="full_title" value="file='img/175/viruscan/full_title.png'"/>
+    <ImageStyle name="custom_title" value="file='img/175/viruscan/custom_title.png'"/>
+    <ImageStyle name="quick_title" value="file='img/175/viruscan/quick_title.png'"/>
+
+    <ImageStyle name="boot_sector_normal" value="file='img/175/viruscan/boot_sector.png' source='0,0,87,88'"/>
+    <ImageStyle name="boot_sector_hot" value="file='img/175/viruscan/boot_sector.png' source='87,0,174,88'"/>
+    <ImageStyle name="sys_program_normal" value="file='img/175/viruscan/sys_program.png' source='0,0,87,88'"/>
+    <ImageStyle name="sys_program_hot" value="file='img/175/viruscan/sys_program.png' source='87,0,174,88'"/>
+    <ImageStyle name="startup_normal" value="file='img/175/viruscan/startup.png' source='0,0,87,88'"/>
+    <ImageStyle name="startup_hot" value="file='img/175/viruscan/startup.png' source='87,0,174,88'"/>
+    <ImageStyle name="sevices_drives_normal" value="file='img/175/viruscan/sevices_drives.png' source='0,0,87,88'"/>
+    <ImageStyle name="sevices_drives_hot" value="file='img/175/viruscan/sevices_drives.png' source='87,0,174,88'"/>
+    <ImageStyle name="browser_plugin_normal" value="file='img/175/viruscan/browser_plugin.png' source='0,0,87,88'"/>
+    <ImageStyle name="browser_plugin_hot" value="file='img/175/viruscan/browser_plugin.png' source='87,0,174,88'"/>
+    <ImageStyle name="sys_position_normal" value="file='img/175/viruscan/sys_position.png' source='0,0,87,88'"/>
+    <ImageStyle name="sys_position_hot" value="file='img/175/viruscan/sys_position.png' source='87,0,174,88'"/>
+    <ImageStyle name="local_disk_normal" value="file='img/175/viruscan/local_disk.png' source='0,0,87,88'"/>
+    <ImageStyle name="local_disk_hot" value="file='img/175/viruscan/local_disk.png' source='87,0,174,88'"/>
+
+    <ImageStyle name="icon_scaned_count" value="file='img/175/viruscan/icon_scaned_count.png'"/>
+    <ImageStyle name="icon_treat_count" value="file='img/175/viruscan/icon_treat_count.png'"/>
+    <ImageStyle name="icon_found_count" value="file='img/175/viruscan/icon_found_count.png'"/>
+    <ImageStyle name="icon_scan_time" value="file='img/175/viruscan/icon_scan_time.png'"/>
+
+    <ImageStyle name="icon_scan_completed" value="file='img/175/viruscan/icon_scan_completed.png'"/>
+    <ImageStyle name="icon_scan_completed_risk" value="file='img/175/viruscan/icon_scan_completed_risk.png'"/>
+  </dpiscale>
+</ImageStyles>

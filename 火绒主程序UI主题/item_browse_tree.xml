@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<treeitem>
+  <ListContainerElement name="treeitem" height="20">
+    <HorizontalLayout name="hlay" childvalign="vcenter" inset="10,0,10,0" mouse="false">
+      <Control name="level" width="10" userdata="10" mouse="false"/>
+      <ImgListCtrl name="icon" size="16,16" mouse="false"/>
+      <Label name="label" style="gs_item_label_common" pathellipsis="true" textpadding="5,0,0,0" mouse="false"/>
+    </HorizontalLayout>
+  </ListContainerElement>
+</treeitem>

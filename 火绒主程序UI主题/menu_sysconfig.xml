@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="132,276" dpifix="125:0,5" dpifix="150:0,1" dpifix="175:0,4" layeredimage="name='bk_border_opaque_small'">
+	<Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/menu.xml"/>
+	<Style name="s_menu_item" value="tab=&quot;id='0'&quot; hor_inset=&quot;10,0,10,0&quot; hor_childpadding=&quot;10&quot; icon_size=&quot;18,18&quot; arrow_size=&quot;10,10&quot; text_autowidth=&quot;false&quot; text_align=&quot;left&quot; text_textcolor=&quot;#ff444444&quot; text_hottextcolor=&quot;#ffffffff&quot; text_selectedtextcolor=&quot;#ff444444&quot; text_selectedhottextcolor=&quot;#ffffffff&quot; arrow_normalimage=&quot;name='syscfgc_arrow_normal'&quot; arrow_hotimage=&quot;name='syscfgc_arrow_hot'&quot; arrow_selectedimage=&quot;name='syscfgc_arrow_hot'&quot; arrow_selectedhotimage=&quot;name='syscfgc_arrow_hot'&quot;"/>
+  <VerticalLayout inset="3,3,3,3">
+    <Menu name="menu_root" itemhotbkcolor="#ffffa924" itemminwidth="132">
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_config"
+        icon_normalimage="name='syscfg_config_normal'" icon_hotimage="name='syscfg_config_hot'"
+        icon_selectedimage="name='syscfg_config_normal'" icon_selectedhotimage="name='syscfg_config_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_log"
+        icon_normalimage="name='syscfg_log_normal'" icon_hotimage="name='syscfg_log_hot'"
+        icon_selectedimage="name='syscfg_log_normal'" icon_selectedhotimage="name='syscfg_log_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_isolation"
+        icon_normalimage="name='syscfg_isolation_normal'" icon_hotimage="name='syscfg_isolation_hot'"
+        icon_selectedimage="name='syscfg_isolation_normal'" icon_selectedhotimage="name='syscfg_isolation_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_trust"
+        icon_normalimage="name='syscfg_trust_normal'" icon_hotimage="name='syscfg_trust_hot'"
+        icon_selectedimage="name='syscfg_trust_normal'" icon_selectedhotimage="name='syscfg_trust_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="update_check"
+        icon_normalimage="name='syscfg_update_normal'" icon_hotimage="name='syscfg_update_hot'"
+        icon_selectedimage="name='syscfg_update_normal'" icon_selectedhotimage="name='syscfg_update_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_language"
+        icon_normalimage="name='syscfg_language_normal'" icon_hotimage="name='syscfg_language_hot'"
+        icon_selectedimage="name='syscfg_language_hot'" icon_selectedhotimage="name='syscfg_language_hot'"
+        text_selectedtextcolor="#ffffffff" submenu="menu_sysc_lang.xml"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_feedback"
+        icon_normalimage="name='syscfg_feedback_normal'" icon_hotimage="name='syscfg_feedback_hot'"
+        icon_selectedimage="name='syscfg_feedback_normal'" icon_selectedhotimage="name='syscfg_feedback_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_virus_report"
+        icon_normalimage="name='syscfg_help_normal'" icon_hotimage="name='syscfg_help_hot'"
+        icon_selectedimage="name='syscfg_help_normal'" icon_selectedhotimage="name='syscfg_help_hot'"/>
+      <MenuItem height="30" style="s_menu_item" text_string="menu_syscfg_about"
+        icon_normalimage="name='syscfg_about_normal'" icon_hotimage="name='syscfg_about_hot'"
+        icon_selectedimage="name='syscfg_about_normal'" icon_selectedhotimage="name='syscfg_about_hot'"/>
+    </Menu>
+  </VerticalLayout>
+</Window>

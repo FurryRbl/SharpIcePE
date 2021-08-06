@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<ListContainerElement minheight="56" inset="0,7,0,7">
+		<HorizontalLayout width="34" inset="10,0,0,0" childvalign="vcenter">
+			<CheckBox name="opt_item" style="gs_check_left" style="gs_label_common" size="14,20"/>
+		</HorizontalLayout>
+		<VerticalLayout style="gs_item_hor_common">
+			<Label name="lab_file" pathellipsis="true" height="22" font="120" textcolor="#ff777777"/>
+			<HorizontalLayout height="22" childvalign="vcenter" childpadding="10" mouse="false">
+				<Label name="lab_virdesc" bkcolor="#ffd56861" textcolor="#ffffffff" textpadding="2,0,2,0" mouse="false"/>
+				<Label name="lab_virname" font="120" textcolor="#ffe12d0f" mouse="false"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+		<HorizontalLayout style="gs_item_hor_common">
+			<TabLayout name="tab_clean" size="60,22">
+				<Label height="22" font="120" string="virscan_status_wait_clean" textcolor="#ff777777"/>
+				<Label height="22" font="120" string="virscan_status_cleanning" textcolor="#ff777777"/>
+				<Label height="22" font="120" string="virscan_status_cleaned" textcolor="#ff66b610"/>
+				<Label height="22" font="120" string="virscan_status_ignored" textcolor="#ff777777"/>
+				<Label height="22" font="120" string="virscan_status_trusted" textcolor="#ff66b610"/>
+				<Label height="22" font="120" string="virscan_status_clean_failed" textcolor="#ffed3a0a"/>
+			</TabLayout>
+			<Button name="btn_virdesc" height="22" font="120" style="gs_btn_text" string="detail"/>
+		</HorizontalLayout>
+	</ListContainerElement>
+</item>

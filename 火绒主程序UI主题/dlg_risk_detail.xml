@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="460,300" mininfo="460,300" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <VerticalLayout  bkcolor="#ffffffff">
+		<Component xml="cmpt/title.xml" string="sys_title:risk_detail"
+			visible="btn_sys_min:false"
+			name="btn_sys_close:sysclosebutton"/>
+		<VerticalLayout inset="20,0,20,0">
+			<VerticalLayout inset="10,10,0,5" vscrollbar="true">
+				<Text name="text_detail" showhtml="true" string="risk_detail_text" />
+			</VerticalLayout>
+			<HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+			  height="50" childvalign="vcenter" childpadding="10"> 
+				<Control />
+				<Button name="btn_continue" style="gs_btn_orange_ok" size="100,26" string="open_file_dir"/>
+				<TabLayout name="tab_trust" size="100,26" childvalign="vcenter">
+					<Button name="btn_ok" style="gs_btn_orange_ok" size="100,26" string="trust_file"/>
+					<Button name="btn_ok" style="gs_btn_orange_ok" size="100,26" string="cancel_trust"/>
+				</TabLayout>
+				<Button name="btn_cancel" style="gs_btn_orange_ok" size="70,26" string="close" visible="false"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

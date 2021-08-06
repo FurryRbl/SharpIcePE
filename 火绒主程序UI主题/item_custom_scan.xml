@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<ListContainerElement height="37">
+		<Label name="label_file" style="gs_item_label_common"/>
+		<TabLayout name="tab_result">
+			<Label style="gs_item_label_common" string="virscan_status_wait_scan" textcolor="#ff777777"/>
+			<Label style="gs_item_label_common" string="virscan_status_scaning" textcolor="#ff777777"/>
+			<Label style="gs_item_label_common" string="virscan_status_security" textcolor="#ff66b610"/>
+			<Label style="gs_item_label_common" string="virscan_status_dangerous" textcolor="#ffed3a0a"/>
+		</TabLayout>
+	</ListContainerElement>
+</item>

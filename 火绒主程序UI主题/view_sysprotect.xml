@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+	<Fonts xmlfile="res/fonts.xml"/>
+	<Styles xmlfile="res/styles/sysprotect.xml"/>
+	<ImageStyles xmlfile="res/images/sysprotect.xml"/>
+	<Style name="s_notify_sys_click" value="notifyctrl=&quot;name='opt_sysprotect' parentname='notify_parent' event='mouseclick'&quot;"/>
+	<Style name="s_notify_net_click" value="notifyctrl=&quot;name='opt_netprotect' parentname='notify_parent' event='mouseclick'&quot;"/>
+
+	<HorizontalLayout name="view_sysprotect" inset="0,10,0,0" bkcolor="#ffffffff">
+		<Container width="170">
+			<HorizontalLayout inset="0,0,0,20">
+				<Control />
+				<Control width="2" bkcolor="#fff0f0f0"/>
+			</HorizontalLayout>
+			<VerticalLayout width="170" inset="10,7,0,25" childpadding="14">
+				<Option name="opt_virus" style="s_opt_virus" selected="true" string="syspt_virus"
+					tab="group='main_opt' gid='10' selected='true' gtype='ver' doevent='true'"/>
+				<HorizontalLayout height="26" name="notify_parent" mouse="false">
+					<Option name="opt_sysprotect" style="s_opt_sys" string="syspt_sys"
+						tab="group='main_opt' doevent='true'"/>
+					<HorizontalLayout padding="0,3,0,0">
+						<VerticalLayout width="14">
+							<Button style="s_btn_warning" tabpadding="-3,-3,-3,-3"
+							stringtip="tip_main_sys"
+							name="btn_tip_reboot"/>
+							<Button style="s_notify_sys_click"/>
+						</VerticalLayout>
+						<Button style="s_notify_sys_click"/>
+					</HorizontalLayout>
+				</HorizontalLayout>
+
+				<HorizontalLayout height="26" name="notify_parent" mouse="false">
+					<Option name="opt_netprotect" style="s_opt_net" string="syspt_net"
+					tab="group='main_opt' doevent='true'"/>
+					<HorizontalLayout padding="0,3,0,0">
+						<VerticalLayout width="14">
+							<Button style="s_btn_warning" tabpadding="-3,-3,-3,-3"
+							stringtip="tip_main_net"
+							name="btn_tip_reboot"/>
+							<Button style="s_notify_net_click"/>
+						</VerticalLayout>
+						<Button style="s_notify_net_click"/>
+					</HorizontalLayout>
+				</HorizontalLayout>
+				<Control />
+				<Option name="opt_advance" style="s_opt_advance" string="syspt_advance"
+					tab="group='main_opt' doevent='true'"/>
+			</VerticalLayout>
+		</Container>
+			<TabLayout name="tab_main">
+				<VerticalLayout inset="0,0,10,0" childpadding="10">
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_file'" 
+						string="btn:syspt_virus_filemon" string="desc:syspt_virus_filemon_desc"
+						tab="opt:group='opt_virus'" accser="opt:id='syspt_virus_filemon'"
+						name="btn:btn_cfg_filemon" name="opt:opt_filemon"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_behavior'" 
+						string="btn:syspt_virus_behavior" string="desc:syspt_virus_behavior_desc"
+						accser="opt:id='syspt_virus_behavior'"
+						name="btn:btn_cfg_behavior" name="opt:opt_behavior"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_udisk'" 
+						string="btn:syspt_virus_udisk" string="desc:syspt_virus_udisk_desc"
+						accser="opt:id='syspt_virus_udisk'"
+						name="btn:btn_cfg_udiskmon" name="opt:opt_udiskmon"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_download'" 
+						string="btn:syspt_virus_download" string="desc:syspt_virus_download_desc"
+						accser="opt:id='syspt_virus_download'"
+						name="btn:btn_cfg_dlmon" name="opt:opt_dlmon"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_mail'" 
+						string="btn:syspt_virus_mail" string="desc:syspt_virus_mail_desc"
+						accser="opt:id='syspt_virus_mail'"
+						name="btn:btn_cfg_mail" name="opt:opt_mail"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='virus_web'"
+						string="btn:syspt_virus_web" string="desc:syspt_virus_web_desc"
+						accser="opt:id='syspt_virus_web'"
+						name="btn:btn_cfg_webscan" name="opt:opt_webscan"/>
+				</VerticalLayout>
+				<VerticalLayout inset="0,0,10,0" childpadding="10">
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_sys'" 
+						string="btn:syspt_sys_sys" string="desc:syspt_sys_sys_desc"
+						accser="opt:id='syspt_sys_sys'"
+						name="btn:btn_cfg_sysprot" name="opt:opt_sysprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_app'" 
+						string="btn:syspt_sys_app" string="desc:syspt_sys_app_desc"
+						accser="opt:id='syspt_sys_app'"
+						name="btn:btn_cfg_appprot" name="opt:opt_appprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_install'" 
+						string="btn:syspt_sys_install" string="desc:syspt_sys_install_desc"
+						accser="opt:id='syspt_sys_install'"
+						name="btn:btn_cfg_instmon" name="opt:opt_instmon"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_camera'" 
+						string="btn:syspt_sys_camera" string="desc:syspt_sys_camera_desc"
+						accser="opt:id='syspt_sys_camera'"
+						name="btn:btn_cfg_cameraprot" name="opt:opt_cameraprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_browser'"
+						string="btn:syspt_sys_browser" string="desc:syspt_sys_browser_desc" selected="opt:true"
+						accser="opt:id='syspt_sys_browser'"
+						name="btn:btn_cfg_browserprot" name="opt:opt_browserprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='sys_appnetctrl'"
+						string="btn:syspt_sys_appnetctrl" string="desc:syspt_sys_appnetctrl_desc" selected="opt:true"
+						accser="opt:id='syspt_sys_appnetctrl'"
+						name="btn:btn_cfg_appnetctrl" name="opt:opt_appnetctrl"/>
+				</VerticalLayout>
+				<VerticalLayout vscrollbar="true" inset="0,0,0,20" childpadding="10">
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_hack'"
+						string="btn:syspt_net_hack" string="desc:syspt_net_hack_desc"
+						accser="opt:id='syspt_net_hack'"
+						name="btn:btn_cfg_intrusion" name="opt:opt_intrusion"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_tpprot'"
+						string="btn:syspt_net_tpprot" string="desc:syspt_net_tpprot_desc"
+						accser="opt:id='syspt_net_tpprot'"
+						name="btn:btn_cfg_tpprot" name="opt:opt_tpprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_attack'"
+						string="btn:syspt_net_attack" string="desc:syspt_net_attack_desc"
+						accser="opt:id='syspt_net_attack'"
+						name="btn:btn_cfg_ipattack" name="opt:opt_ipattack"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_zombie_net'"
+						string="btn:syspt_net_zombie_net" string="desc:syspt_net_zombie_net_desc"
+						accser="opt:id='syspt_net_zombie_net'"
+						name="btn:btn_cfg_botnet" name="opt:opt_botnet"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_remote_login'"
+						string="btn:syspt_net_remote_login" string="desc:syspt_net_remote_login_desc"
+						accser="opt:id='syspt_net_remote_login'"
+						name="btn:btn_cfg_rlogin" name="opt:opt_rlogin"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_web_service'"
+						string="btn:syspt_net_web_service" string="desc:syspt_net_web_service_desc"
+						accser="opt:id='syspt_net_web_service'"
+						name="btn:btn_cfg_waf" name="opt:opt_waf"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='net_malicious_web'"
+						string="btn:syspt_net_malicious_web" string="desc:syspt_net_malicious_web_desc"
+						accser="opt:id='syspt_net_malicious_web'"
+						name="btn:btn_cfg_malsite" name="opt:opt_malsite"/>
+				</VerticalLayout>
+				<VerticalLayout inset="0,0,10,0" childpadding="10">
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='advance_custom'"
+						string="btn:syspt_advance_custom" string="desc:syspt_advance_custom_desc"
+						tab="btn:group='opt_advance' gid='11' selected='true' gtype='grid' columns='2'"
+						accser="opt:id='syspt_advance_custom'"
+						name="btn:btn_cfg_customprot" name="opt:opt_customprot"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='advance_ip_backlist'"
+						string="btn:syspt_advance_ip_backlist" string="desc:syspt_advance_ip_backlist_desc"
+						accser="opt:id='syspt_advance_ip_backlist'"
+						name="btn:btn_cfg_ipblacklist" name="opt:opt_ipblacklist"/>
+					<Component xml="cmpt/syspt.xml" height="70" bkimage="icon:name='advance_ip_protocol'"
+						string="btn:syspt_advance_ip_protocol" string="desc:syspt_advance_ip_protocol_desc" selected="opt:true"
+						accser="opt:id='syspt_advance_ip_protocol'"
+						name="btn:btn_cfg_ipproto" name="opt:opt_ipproto"/>
+				</VerticalLayout>
+			</TabLayout>
+	</HorizontalLayout>
+</view>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="698,460" mininfo="698,460">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <ImageStyles xmlfile="res/images/kidpt_program.xml"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:kidpt_program"  visible="btn_sys_min:false"/>
+    <TabLayout name="tab_main">
+      <VerticalLayout inset="20,10,20,0">
+        <Container>
+          <List name="list_program" containeritemxml="item_appctrl.xml"
+            style="gs_list_common" header="true">
+            <ListHeader style="gs_header_common" percent="true" inset="0,1,0,1">
+              <Component xml="cmpt/list_opt.xml" name="opt:chk_sel_all"/>
+              <ListHeaderItem style="gs_header_sort" string="app" percent="80"/>
+              <ListHeaderItem style="gs_header_sort" string="status" percent="20"/>
+            </ListHeader>
+          </List>
+          <Component xml="cmpt/empty.xml" string="desc:appctrl_empty_desc"/>
+        </Container>
+        <HorizontalLayout height="50" childvalign="vcenter" childpadding="30">
+          <Button name="btn_delete" style="gs_btn_text" height="20" string="delete"/>
+          <Control />
+          <Button name="btn_add" style="gs_btn_orange_ok" size="80,26" string="add_app"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout inset="20,14,20,0" childalign="center">
+        <VerticalLayout>
+          <HorizontalLayout height="42" childvalign="vcenter" childpadding="10">
+            <Edit name="edit_app" style="gs_edit_common" height="28" bktextid="input_policy_name" userdata="choose_app_please"/>
+            <Button name="btn_choose_app" style="gs_btn_orange_ok" size="90,26" string="choose_app"/>
+          </HorizontalLayout>
+          <HorizontalLayout style="gs_border_color" style="gs_borderbk_color" bordersize="0,1,0,0"
+            height="36" inset="10,0,10,0" childvalign="vcenter">
+            <Label style="gs_label_common" string="lastest_run_app_3d"/>
+            <Control />
+            <Option name="opt_hide_sys_app" style="gs_option_left" style="gs_label_common" height="20" string="hide_system_app"/>
+          </HorizontalLayout>
+          <Container>
+            <List name="list_lastest" containeritemxml="item_appctrl_lastest_run.xml"
+              style="gs_list_common" header="false">
+            </List>
+            <Component xml="cmpt/empty.xml" string="desc:appctrl_lastest_empty_desc"/>
+          </Container>
+        </VerticalLayout>
+        <HorizontalLayout height="50" childvalign="vcenter" childpadding="10">
+          <Control />
+          <Button name="btn_save" style="gs_btn_orange_ok" size="70,26" string="save"/>
+          <Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </TabLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="698,460" mininfo="698,460">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <ImageStyles xmlfile="res/images/tools.xml"/>
+  <ImageStyles xmlfile="res/images/kidsprotect.xml"/>
+	<Styles xmlfile="res/styles/udisk.xml"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:kidpt_udisk" visible="btn_sys_min:false"/>
+    <TabLayout name="tab_main">
+      <VerticalLayout inset="20,10,20,0">
+        <Container>
+          <List name="list_device" containeritemxml="item_udiskctrl.xml"
+            style="gs_list_common" header="true">
+            <ListHeader style="gs_header_common" percent="true" inset="0,1,0,1">
+              <Component xml="cmpt/list_opt.xml" name="opt:chk_sel_all"/>
+              <ListHeaderItem style="gs_header_sort" string="trust_udisk" percent="50"/>
+              <ListHeaderItem style="gs_header_sort" string="serial_number" percent="30"/>
+              <ListHeaderItem style="gs_header_sort" string="status" percent="20"/>
+            </ListHeader>
+          </List>
+          <Component xml="cmpt/empty.xml" string="desc:udiskctrl_empty_desc"/>
+        </Container>
+        <HorizontalLayout height="50" childvalign="vcenter">
+          <Button name="btn_delete" style="gs_btn_text" height="20" string="cancel_trust"/>
+          <Control />
+          <Button name="btn_add" style="gs_btn_orange_ok" size="80,26" string="add_device"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout inset="20,20,20,0" childalign="center">
+        <Control size="470,280" bkimage="name='udisk_bk'"/>
+        <VerticalLayout height="70" inset="0,14,0,0">
+          <Label name="udisk_add_tips" style="gs_label_common" align="center" string="insert_udisk_first"/>
+        </VerticalLayout>
+        <HorizontalLayout childvalign="vcenter" childpadding="10"
+          bordersize="0,1,0,0" bordercolor="#fff0f0f0">
+          <Control />
+          <Button name="btn_cancel" style="gs_btn_cancel" size="80,26" string="back"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout inset="20,10,20,0">
+        <Container>
+          <List name="list_add" containeritemxml="item_udiskctrl_add.xml"
+            style="gs_list_common" header="true">
+            <ListHeader style="gs_header_common" percent="true">
+              <Component xml="cmpt/list_opt.xml" name="opt:chk_sel_all"/>
+              <ListHeaderItem style="gs_header_sort" string="udisk" percent="50"/>
+              <ListHeaderItem style="gs_header_sort" string="serial_number" percent="50"/>
+            </ListHeader>
+          </List>
+          <Component xml="cmpt/empty.xml" string="desc:udiskctrl_empty_desc"/>
+        </Container>
+        <HorizontalLayout height="50" childvalign="vcenter" childpadding="10">
+          <Control />
+          <Button name="btn_save" style="gs_btn_orange_ok" size="80,26" string="add_trust"/>
+          <Button name="btn_cancel" style="gs_btn_cancel" size="80,26" string="back"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </TabLayout>
+  </VerticalLayout>
+</Window>

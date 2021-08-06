@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="690,460" mininfo="690,460" caption="0,0,-1,40">
+<Fonts xmlfile="res/fonts.xml"/>
+<ImageStyles xmlfile="res/images/browse.xml"/>
+
+<Style name="s_btn_back" value="tabpadding=&quot;-3,-3,-3,-3&quot; normalimage=&quot;name='browse_back_normal'&quot; hotimage=&quot;name='browse_back_hot'&quot; pushedimage=&quot;name='browse_back_pushed'&quot; disabledimage=&quot;name='browse_back_disable'&quot;"/>
+<Style name="s_btn_prev" value="tabpadding=&quot;-3,-3,-3,-3&quot; normalimage=&quot;name='browse_prev_normal'&quot; hotimage=&quot;name='browse_prev_hot'&quot; pushedimage=&quot;name='browse_prev_pushed'&quot; disabledimage=&quot;name='browse_prev_disable'&quot;"/>
+<Style name="s_btn_uplevel" value="tabpadding=&quot;-3,-3,-3,-3&quot; normalimage=&quot;name='browse_uplevel_normal'&quot; hotimage=&quot;name='browse_uplevel_hot'&quot; pushedimage=&quot;name='browse_uplevel_pushed'&quot; disabledimage=&quot;name='browse_uplevel_disable'&quot;"/>
+
+<Style name="s_btn_update" value="tabpadding=&quot;-3,-3,-3,-3&quot; normalimage=&quot;name='browse_update_normal'&quot; hotimage=&quot;name='browse_update_hot'&quot; pushedimage=&quot;name='browse_update_pushed'&quot;"/>
+<Style name="s_btn_jump" value="tabpadding=&quot;-3,-3,-3,-3&quot; normalimage=&quot;name='browse_jump_normal'&quot; hotimage=&quot;name='browse_jump_hot'&quot; pushedimage=&quot;name='browse_jump_pushed'&quot;"/>
+
+<VerticalLayout bkcolor="#ffffffff">
+  <HorizontalLayout height="39" bkcolor="#fff8f9f9" childvalign="vcenter" inset="20,0,10,0">
+    <Control size="24,24" bkimage="name='logoicon'"/>
+    <Label name="sys_title" height="24" font="160" textcolor="#ff303030" padding="6,0,0,0"
+      string="browse_title_file" userdata="browse_title_file,browse_title_save,browse_title_folder"/>
+    <Control />
+    <Button name="btn_sys_close" style="gs_sys_btn_close_gray" size="36,24"
+      stringtip="close" tab="id='0'" accser="name='关闭'"/>
+  </HorizontalLayout>
+  <Control height="1" bkcolor="#fff0f0f0"/>
+
+  <VerticalLayout inset="20,10,20,20">
+    <HorizontalLayout height="42" childpadding="10" childvalign="vcenter" inset="0,0,10,0">
+      <Button name="btn_back" style="s_btn_back" size="20,20" enabled="false"/>
+      <Button name="btn_prev" style="s_btn_prev" size="20,20" enabled="false"/>
+      <Button name="btn_uplevel" style="s_btn_uplevel" size="20,20" padding="5,0,0,0"/>
+
+      <HorizontalLayout  childvalign="vcenter">
+        <Container height="28">
+          <Combo name="combo_path" style="gs_combo" userdata="item_browse_path.xml"/>
+
+          <Container mouse="false">
+            <HorizontalLayout inset="0,0,30,0" childvalign="vcenter" mouse="false">
+              <Edit name="edit_pathex" textpadding="29,0,0,0"
+                style="gs_label_common" pathellipsis="true"
+                padding="1,2,0,2" />
+            </HorizontalLayout>
+            <HorizontalLayout inset="10,0,30,0" childvalign="vcenter" mouse="false">
+              <ImgListCtrl size="16,16" mouse="false" 
+                name="icon_path"
+                bkcolor="ffffffff"/>
+            </HorizontalLayout>
+          </Container>
+        </Container>
+        <TabLayout size="28,28" name="tab_jmp">
+          <Button name="btn_update"
+          size="28,28" 
+          style="s_btn_update"
+          stringtip="browse_tip_update"
+          />
+
+          <Button name="btn_jump"
+          size="28,28" 
+          style="s_btn_jump"
+          stringtip="browse_tip_jmp"
+          />
+        </TabLayout>
+      </HorizontalLayout>
+
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <HorizontalLayout width="183" sepwidth="3" sepimm="true" inset="0,0,3,0" minwidth="153" maxwidth="503"
+        style="gs_border_color" bordersize="1,1,0,0">
+        <TreeViewEx name="tree_dir"
+            style="gs_list_common" bordersize="0,0,1,0"
+            tab="id='421'"
+            vscrollbar="true" hscrollbar="true" 
+            containeritemxml="browse_tree_node.xml"
+
+            horizattr="inset=&quot;10,0,0,0&quot; childvalign=&quot;vcenter&quot;"
+            folderattr="visible=&quot;true&quot; width=&quot;14&quot; height=&quot;14&quot; normalimage=&quot; name='browse_arrow_shrink'&quot; hotimage=&quot;name='browse_arrow_shrink'&quot; disabledimage=&quot;name=''&quot; selectedimage=&quot;name='browse_arrow_expand'&quot; selectedhotimage=&quot;name='browse_arrow_expand'&quot; selecteddisabledimage=&quot;name=''&quot; name=&quot;tree_node_folder&quot;" 
+            checkboxattr="visible=&quot;false&quot; selected=&quot;false&quot; normalimage=&quot;name='check_unchecked'&quot; hotimage=&quot;name='check_unchecked_hot'&quot; disabledimage=&quot;name='check_unchecked_disabled'&quot; selectedimage=&quot;name='check_checked'&quot; selectedhotimage=&quot;name='check_checked_hot'&quot; selecteddisabledimage=&quot;name='check_checked_disabled'&quot;"
+            imageattr="visible=&quot;true&quot; size=&quot;16,16&quot;"
+            itemattr="textpadding=&quot;2,0,0,0&quot; textcolor=&quot;ff777777&quot;"           
+            />
+      </HorizontalLayout>
+
+      <VirtualListUI name="list_file" containeritemxml="item_browse_list.xml"
+          inset="7,0,10,0"
+          style="gs_list_common" bordersize="0,1,1,0"
+          header="true"
+          tab="id='30'" tabpadding="-3,-3,-3,-3">
+          <ListHeader height="30" bordersize="0,0,0,1" percent="true" inset="1,1,1,1"
+          style="gs_border_ud" childvalign="vcenter">
+            <ListHeaderItem style="gs_header_sort" string="browse_name" percent="40"/>
+            <ListHeaderItem style="gs_header_sort" string="browse_modify_date" percent="30"/>
+            <ListHeaderItem style="gs_header_sort" string="browse_type" percent="15"/>
+            <ListHeaderItem style="gs_header_sort" string="browse_size" percent="15"/>
+          </ListHeader>
+      </VirtualListUI>
+    </HorizontalLayout>
+
+    <HorizontalLayout height="48" style="gs_border_all" inset="1,1,1,1">
+      <HorizontalLayout childvalign="vcenter" inset="9,0,10,0" childpadding="5"
+        style="gs_borderbk_color">
+        <Label align="right" textcolor="#ff444444" font="140" string="browse_file_name1" />
+        <Edit name="edit_file" style="gs_edit_common"/>
+        <Combo name="combo_filter" style="gs_combo" size="140,28" userdata="item_browse_combo.xml"
+         tab="id='50'" />
+      </HorizontalLayout >
+
+      <HorizontalLayout childvalign="vcenter" width="170" inset="10,0,9,0"
+        style="gs_borderbk_color">
+      <Button name="btn_sys_ok" style="gs_btn_orange_ok"  size="70,26" string="browse_open"
+       userdata="browse_open,browse_save"/>
+      <Control />
+      <Button name="btn_sys_cancel" style="gs_btn_cancel"  size="70,26" string="browse_cancel"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</VerticalLayout>
+</Window>

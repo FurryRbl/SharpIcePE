@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <HorizontalLayout name="box" style="gs_item_hor_common">
+    <SlideOption name="opt" style="gs_opt_big"/>
+  </HorizontalLayout>
+</cmpt>

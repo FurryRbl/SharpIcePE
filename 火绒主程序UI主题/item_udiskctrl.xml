@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement minheight="36">
+    <Component xml="cmpt/list_opt.xml"
+      name="opt:opt_item"/>
+    <TabLayout name="tab" inset="0,0,10,0">
+      <HorizontalLayout childvalign="vcenter">
+        <Label name="label_name" style="gs_item_label_common" autowidth="false" endellipsis="true"/>
+        <Button name="btn_item_edit" style="s_btn_edit" size="20,20" visible="false"/>
+      </HorizontalLayout>
+      <HorizontalLayout childvalign="vcenter">
+        <Edit name="edit_name" style="gs_edit_common" height="28"/>
+      </HorizontalLayout>
+    </TabLayout>
+    <Label name="label_snumber" style="gs_item_label_common"/>
+    <TabLayout name="tab_status">
+      <Label name="label_disconnect" style="gs_item_label_common" string="unconnected"/>
+      <Label name="label_connect" style="gs_item_label_common" string="connected"/>
+    </TabLayout>
+  </ListContainerElement>
+</item>

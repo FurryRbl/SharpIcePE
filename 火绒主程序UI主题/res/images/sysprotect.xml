@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="virus_normal" value="file='img/100/sysprotect/virus.png' source='0,0,20,20' dest='20,3,40,23'"/>
+    <ImageStyle name="virus_hot" value="file='img/100/sysprotect/virus.png' source='20,0,40,20' dest='20,3,40,23'"/>
+    <ImageStyle name="sys_normal" value="file='img/100/sysprotect/sys.png' source='0,0,20,20' dest='20,3,40,23'"/>
+    <ImageStyle name="sys_hot" value="file='img/100/sysprotect/sys.png' source='20,0,40,20' dest='20,3,40,23'"/>
+    <ImageStyle name="net_normal" value="file='img/100/sysprotect/net.png' source='0,0,20,20' dest='20,3,40,23'"/>
+    <ImageStyle name="net_hot" value="file='img/100/sysprotect/net.png' source='20,0,40,20' dest='20,3,40,23'"/>
+    <ImageStyle name="advance_normal" value="file='img/100/sysprotect/advance.png' source='0,0,20,20' dest='20,3,40,23'"/>
+    <ImageStyle name="advance_hot" value="file='img/100/sysprotect/advance.png' source='20,0,40,20' dest='20,3,40,23'"/>
+
+    <ImageStyle name="virus_file" value="file='img/100/sysprotect/virus/file.png'"/>
+    <ImageStyle name="virus_behavior" value="file='img/100/sysprotect/virus/behavior.png'"/>
+    <ImageStyle name="virus_udisk" value="file='img/100/sysprotect/virus/udisk.png'"/>
+    <ImageStyle name="virus_download" value="file='img/100/sysprotect/virus/download.png'"/>
+    <ImageStyle name="virus_mail" value="file='img/100/sysprotect/virus/mail.png'"/>
+    <ImageStyle name="virus_web" value="file='img/100/sysprotect/virus/web.png'"/> 
+
+    <ImageStyle name="sys_sys" value="file='img/100/sysprotect/sys/sys.png'"/> 
+    <ImageStyle name="sys_app" value="file='img/100/sysprotect/sys/app.png'"/> 
+    <ImageStyle name="sys_install" value="file='img/100/sysprotect/sys/install.png'"/> 
+    <ImageStyle name="sys_camera" value="file='img/100/sysprotect/sys/camera.png'"/> 
+    <ImageStyle name="sys_browser" value="file='img/100/sysprotect/sys/browser.png'"/> 
+    <ImageStyle name="sys_appnetctrl" value="file='img/100/sysprotect/sys/appnetctrl.png'"/>
+
+    <ImageStyle name="net_hack" value="file='img/100/sysprotect/net/hack.png'"/>
+    <ImageStyle name="net_tpprot" value="file='img/100/sysprotect/net/tpprot.png'"/>
+    <ImageStyle name="net_attack" value="file='img/100/sysprotect/net/attack.png'"/>
+    <ImageStyle name="net_zombie_net" value="file='img/100/sysprotect/net/zombie_net.png'"/>
+    <ImageStyle name="net_remote_login" value="file='img/100/sysprotect/net/remote_login.png'"/>
+    <ImageStyle name="net_web_service" value="file='img/100/sysprotect/net/web_service.png'"/>
+    <ImageStyle name="net_malicious_web" value="file='img/100/sysprotect/net/malicious_web.png'"/>
+
+    <ImageStyle name="advance_custom" value="file='img/100/sysprotect/advance/custom.png'"/>
+    <ImageStyle name="advance_ip_backlist" value="file='img/100/sysprotect/advance/ip_backlist.png'"/>
+    <ImageStyle name="advance_ip_protocol" value="file='img/100/sysprotect/advance/ip_protocol.png'"/>
+
+    <ImageStyle name="warning_normal" value="file='img/100/sysprotect/warning.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="virus_normal" value="file='img/125/sysprotect/virus.png' source='0,0,25,25' dest='25,4,50,29'"/>
+    <ImageStyle name="virus_hot" value="file='img/125/sysprotect/virus.png' source='25,0,50,25' dest='25,4,50,29'"/>
+    <ImageStyle name="sys_normal" value="file='img/125/sysprotect/sys.png' source='0,0,25,25' dest='25,4,50,29'"/>
+    <ImageStyle name="sys_hot" value="file='img/125/sysprotect/sys.png' source='25,0,50,25' dest='25,4,50,29'"/>
+    <ImageStyle name="net_normal" value="file='img/125/sysprotect/net.png' source='0,0,25,25' dest='25,4,50,29'"/>
+    <ImageStyle name="net_hot" value="file='img/125/sysprotect/net.png' source='25,0,50,25' dest='25,4,50,29'"/>
+    <ImageStyle name="advance_normal" value="file='img/125/sysprotect/advance.png' source='0,0,25,25' dest='25,4,50,29'"/>
+    <ImageStyle name="advance_hot" value="file='img/125/sysprotect/advance.png' source='25,0,50,25' dest='25,4,50,29'"/>
+
+    <ImageStyle name="virus_file" value="file='img/125/sysprotect/virus/file.png'"/>
+    <ImageStyle name="virus_behavior" value="file='img/125/sysprotect/virus/behavior.png'"/>
+    <ImageStyle name="virus_udisk" value="file='img/125/sysprotect/virus/udisk.png'"/>
+    <ImageStyle name="virus_download" value="file='img/125/sysprotect/virus/download.png'"/>
+    <ImageStyle name="virus_mail" value="file='img/125/sysprotect/virus/mail.png'"/>
+    <ImageStyle name="virus_web" value="file='img/125/sysprotect/virus/web.png'"/> 
+
+    <ImageStyle name="sys_sys" value="file='img/125/sysprotect/sys/sys.png'"/> 
+    <ImageStyle name="sys_app" value="file='img/125/sysprotect/sys/app.png'"/> 
+    <ImageStyle name="sys_install" value="file='img/125/sysprotect/sys/install.png'"/> 
+    <ImageStyle name="sys_camera" value="file='img/125/sysprotect/sys/camera.png'"/> 
+    <ImageStyle name="sys_browser" value="file='img/125/sysprotect/sys/browser.png'"/> 
+    <ImageStyle name="sys_appnetctrl" value="file='img/125/sysprotect/sys/appnetctrl.png'"/>
+
+    <ImageStyle name="net_hack" value="file='img/125/sysprotect/net/hack.png'"/>
+    <ImageStyle name="net_tpprot" value="file='img/125/sysprotect/net/tpprot.png'"/>
+    <ImageStyle name="net_attack" value="file='img/125/sysprotect/net/attack.png'"/>
+    <ImageStyle name="net_zombie_net" value="file='img/125/sysprotect/net/zombie_net.png'"/>
+    <ImageStyle name="net_remote_login" value="file='img/125/sysprotect/net/remote_login.png'"/>
+    <ImageStyle name="net_web_service" value="file='img/125/sysprotect/net/web_service.png'"/>
+    <ImageStyle name="net_malicious_web" value="file='img/125/sysprotect/net/malicious_web.png'"/>
+
+    <ImageStyle name="advance_custom" value="file='img/125/sysprotect/advance/custom.png'"/>
+    <ImageStyle name="advance_ip_backlist" value="file='img/125/sysprotect/advance/ip_backlist.png'"/>
+    <ImageStyle name="advance_ip_protocol" value="file='img/125/sysprotect/advance/ip_protocol.png'"/>
+
+    <ImageStyle name="warning_normal" value="file='img/125/sysprotect/warning.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="virus_normal" value="file='img/150/sysprotect/virus.png' source='0,0,30,30' dest='30,4,60,34'"/>
+    <ImageStyle name="virus_hot" value="file='img/150/sysprotect/virus.png' source='30,0,60,30' dest='30,4,60,34'"/>
+    <ImageStyle name="sys_normal" value="file='img/150/sysprotect/sys.png' source='0,0,30,30' dest='30,4,60,34'"/>
+    <ImageStyle name="sys_hot" value="file='img/150/sysprotect/sys.png' source='30,0,60,30' dest='30,4,60,34'"/>
+    <ImageStyle name="net_normal" value="file='img/150/sysprotect/net.png' source='0,0,30,30' dest='30,4,60,34'"/>
+    <ImageStyle name="net_hot" value="file='img/150/sysprotect/net.png' source='30,0,60,30' dest='30,4,60,34'"/>
+    <ImageStyle name="advance_normal" value="file='img/150/sysprotect/advance.png' source='0,0,30,30' dest='30,4,60,34'"/>
+    <ImageStyle name="advance_hot" value="file='img/150/sysprotect/advance.png' source='30,0,60,30' dest='30,4,60,34'"/>
+
+    <ImageStyle name="virus_file" value="file='img/150/sysprotect/virus/file.png'"/>
+    <ImageStyle name="virus_behavior" value="file='img/150/sysprotect/virus/behavior.png'"/>
+    <ImageStyle name="virus_udisk" value="file='img/150/sysprotect/virus/udisk.png'"/>
+    <ImageStyle name="virus_download" value="file='img/150/sysprotect/virus/download.png'"/>
+    <ImageStyle name="virus_mail" value="file='img/150/sysprotect/virus/mail.png'"/>
+    <ImageStyle name="virus_web" value="file='img/150/sysprotect/virus/web.png'"/> 
+
+    <ImageStyle name="sys_sys" value="file='img/150/sysprotect/sys/sys.png'"/> 
+    <ImageStyle name="sys_app" value="file='img/150/sysprotect/sys/app.png'"/> 
+    <ImageStyle name="sys_install" value="file='img/150/sysprotect/sys/install.png'"/> 
+    <ImageStyle name="sys_camera" value="file='img/150/sysprotect/sys/camera.png'"/> 
+    <ImageStyle name="sys_browser" value="file='img/150/sysprotect/sys/browser.png'"/> 
+    <ImageStyle name="sys_appnetctrl" value="file='img/150/sysprotect/sys/appnetctrl.png'"/>
+
+    <ImageStyle name="net_hack" value="file='img/150/sysprotect/net/hack.png'"/>
+    <ImageStyle name="net_tpprot" value="file='img/150/sysprotect/net/tpprot.png'"/>
+    <ImageStyle name="net_attack" value="file='img/150/sysprotect/net/attack.png'"/>
+    <ImageStyle name="net_zombie_net" value="file='img/150/sysprotect/net/zombie_net.png'"/>
+    <ImageStyle name="net_remote_login" value="file='img/150/sysprotect/net/remote_login.png'"/>
+    <ImageStyle name="net_web_service" value="file='img/150/sysprotect/net/web_service.png'"/>
+    <ImageStyle name="net_malicious_web" value="file='img/150/sysprotect/net/malicious_web.png'"/>
+
+    <ImageStyle name="advance_custom" value="file='img/150/sysprotect/advance/custom.png'"/>
+    <ImageStyle name="advance_ip_backlist" value="file='img/150/sysprotect/advance/ip_backlist.png'"/>
+    <ImageStyle name="advance_ip_protocol" value="file='img/150/sysprotect/advance/ip_protocol.png'"/>
+
+    <ImageStyle name="warning_normal" value="file='img/150/sysprotect/warning.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="virus_normal" value="file='img/175/sysprotect/virus.png' source='0,0,35,35' dest='35,5,70,40'"/>
+    <ImageStyle name="virus_hot" value="file='img/175/sysprotect/virus.png' source='35,0,70,35' dest='35,5,70,40'"/>
+    <ImageStyle name="sys_normal" value="file='img/175/sysprotect/sys.png' source='0,0,35,35' dest='35,5,70,40'"/>
+    <ImageStyle name="sys_hot" value="file='img/175/sysprotect/sys.png' source='35,0,70,35' dest='35,5,70,40'"/>
+    <ImageStyle name="net_normal" value="file='img/175/sysprotect/net.png' source='0,0,35,35' dest='35,5,70,40'"/>
+    <ImageStyle name="net_hot" value="file='img/175/sysprotect/net.png' source='35,0,70,35' dest='35,5,70,40'"/>
+    <ImageStyle name="advance_normal" value="file='img/175/sysprotect/advance.png' source='0,0,35,35' dest='35,5,70,40'"/>
+    <ImageStyle name="advance_hot" value="file='img/175/sysprotect/advance.png' source='35,0,70,35' dest='35,5,70,40'"/>
+
+    <ImageStyle name="virus_file" value="file='img/175/sysprotect/virus/file.png'"/>
+    <ImageStyle name="virus_behavior" value="file='img/175/sysprotect/virus/behavior.png'"/>
+    <ImageStyle name="virus_udisk" value="file='img/175/sysprotect/virus/udisk.png'"/>
+    <ImageStyle name="virus_download" value="file='img/175/sysprotect/virus/download.png'"/>
+    <ImageStyle name="virus_mail" value="file='img/175/sysprotect/virus/mail.png'"/>
+    <ImageStyle name="virus_web" value="file='img/175/sysprotect/virus/web.png'"/> 
+
+    <ImageStyle name="sys_sys" value="file='img/175/sysprotect/sys/sys.png'"/> 
+    <ImageStyle name="sys_app" value="file='img/175/sysprotect/sys/app.png'"/> 
+    <ImageStyle name="sys_install" value="file='img/175/sysprotect/sys/install.png'"/> 
+    <ImageStyle name="sys_camera" value="file='img/175/sysprotect/sys/camera.png'"/> 
+    <ImageStyle name="sys_browser" value="file='img/175/sysprotect/sys/browser.png'"/> 
+    <ImageStyle name="sys_appnetctrl" value="file='img/175/sysprotect/sys/appnetctrl.png'"/>
+
+    <ImageStyle name="net_hack" value="file='img/175/sysprotect/net/hack.png'"/>
+    <ImageStyle name="net_tpprot" value="file='img/175/sysprotect/net/tpprot.png'"/>
+    <ImageStyle name="net_attack" value="file='img/175/sysprotect/net/attack.png'"/>
+    <ImageStyle name="net_zombie_net" value="file='img/175/sysprotect/net/zombie_net.png'"/>
+    <ImageStyle name="net_remote_login" value="file='img/175/sysprotect/net/remote_login.png'"/>
+    <ImageStyle name="net_web_service" value="file='img/175/sysprotect/net/web_service.png'"/>
+    <ImageStyle name="net_malicious_web" value="file='img/175/sysprotect/net/malicious_web.png'"/>
+
+    <ImageStyle name="advance_custom" value="file='img/175/sysprotect/advance/custom.png'"/>
+    <ImageStyle name="advance_ip_backlist" value="file='img/175/sysprotect/advance/ip_backlist.png'"/>
+    <ImageStyle name="advance_ip_protocol" value="file='img/175/sysprotect/advance/ip_protocol.png'"/>
+
+    <ImageStyle name="warning_normal" value="file='img/175/sysprotect/warning.png'"/>
+  </dpiscale>
+</ImageStyles>

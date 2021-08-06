@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true">
+	<VerticalLayout bkimage="name='window_flash'" inset="10,10,10,10">
+	</VerticalLayout>
+</Window>

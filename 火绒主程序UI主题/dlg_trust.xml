@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="820,540" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <Style name="s_option_left" value="textcolor=&quot;#ffa68358&quot; hottextcolor=&quot;#ffefe4d8&quot; selectedtextcolor=&quot;#ffefe4d8&quot; normalimage=&quot;file='img/opt_speed_normal.png' source='0,0,14,20' corner='5,5,5,5'&quot; hotimage=&quot;file='img/opt_speed_normal.png' source='14,0,28,20' corner='5,5,5,5'&quot; selectedimage=&quot;file='img/opt_speed_normal.png' source='28,0,42,20' corner='5,5,5,5'&quot;"/>
+  <Style name="s_option_right" value="textcolor=&quot;#ffa68358&quot; hottextcolor=&quot;#ffefe4d8&quot; selectedtextcolor=&quot;#ffefe4d8&quot; normalimage=&quot;file='img/opt_speed_high.png' source='0,0,14,20' corner='5,5,5,5'&quot; hotimage=&quot;file='img/opt_speed_high.png' source='14,0,28,20' corner='5,5,5,5'&quot; selectedimage=&quot;file='img/opt_speed_high.png' source='28,0,42,20' corner='5,5,5,5'&quot;"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:menu_syscfg_trust"
+      visible="btn_sys_max:true"/>
+    <VerticalLayout inset="30,10,30,0">
+      <HorizontalLayout height="40" inset="10,0,10,0" childvalign="vcenter">
+        <Label name="title" style="gs_title_common" string="trust_zone_title_file"/>
+        <Control />
+        <Option name="switch_file" size="56,26" style="s_option_left" group="file_website" bindtab="tab_main"
+          selected="true" string="file" tab="id='100'" tabpadding="-3,-3,-3,-3" accser="id='file'"
+          />
+        <Option name="switch_website" size="56,26" style="s_option_right" group="file_website" bindtab="tab_main"
+          string="website" tab="id='100'"  tabpadding="-3,-3,-3,-3"  accser="id='website'"/>
+      </HorizontalLayout>
+      <TabLayout name="tab_main" inset="0,5,0,0">
+        <VerticalLayout>
+          <Container>
+            <List name="list_file" containeritemxml="item_trust_file.xml"
+              style="gs_list_common" header="true">
+              <ListHeader style="gs_header_common" percent="true" inset="0,1,0,1">
+                <Component xml="cmpt/list_opt.xml" tab="opt:id='201'" name="opt:chk_sel_all"/>
+                <ListHeaderItem style="gs_header_sort" string="path" percent="80"/>
+                <ListHeaderItem style="gs_header_sort" string="type" percent="20"/>
+              </ListHeader>
+            </List>
+            <Component xml="cmpt/empty.xml" string="desc:trust_zone_empty_desc"/>
+          </Container>
+          <HorizontalLayout height="50" childvalign="vcenter" childpadding="20">
+            <Button name="btn_delete" style="gs_btn_text" height="20" string="delete" tab="id='1000'"/>
+            <Button name="btn_remove_invalid" style="gs_btn_text" height="20" string="clear_invalid_item" tab="id='1000'"/>
+            <Control />
+            <Button name="btn_add_file" style="gs_btn_text" height="20" string="add_file" tab="id='1000'"/>
+            <Button name="btn_add_folder" style="gs_btn_text" height="20" string="add_dir" tab="id='1000'"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout>
+          <Container>
+            <List name="list_website" containeritemxml="item_trust_website.xml"
+              style="gs_list_common" header="true">
+              <ListHeader style="gs_header_common">
+                <Component xml="cmpt/list_opt.xml" tab="opt:id='301'" name="opt:chk_sel_all"/>
+                <ListHeaderItem style="gs_header_sort" string="website"/>
+              </ListHeader>
+            </List>
+            <Component xml="cmpt/empty.xml" string="desc:trust_zone_empty_desc"/>
+          </Container>
+          <TabLayout height="50" name="tab_website">
+            <HorizontalLayout childvalign="vcenter" childpadding="20">
+              <Button name="btn_delete_website" style="gs_btn_text" height="20" string="delete" tab="id='2000'"/>
+              <Button name="btn_edit_website" style="gs_btn_text" height="20" string="edit" tab="id='2000'"/>
+              <Control />
+              <Button name="btn_add_website" style="gs_btn_text" height="20" string="add_url" tab="id='2000'"/>
+            </HorizontalLayout>
+            <HorizontalLayout childvalign="vcenter" childpadding="20">
+              <Control />
+              <Button name="btn_save_website" style="gs_btn_text" height="20" string="save" tab="id='2000'"/>
+              <Button name="btn_cancel_website" style="gs_btn_text" height="20" string="cancel" tab="id='2000'"/>
+            </HorizontalLayout>
+          </TabLayout>
+        </VerticalLayout>
+      </TabLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

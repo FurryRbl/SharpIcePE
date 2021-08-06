@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles>
+  <Style name="s_btn_edit" value="normalimage=&quot;name='edit_normal'&quot; hotimage=&quot;name='edit_hot'&quot; pushedimage=&quot;name='edit_pushed'&quot;"/>
+</Styles>

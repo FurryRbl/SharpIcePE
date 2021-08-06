@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="698,460" mininfo="698,460">
+  <Fonts xmlfile="res/fonts.xml"/>
+  <VerticalLayout bkcolor="#ffffffff">
+    <Component xml="cmpt/title.xml" string="sys_title:kidpt_website" visible="btn_sys_min:false"/>
+    <TabLayout name="tab_main">
+      <VerticalLayout inset="20,10,20,0">
+        <Container>
+          <List name="list_website" containeritemxml="item_webctrl.xml"
+            style="gs_list_common" header="true">
+            <ListHeader style="gs_header_common" percent="true" inset="0,1,0,1">
+              <Component xml="cmpt/list_opt.xml" tab="opt:id='100'" name="opt:chk_sel_all"/>
+              <ListHeaderItem style="gs_header_sort" string="control_website" percent="80"/>
+              <ListHeaderItem style="gs_header_sort" string="status" percent="20"/>
+            </ListHeader>
+          </List>
+          <Component xml="cmpt/empty.xml" string="desc:webctrl_empty_desc"/>
+        </Container>
+        <HorizontalLayout height="50" childvalign="vcenter" childpadding="30">
+          <Button name="btn_edit" style="gs_btn_text" height="20" string="edit" tab="id='1000'"/>
+          <Button name="btn_delete" style="gs_btn_text" height="20" string="delete" tab="id='1000'"/>
+          <Control />
+          <Button name="btn_add" style="gs_btn_orange_ok" size="80,26" string="add_website" tab="id='1000'"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout inset="20,20,20,0" childalign="center">
+        <Edit name="edit_title" style="gs_edit_common" height="28" bktextid="input_policy_name"
+          userdata="autofill_custom_url" tab="id='100'"/>
+        <Control height="14"/>
+        <RichEdit style="gs_edit_common" name="edit_content" height="302" font="120" menu="true" bordersize="1"
+          multiline="true" rich="false" inset="10,5,5,5"
+					autohscroll="false" autovscroll="true" vscrollbar="true" hscrollbar="false" wanttab="false"
+          bktextcolor="#ffcccccc" bktextid="mulity_website_tip" tab="id='101'"/>
+        <HorizontalLayout height="50" childvalign="vcenter" childpadding="10">
+          <Control />
+          <Button name="btn_save" style="gs_btn_orange_ok" size="70,26" string="save" tab="id='1000'"/>
+          <Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel" tab="id='1000'"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </TabLayout>
+  </VerticalLayout>
+</Window>

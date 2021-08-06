@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+  <ListContainerElement name="box" minheight="36">
+    <Component xml="cmpt/list_opt.xml"
+      name="opt:opt_item"/>
+    <TabLayout name="tab_url">
+      <Label style="gs_item_label_common" name="label_file"/>
+      <HorizontalLayout style="gs_item_hor_common">
+        <Edit name="edit_file" style="gs_edit_common" userdata="fill_trust_website_please;check_trust_website_format"/>
+      </HorizontalLayout>
+    </TabLayout>
+  </ListContainerElement>
+</item>

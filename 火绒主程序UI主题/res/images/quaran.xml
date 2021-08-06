@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="success" value="file='img/100/quaran/success.png'"/>
+    <ImageStyle name="failed" value="file='img/100/quaran/failed.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="success" value="file='img/125/quaran/success.png'"/>
+    <ImageStyle name="failed" value="file='img/125/quaran/failed.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="success" value="file='img/150/quaran/success.png'"/>
+    <ImageStyle name="failed" value="file='img/150/quaran/failed.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="success" value="file='img/175/quaran/success.png'"/>
+    <ImageStyle name="failed" value="file='img/175/quaran/failed.png'"/>
+  </dpiscale>
+</ImageStyles>

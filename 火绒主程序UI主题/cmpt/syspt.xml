@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+	<Container name="cmpt_syspt" height="70" inset="30,0,30,0">
+		<Button name="btn_border" style="gs_btn_border" cursor="arrow"/>
+		<HorizontalLayout inset="10,0,10,0" childvalign="vcenter" mouse="false">
+			<Control name="icon" size="50,50" mouse="false"/>
+			<VerticalLayout inset="26,0,0,0" mouse="false">
+				<Control mouse="false"/>
+				<HorizontalLayout name="notify_parent" height="22" mouse="false">
+					<Button name="btn" height="22" align="left" font="140"
+					textcolor="#ff444444" hottextcolor="#fff17f05" tabpadding="-3,0,-3,0"
+					notifyctrl="name='btn_border' parentname='cmpt_syspt' event='mousemove'"
+					tab="id='100'"/>
+					<Button style="s_btn_warning" padding="0,3,0,0" size="10,10" tabpadding="-3,-3,-3,-3"
+					stringtip="tip_main_the"
+					name="btn_tip_reboot"/>
+				</HorizontalLayout>
+				<HorizontalLayout height="22" childvalign="vcenter" mouse="false">
+					<Label name="desc" font="120" textcolor="#ff777777" mouse="false"/>
+					<Control mouse="false"/>
+					<SlideOption name="opt" style="gs_opt_big"
+						notifyctrl="name='btn_border' parentname='cmpt_syspt' event='mousemove'"
+						tab="id='100'"/>
+				</HorizontalLayout>
+				<Control mouse="false"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+	</Container>
+</cmpt>

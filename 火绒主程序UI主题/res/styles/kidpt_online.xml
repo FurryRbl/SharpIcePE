@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles>
+	<Style name="s_scheduleitem" value="textcolor=&quot;#ff595959&quot; hottextcolor=&quot;#fff37e00&quot;"/>
+	<Style name="s_scheduleitem_label" value="width=&quot;72&quot; align=&quot;right&quot; textpadding=&quot;5,0,10,0&quot; font=&quot;120&quot; textcolor=&quot;#ff595959&quot; disabledtextcolor=&quot;#ffcdcdcd&quot;"/>
+	<Style name="s_scheduleitem_grid" value="childpadding=&quot;1&quot; inset=&quot;1,1,1,0&quot; bkcolor=&quot;#ffe7d8cd&quot; disabledbkcolor=&quot;#ffe7d8cd&quot; itemcount=&quot;24&quot; itemsize=&quot;21,27&quot; itembkcolor=&quot;#ffffffff&quot; itemselectedimage=&quot;file='img/bk_grid.png' source='0,0,19,27'&quot; itemhotimage=&quot;file='img/bk_grid.png' source='38,0,57,27'&quot; itemselecteddisimage=&quot;file='img/bk_grid.png' source='19,0,38,27'&quot;" />
+	<Style name="s_schedule_hour" value="width=&quot;21&quot; align=&quot;center&quot; font=&quot;120&quot; textcolor=&quot;#ff595959&quot;" />
+ </Styles>

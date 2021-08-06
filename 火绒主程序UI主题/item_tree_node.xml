@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+    <TreeNode minheight="20" width="0"
+    horizattr="inset=&quot;10,0,0,0&quot; childvalign=&quot;vcenter&quot;"
+    itemattr="textpadding=&quot;2,0,0,0&quot;"
+    folderattr="name=&quot;node_item_expand&quot; size=&quot;14,14&quot; normalimage=&quot; name='arrow_expand'&quot; hotimage=&quot;name='arrow_expand'&quot; disabledimage=&quot;name=''&quot; selectedimage=&quot;name='arrow_shrink'&quot; selectedhotimage=&quot;name='arrow_shrink'&quot; selecteddisabledimage=&quot;name=''&quot;" 
+    checkboxattr="name=&quot;node_item_check&quot; style=&quot;gs_check_left&quot; name=&quot;node_item_check&quot;"
+    />
+</item>

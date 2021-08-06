@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <Container name="box" size="70,26">
+    <Edit name="edit" style="gs_edit" textpadding="12,0,12,0" align="center"/>
+    <HorizontalLayout inset="1,0,1,0" childvalign="vcenter" mouse="false">
+      <Button name="lbtn" style="gs_btn_arrow_left" size="10,24"/>
+      <Control mouse="false"/>
+      <Button name="rbtn" style="gs_btn_arrow_right" size="10,24"/>
+    </HorizontalLayout>
+  </Container>
+</cmpt>

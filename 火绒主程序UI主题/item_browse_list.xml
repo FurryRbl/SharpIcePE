@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listitem>
+  <ListContainerElement name="listitem" height="25">
+    <HorizontalLayout childvalign="vcenter" inset="10,0,10,0">
+      <ImgListCtrl name="icon" size="16,16"/>
+      <Label name="label" style="gs_item_label_common" textpadding="5,0,0,0"/>
+    </HorizontalLayout>
+    <Label style="gs_item_label_common" height="25" name="date"/>
+    <Label style="gs_item_label_common" height="25" name="type"/>
+    <Label style="gs_item_label_common" height="25" name="size"/>
+  </ListContainerElement>
+</listitem>

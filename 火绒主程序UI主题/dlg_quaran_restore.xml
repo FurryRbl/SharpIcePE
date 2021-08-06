@@ -1,0 +1,49 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="460,240" mininfo="460,240" caption="0,0,-1,40">
+  <Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/quaran.xml"/>
+  <VerticalLayout  bkcolor="#ffffffff">
+		<Component xml="cmpt/title.xml" string="sys_title:recovery"
+			visible="btn_sys_min:false"
+			name="btn_sys_close:sysclosebutton"/>
+    <TabLayout name="tab_main" inset="20,0,20,0">
+      <VerticalLayout childpadding="10">
+        <Control />
+        <Label name="label_path" style="gs_label_common" height="26" string="recovering"/>
+        <HorizontalLayout height="26" childvalign="vcenter">
+          <Progress name="progress_treat" height="12" value="50"
+            bkimage="file='img/quaran_program.png' source='0,0,6,6' corner='2,2,2,2'"
+            foreimage="file='img/quaran_program.png' source='6,0,12,6' corner='2,2,2,2'"/>
+        </HorizontalLayout>
+        <Control />
+        <HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+          height="50" childvalign="vcenter" childpadding="10">
+          <Control />
+				  <Button name="btn_cancel" style="gs_btn_cancel" size="70,26" string="cancel"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout>
+        <HorizontalLayout childvalign="vcenter">
+          <VerticalLayout size="124,80" childalign="center">
+            <Control name="icon" size="80,80" bkimage="name='success'"/>
+          </VerticalLayout>
+          <VerticalLayout inset="12,0,0,0" childpadding="4">
+            <Control />
+            <Label name="title" style="gs_title_common" font="160" height="26"
+              userdata="file_recovery_done,file_recovery_done1"/>
+            <Text name="text" style="gs_label_common"
+              userdata="file_recovery_done_desc1,file_extract_done_desc2,file_recovery_done_desc"/>
+            <Control />
+          </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout style="gs_border_color" bordersize="0,1,0,0"
+          height="50" childvalign="vcenter" childpadding="10">
+          <Control />
+          <Button name="btn_ok" style="gs_btn_orange_ok" size="70,26" string="ok"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+    </TabLayout>
+	</VerticalLayout>
+</Window>

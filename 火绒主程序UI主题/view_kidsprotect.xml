@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view>
+  <Fonts xmlfile="res/fonts.xml"/>
+  <ImageStyles xmlfile="res/images/kidsprotect.xml"/>
+  <VerticalLayout name="view_kidsprotect" inset="40,22,40,0" bkcolor="#ffffffff">
+    <VerticalLayout height="78" inset="0,0,0,22">
+      <HorizontalLayout>
+        <Label font="160" textcolor="#ff444444" string="kidpt_title"/>
+        <Control />
+        <Button name="btn_password" style="gs_btn_text" font="140" string="kidpt_password"
+          tab="id='0'"/>
+      </HorizontalLayout>
+      <Label font="140" textcolor="#ff777777" string="kidpt_title_desc"/>
+    </VerticalLayout>
+    <Control height="1" bkcolor="#fff0f0f0"/>
+    <TileLayout inset="0,19,0,0" childpadding="20" childvpadding="20" itemsize="360,90" columns="2">
+      <Component xml="cmpt/kidpt.xml" height="90" bkimage="icon:name='online'" 
+        string="btn:kidpt_online" string="desc:kidpt_online_desc"
+					accser="opt:id='kidpt_online'"
+        name="btn:btn_cfg_timemgr" name="opt:opt_timemgr"/>
+      <Component xml="cmpt/kidpt.xml" height="90" bkimage="icon:name='website'" 
+        string="btn:kidpt_website" string="desc:kidpt_website_desc"
+					accser="opt:id='kidpt_website'"
+        name="btn:btn_cfg_unfiturl" name="opt:opt_unfiturl"/>
+      <Component xml="cmpt/kidpt.xml" height="90" bkimage="icon:name='program'" 
+        string="btn:kidpt_program" string="desc:kidpt_program_desc"
+					accser="opt:id='kidpt_program'"
+        name="btn:btn_cfg_apprunctrl" name="opt:opt_apprunctrl"/>
+      <Component xml="cmpt/kidpt.xml" height="90" bkimage="icon:name='udisk'" 
+        string="btn:kidpt_udisk" string="desc:kidpt_udisk_desc"
+					accser="opt:id='kidpt_udisk'"
+        name="btn:btn_cfg_udiskctrl" name="opt:opt_udiskctrl"/>
+    </TileLayout>
+  </VerticalLayout>
+</view>

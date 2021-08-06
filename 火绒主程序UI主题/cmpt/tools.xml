@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cmpt>
+  <Container name="box">
+    <Button name="btn" style="gs_btn_border" align="left" valign="top" menu="true"
+      textpadding="65,10,0,0" font="140" textcolor="#ff444444" hottextcolor="#fff17f05"
+      tab="id='0'"/>
+    <HorizontalLayout inset="10,10,10,10" childpadding="15" childvalign="vcenter" mouse="false">
+      <Control name="icon" size="40,40" mouse="false"/>
+      <VerticalLayout mouse="false">
+        <Control mouse="false"/>
+        <TabLayout name="tab" mouse="false">
+          <Label name="desc" height="20" font="120" textcolor="#ff777777" endellipsis="true" mouse="false"/>
+          <Label height="20" font="120" textcolor="#ffed3a0a" endellipsis="true" mouse="false" string="download_err_no_network"/>
+          <Label height="20" font="120" textcolor="#ffed3a0a" endellipsis="true" mouse="false" string="tools_install_failed"/>
+        </TabLayout>
+      </VerticalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout inset="36,36,0,0" mouse="false">
+      <RoundProgress name="rp" style="s_round_progress" size="22,22" mouse="false"
+        visible="false"/>
+    </HorizontalLayout>
+  </Container>
+</cmpt>

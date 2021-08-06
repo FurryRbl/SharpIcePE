@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="leak_repair" value="file='img/100/tools/leak_repair.png'"/>
+    <ImageStyle name="sys_repair" value="file='img/100/tools/sys_repair.png'"/>
+    <ImageStyle name="pop_block" value="file='img/100/tools/pop_block.png'"/>
+    <ImageStyle name="sys_clean" value="file='img/100/tools/sys_clean.png'"/>
+    <ImageStyle name="autoruns" value="file='img/100/tools/autoruns.png'"/>
+    <ImageStyle name="file_shred" value="file='img/100/tools/file_shred.png'"/>
+    <ImageStyle name="right_click" value="file='img/100/tools/right_click.png'"/>
+    <ImageStyle name="backup" value="file='img/100/tools/backup.png'"/>
+    <ImageStyle name="net_repair" value="file='img/100/tools/net_repair.png'"/>
+    <ImageStyle name="net_flow" value="file='img/100/tools/net_flow.png'"/>
+    <ImageStyle name="net_speed" value="file='img/100/tools/net_speed.png'"/>
+    <ImageStyle name="host" value="file='img/100/tools/host.png'"/>
+    <ImageStyle name="sword" value="file='img/100/tools/sword.png'"/>
+    <ImageStyle name="kill" value="file='img/100/tools/kill.png'"/>
+
+    <ImageStyle name="ani_download" value="file='img/100/tools/ani_download.png' source='0,0,10,10' dest='6,6,16,16'"/>
+
+    <ImageStyle name="udisk_bk" value="file='img/100/tools/udisk_bk.png'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="leak_repair" value="file='img/125/tools/leak_repair.png'"/>
+    <ImageStyle name="sys_repair" value="file='img/125/tools/sys_repair.png'"/>
+    <ImageStyle name="pop_block" value="file='img/125/tools/pop_block.png'"/>
+    <ImageStyle name="sys_clean" value="file='img/125/tools/sys_clean.png'"/>
+    <ImageStyle name="autoruns" value="file='img/125/tools/autoruns.png'"/>
+    <ImageStyle name="file_shred" value="file='img/125/tools/file_shred.png'"/>
+    <ImageStyle name="right_click" value="file='img/125/tools/right_click.png'"/>
+    <ImageStyle name="backup" value="file='img/125/tools/backup.png'"/>
+    <ImageStyle name="net_repair" value="file='img/125/tools/net_repair.png'"/>
+    <ImageStyle name="net_flow" value="file='img/125/tools/net_flow.png'"/>
+    <ImageStyle name="net_speed" value="file='img/125/tools/net_speed.png'"/>
+    <ImageStyle name="host" value="file='img/125/tools/host.png'"/>
+    <ImageStyle name="sword" value="file='img/125/tools/sword.png'"/>
+    <ImageStyle name="kill" value="file='img/125/tools/kill.png'"/>
+
+    <ImageStyle name="ani_download" value="file='img/125/tools/ani_download.png' source='0,0,13,13' dest='7,7,20,20'"/>
+
+    <ImageStyle name="udisk_bk" value="file='img/125/tools/udisk_bk.png'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="leak_repair" value="file='img/150/tools/leak_repair.png'"/>
+    <ImageStyle name="sys_repair" value="file='img/150/tools/sys_repair.png'"/>
+    <ImageStyle name="pop_block" value="file='img/150/tools/pop_block.png'"/>
+    <ImageStyle name="sys_clean" value="file='img/150/tools/sys_clean.png'"/>
+    <ImageStyle name="autoruns" value="file='img/150/tools/autoruns.png'"/>
+    <ImageStyle name="file_shred" value="file='img/150/tools/file_shred.png'"/>
+    <ImageStyle name="right_click" value="file='img/150/tools/right_click.png'"/>
+    <ImageStyle name="backup" value="file='img/150/tools/backup.png'"/>
+    <ImageStyle name="net_repair" value="file='img/150/tools/net_repair.png'"/>
+    <ImageStyle name="net_flow" value="file='img/150/tools/net_flow.png'"/>
+    <ImageStyle name="net_speed" value="file='img/150/tools/net_speed.png'"/>
+    <ImageStyle name="host" value="file='img/150/tools/host.png'"/>
+    <ImageStyle name="sword" value="file='img/150/tools/sword.png'"/>
+    <ImageStyle name="kill" value="file='img/150/tools/kill.png'"/>
+
+    <ImageStyle name="ani_download" value="file='img/150/tools/ani_download.png' source='0,0,15,15' dest='9,9,24,24'"/>
+
+    <ImageStyle name="udisk_bk" value="file='img/150/tools/udisk_bk.png'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="leak_repair" value="file='img/175/tools/leak_repair.png'"/>
+    <ImageStyle name="sys_repair" value="file='img/175/tools/sys_repair.png'"/>
+    <ImageStyle name="pop_block" value="file='img/175/tools/pop_block.png'"/>
+    <ImageStyle name="sys_clean" value="file='img/175/tools/sys_clean.png'"/>
+    <ImageStyle name="autoruns" value="file='img/175/tools/autoruns.png'"/>
+    <ImageStyle name="file_shred" value="file='img/175/tools/file_shred.png'"/>
+    <ImageStyle name="right_click" value="file='img/175/tools/right_click.png'"/>
+    <ImageStyle name="backup" value="file='img/175/tools/backup.png'"/>
+    <ImageStyle name="net_repair" value="file='img/175/tools/net_repair.png'"/>
+    <ImageStyle name="net_flow" value="file='img/175/tools/net_flow.png'"/>
+    <ImageStyle name="net_speed" value="file='img/175/tools/net_speed.png'"/>
+    <ImageStyle name="host" value="file='img/175/tools/host.png'"/>
+    <ImageStyle name="sword" value="file='img/175/tools/sword.png'"/>
+    <ImageStyle name="kill" value="file='img/175/tools/kill.png'"/>
+
+    <ImageStyle name="ani_download" value="file='img/175/tools/ani_download.png' source='0,0,18,18' dest='10,10,28,28'"/>
+
+    <ImageStyle name="udisk_bk" value="file='img/175/tools/udisk_bk.png'"/>
+  </dpiscale>
+</ImageStyles>

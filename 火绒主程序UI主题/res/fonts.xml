@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Fonts>
+	<Font id="120" name="微软雅黑" size="12" default="true"/>
+	<Font id="140" name="微软雅黑" size="14" />
+	<Font id="160" name="微软雅黑" size="16" />
+	<Font id="180" name="微软雅黑" size="18" />
+	<Font id="220" name="微软雅黑" size="22"/>
+	<Font id="240" name="微软雅黑" size="24" />
+	<Font id="280" name="微软雅黑" size="28" />
+	<Font id="300" name="微软雅黑" size="30" />
+
+	<Font id="123" name="微软雅黑" size="12" underline="true"/>
+	<Font id="122" name="微软雅黑" size="12" underline="true"/>
+</Fonts>

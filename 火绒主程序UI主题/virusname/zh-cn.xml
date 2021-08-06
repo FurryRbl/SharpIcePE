@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="Trojan">木马病毒</string>
+    <string id="Trojan_desc">通过网络或者系统漏洞进入您的系统并隐藏，破坏系统或正常软件的安全性，向外泄露用户的隐私信息。</string>
+    <string id="TrojanDownloader">下载者木马</string>
+    <string id="TrojanDownloader_desc">通过下载其他病毒来间接对系统产生安全威胁，此类木马通常体积较小，并辅以诱惑性的名称和图标诱骗用户使用。</string>
+    <string id="TrojanSpy">间谍木马</string>
+    <string id="TrojanSpy_desc">此类木马会隐匿在系统中，并伺机盗取各类账号密码，对您造成财产损失。</string>
+    <string id="TrojanDropper">释放器木马</string>
+    <string id="TrojanDropper_desc">通过释放其他病毒来间接对系统产生安全威胁。</string>
+    <string id="TrojanClicker">点击器木马</string>
+    <string id="TrojanClicker_desc">在后台通过访问特定网址来“刷流量”，为病毒作者获利，并会占用被感染主机的网络带宽。</string>
+    <string id="TrojanProxy">代理木马</string>
+    <string id="TrojanProxy_desc">在被感染主机上设置代理服务器，黑客可将被感染主机作为网络攻击的跳板，以躲避执法者的网络追踪。</string>
+    <string id="Backdoor">后门病毒</string>
+    <string id="Backdoor_desc">秘密开放用于远程操控的端口和权限，或主动连接黑客的控制端，将被感染主机变为可以被黑客控制的“肉鸡”。</string>
+    <string id="Worm">蠕虫病毒</string>
+    <string id="Worm_desc">通过可移动存储设备、网络、漏洞主动进行传播，此类病毒具有很强的扩散性。</string>
+    <string id="Virus">感染型病毒</string>
+    <string id="Virus_desc">通过感染以寄生的方式将恶意代码附着于正常程序中，并通过被感染的程序进行传播。</string>
+    <string id="Rootkit">内核后门病毒</string>
+    <string id="Rootkit_desc">对操作系统内核进行劫持，通过隐藏其他病毒进程、注册表、文件相关操作等方式与安全软件进行对抗。</string>
+    <string id="Bootkit">引导后门病毒</string>
+    <string id="Bootkit_desc">在操作系统启动前或启动时对操作系统内核进行劫持，通过隐藏其他病毒进程、注册表、文件相关操作等方式与安全软件进行对抗。</string>
+    <string id="OMacro">宏病毒</string>
+    <string id="OMacro_desc">会感染您计算机上的OFFICE系列软件保存的文档，并且通过OFFICE通用模板进行传播。</string>
+    <string id="DOC">恶意文档</string>
+    <string id="DOC_desc">文档中携带恶意代码，或文档结构有潜在被溢出攻击的可能。</string>
+    <string id="Adware">广告程序</string>
+    <string id="Adware_desc">广告类灰色软件，不会直接破坏您的系统和文件，但是会弹出广告或存在欺诈等风险。</string>
+    <string id="Constructor">病毒生成器</string>
+    <string id="Constructor_desc">病毒作者可以通过此类程序批量生成新的病毒变种，以躲避安全软件的查杀。</string>
+    <string id="HackTool">黑客工具</string>
+    <string id="HackTool_desc">可以被黑客利用，用来控制用户计算机或发起网络攻击的工具程序。</string>
+    <string id="VirTool">代码混淆器</string>
+    <string id="VirTool_desc">通过代码变形、反跟踪、反虚拟机等技术手段，专门被病毒用来与安全软件进行技术对抗的恶意代码类型。</string>
+    <string id="Exploit">漏洞攻击程序</string>
+    <string id="Exploit_desc">利用软件漏洞进行攻击的恶意代码类型。</string>
+    <string id="Joke">玩笑程序</string>
+    <string id="Joke_desc">不存在威胁系统安全的行为，但会通过动作、声音、图像等方式惊吓程序的使用者。</string>
+    <string id="TEST">引擎测试程序</string>
+    <string id="TEST_desc">此程序不包含恶意代码，仅用来检验反病毒引擎是否正常工作。</string>
+    <string id="Ransom">勒索程序</string>
+    <string id="Ransom_desc">通过对用户计算机中的数据文件进行加密、强行修改用户计算机密码、锁定用户计算机屏幕等手段来勒索用户钱财。</string>
+    <string id="Rogue">流氓程序</string>
+    <string id="Rogue_desc">通过诱导、欺骗、恐吓等手段胁迫用户，或通过篡改、劫持等手段操纵用户数据流量，以达到非法获利的目的。</string>
+    <string id="Malicious">恶意程序</string>
+    <string id="Malicious_desc">该文件存在已知恶意代码，可破坏系统或正常软件的安全性。</string>
+
+    <string id="Behavior Sandbox">（行为沙盒）</string>
+</stringtable>

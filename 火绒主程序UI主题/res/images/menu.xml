@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageStyles>
+  <dpiscale value="100">
+    <ImageStyle name="syscfg_config_normal" value="file='img/100/menu_sys_cfg/config.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_config_hot" value="file='img/100/menu_sys_cfg/config.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_log_normal" value="file='img/100/menu_sys_cfg/log.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_log_hot" value="file='img/100/menu_sys_cfg/log.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_isolation_normal" value="file='img/100/menu_sys_cfg/isolation.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_isolation_hot" value="file='img/100/menu_sys_cfg/isolation.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_trust_normal" value="file='img/100/menu_sys_cfg/trust.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_trust_hot" value="file='img/100/menu_sys_cfg/trust.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_update_normal" value="file='img/100/menu_sys_cfg/update.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_update_hot" value="file='img/100/menu_sys_cfg/update.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_language_normal" value="file='img/100/menu_sys_cfg/language.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_language_hot" value="file='img/100/menu_sys_cfg/language.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_feedback_normal" value="file='img/100/menu_sys_cfg/feedback.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_feedback_hot" value="file='img/100/menu_sys_cfg/feedback.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_help_normal" value="file='img/100/menu_sys_cfg/help.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_help_hot" value="file='img/100/menu_sys_cfg/help.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfg_about_normal" value="file='img/100/menu_sys_cfg/about.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfg_about_hot" value="file='img/100/menu_sys_cfg/about.png' source='18,0,36,18'"/>
+
+    <ImageStyle name="syscfgc_lang_zh_cn_hot" value="file='img/100/menu_sys_cfg/zh_cn.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfgc_lang_zh_cn_normal" value="file='img/100/menu_sys_cfg/zh_cn.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_hot" value="file='img/100/menu_sys_cfg/zh_tw.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_normal" value="file='img/100/menu_sys_cfg/zh_tw.png' source='18,0,36,18'"/>
+    <ImageStyle name="syscfgc_lang_en_hot" value="file='img/100/menu_sys_cfg/en.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfgc_lang_en_normal" value="file='img/100/menu_sys_cfg/en.png' source='18,0,36,18'"/>
+
+    <ImageStyle name="syscfgc_arrow_normal" value="file='img/100/menu_sys_cfg/arrow.png' source='0,0,10,10'"/>
+    <ImageStyle name="syscfgc_arrow_hot" value="file='img/100/menu_sys_cfg/arrow.png' source='10,0,20,10'"/>
+  </dpiscale>
+  <dpiscale value="125">
+    <ImageStyle name="syscfg_config_normal" value="file='img/125/menu_sys_cfg/config.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_config_hot" value="file='img/125/menu_sys_cfg/config.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_log_normal" value="file='img/125/menu_sys_cfg/log.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_log_hot" value="file='img/125/menu_sys_cfg/log.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_isolation_normal" value="file='img/125/menu_sys_cfg/isolation.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_isolation_hot" value="file='img/125/menu_sys_cfg/isolation.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_trust_normal" value="file='img/125/menu_sys_cfg/trust.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_trust_hot" value="file='img/125/menu_sys_cfg/trust.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_update_normal" value="file='img/125/menu_sys_cfg/update.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_update_hot" value="file='img/125/menu_sys_cfg/update.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_language_normal" value="file='img/125/menu_sys_cfg/language.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_language_hot" value="file='img/125/menu_sys_cfg/language.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_feedback_normal" value="file='img/125/menu_sys_cfg/feedback.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_feedback_hot" value="file='img/125/menu_sys_cfg/feedback.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_help_normal" value="file='img/125/menu_sys_cfg/help.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_help_hot" value="file='img/125/menu_sys_cfg/help.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfg_about_normal" value="file='img/125/menu_sys_cfg/about.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfg_about_hot" value="file='img/125/menu_sys_cfg/about.png' source='23,0,46,23'"/>
+
+    <ImageStyle name="syscfgc_lang_zh_cn_hot" value="file='img/125/menu_sys_cfg/zh_cn.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfgc_lang_zh_cn_normal" value="file='img/125/menu_sys_cfg/zh_cn.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_hot" value="file='img/125/menu_sys_cfg/zh_tw.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_normal" value="file='img/125/menu_sys_cfg/zh_tw.png' source='23,0,46,23'"/>
+    <ImageStyle name="syscfgc_lang_en_hot" value="file='img/125/menu_sys_cfg/en.png' source='0,0,23,23'"/>
+    <ImageStyle name="syscfgc_lang_en_normal" value="file='img/125/menu_sys_cfg/en.png' source='23,0,46,23'"/>
+    
+    <ImageStyle name="syscfgc_arrow_normal" value="file='img/125/menu_sys_cfg/arrow.png' source='0,0,13,13'"/>
+    <ImageStyle name="syscfgc_arrow_hot" value="file='img/125/menu_sys_cfg/arrow.png' source='13,0,26,13'"/>
+  </dpiscale>
+  <dpiscale value="150">
+    <ImageStyle name="syscfg_config_normal" value="file='img/150/menu_sys_cfg/config.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_config_hot" value="file='img/150/menu_sys_cfg/config.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_log_normal" value="file='img/150/menu_sys_cfg/log.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_log_hot" value="file='img/150/menu_sys_cfg/log.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_isolation_normal" value="file='img/150/menu_sys_cfg/isolation.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_isolation_hot" value="file='img/150/menu_sys_cfg/isolation.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_trust_normal" value="file='img/150/menu_sys_cfg/trust.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_trust_hot" value="file='img/150/menu_sys_cfg/trust.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_update_normal" value="file='img/150/menu_sys_cfg/update.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_update_hot" value="file='img/150/menu_sys_cfg/update.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_language_normal" value="file='img/150/menu_sys_cfg/language.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_language_hot" value="file='img/150/menu_sys_cfg/language.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_feedback_normal" value="file='img/150/menu_sys_cfg/feedback.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_feedback_hot" value="file='img/150/menu_sys_cfg/feedback.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_help_normal" value="file='img/150/menu_sys_cfg/help.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_help_hot" value="file='img/150/menu_sys_cfg/help.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfg_about_normal" value="file='img/150/menu_sys_cfg/about.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfg_about_hot" value="file='img/150/menu_sys_cfg/about.png' source='27,0,54,27'"/>
+
+    <ImageStyle name="syscfgc_lang_zh_cn_hot" value="file='img/150/menu_sys_cfg/zh_cn.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfgc_lang_zh_cn_normal" value="file='img/150/menu_sys_cfg/zh_cn.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_hot" value="file='img/150/menu_sys_cfg/zh_tw.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_normal" value="file='img/150/menu_sys_cfg/zh_tw.png' source='27,0,54,27'"/>
+    <ImageStyle name="syscfgc_lang_en_hot" value="file='img/150/menu_sys_cfg/en.png' source='0,0,27,27'"/>
+    <ImageStyle name="syscfgc_lang_en_normal" value="file='img/150/menu_sys_cfg/en.png' source='27,0,54,27'"/>
+    
+    <ImageStyle name="syscfgc_arrow_normal" value="file='img/150/menu_sys_cfg/arrow.png' source='0,0,15,15'"/>
+    <ImageStyle name="syscfgc_arrow_hot" value="file='img/150/menu_sys_cfg/arrow.png' source='15,0,30,15'"/>
+  </dpiscale>
+  <dpiscale value="175">
+    <ImageStyle name="syscfg_config_normal" value="file='img/175/menu_sys_cfg/config.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_config_hot" value="file='img/175/menu_sys_cfg/config.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_log_normal" value="file='img/175/menu_sys_cfg/log.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_log_hot" value="file='img/175/menu_sys_cfg/log.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_isolation_normal" value="file='img/175/menu_sys_cfg/isolation.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_isolation_hot" value="file='img/175/menu_sys_cfg/isolation.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_trust_normal" value="file='img/175/menu_sys_cfg/trust.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_trust_hot" value="file='img/175/menu_sys_cfg/trust.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_update_normal" value="file='img/175/menu_sys_cfg/update.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_update_hot" value="file='img/175/menu_sys_cfg/update.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_language_normal" value="file='img/175/menu_sys_cfg/language.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_language_hot" value="file='img/175/menu_sys_cfg/language.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_feedback_normal" value="file='img/175/menu_sys_cfg/feedback.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_feedback_hot" value="file='img/175/menu_sys_cfg/feedback.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_help_normal" value="file='img/175/menu_sys_cfg/help.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_help_hot" value="file='img/175/menu_sys_cfg/help.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfg_about_normal" value="file='img/175/menu_sys_cfg/about.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfg_about_hot" value="file='img/175/menu_sys_cfg/about.png' source='32,0,64,32'"/>
+
+    <ImageStyle name="syscfgc_lang_zh_cn_hot" value="file='img/175/menu_sys_cfg/zh_cn.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfgc_lang_zh_cn_normal" value="file='img/175/menu_sys_cfg/zh_cn.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_hot" value="file='img/175/menu_sys_cfg/zh_tw.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfgc_lang_zh_tw_normal" value="file='img/175/menu_sys_cfg/zh_tw.png' source='32,0,64,32'"/>
+    <ImageStyle name="syscfgc_lang_en_hot" value="file='img/175/menu_sys_cfg/en.png' source='0,0,32,32'"/>
+    <ImageStyle name="syscfgc_lang_en_normal" value="file='img/175/menu_sys_cfg/en.png' source='32,0,64,32'"/>
+    
+    <ImageStyle name="syscfgc_arrow_normal" value="file='img/175/menu_sys_cfg/arrow.png' source='0,0,18,18'"/>
+    <ImageStyle name="syscfgc_arrow_hot" value="file='img/175/menu_sys_cfg/arrow.png' source='18,0,36,18'"/>
+  </dpiscale>
+</ImageStyles>

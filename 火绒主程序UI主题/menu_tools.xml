@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="112,66" layeredimage="name='bk_border_opaque_small'">
+	<Fonts xmlfile="res/fonts.xml"/>
+	<ImageStyles xmlfile="res/images/menu.xml"/>
+	<Style name="s_menu_item" value="tab=&quot;id='0'&quot; height=&quot;30&quot; icon_visible=&quot;false&quot; arrow_visible=&quot;false&quot; hor_inset=&quot;10,0,10,0&quot; text_autowidth=&quot;false&quot; text_align=&quot;left&quot; text_textcolor=&quot;#ff444444&quot; text_hottextcolor=&quot;#ffffa924&quot; text_selectedtextcolor=&quot;#ffffa924&quot; text_selectedhottextcolor=&quot;#ffffa924&quot;"/>
+  <VerticalLayout inset="3,3,3,3">
+    <Menu name="menu_root" itemhotbkcolor="#fff0f0f0" itemminwidth="112">
+      <MenuItem style="s_menu_item" text_string="create_link"/>
+      <MenuItem style="s_menu_item" userdata="30" name="item_uninstall" text_string="uninstall_tools"/>
+    </Menu>
+  </VerticalLayout>
+</Window>
