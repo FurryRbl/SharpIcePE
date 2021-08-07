@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+    <string id="min">最小化</string>
+    <string id="max">最大化</string>
+    <string id="restore">还原</string>
+    <string id="close">关闭</string>
+    <string id="menu">菜单</string>
+    <string id="title">火绒正在保护您的电脑</string>
+    <string id="title_link_deamon_err">安全服务异常，无法保障计算机安全 {a repare}{c #ed3a0a}修复{/c}{/a}</string>
+    <string id="title_link_deamon_err_repairing">正在修复安全服务...</string>
+    <string id="title_link_deamon_err_reboot">修复安全服务失败，建议重启电脑 {a reboot}{c #ed3a0a}重启{/c}{/a}</string>
+    <string id="title_link_deamon_err_driver">驱动版本不匹配，重启电脑即可修复 {a reboot}{c #ed3a0a}重启{/c}{/a}</string>
+    <string id="update_check">检查更新</string>
+    <string id="protected_days">已保护 {f 240}{c #ffa924}{days}{/c}{/f} 天</string>
+    <string id="version_status">版本：{version}  病毒库：{virus}</string>
+    <string id="virscan">病毒查杀</string>
+    <string id="sysprotect">防护中心</string>
+    <string id="kidsprotect">访问控制</string>
+    <string id="tools">安全工具</string>
+    <string id="background_scanning">后台扫描</string>
+
+    <string id="about_huorong">关于火绒</string>
+    <string id="detail">详情</string>
+    <string id="status">状态</string>
+    <string id="scan_path">扫描路径</string>
+    <string id="risk">风险项</string>
+    <string id="risks">风险项目</string>
+    <string id="risk_detail">风险详情</string>
+    <string id="open_file_dir">打开文件路径</string>
+    <string id="trust_file">信任文件</string>
+    <string id="cancel_trust_file">取消信任文件</string>
+    <string id="risk_detail_text">{b}{c #444444}病毒类型：{/c}{/b}{c #777777}{type}{/c}{n}{n}{b}{c #444444}病毒描述：{/c}{/b}{c #777777}{desc}{/c}{n}{n}{b}{c #444444}风险路径：{/c}{/b}{c #777777}{path}{/c}{n}{n}{b}{c #444444}处理建议：{/c}{/b}{c #777777}立即处理{/c}</string>
+    <string id="tip">提示</string>
+    <string id="safe_tip">安全提示</string>
+
+    <string id="huorong_safe_software">火绒安全软件</string>
+    <string id="huorong_copyright_title">北京火绒网络科技有限公司版权所有</string>
+    
+    <string id="msg_exit_scanning_title">确定关闭主界面吗？</string>
+    <string id="msg_exit_scanning_desc">正在进行病毒查杀，关闭即表示结束查杀</string>
+    <string id="msg_exit_treating_title">确定关闭主界面吗？</string>
+    <string id="msg_exit_treating_desc">关闭后将自动忽略风险文件</string>
+    <string id="msg_stop_scanning_title">确定停止扫描吗？</string>
+    <string id="msg_stop_scanning_desc">当前正在进行病毒扫描</string>
+    <string id="msg_stop_treating_title">确定停止处理风险吗？</string>
+    <string id="msg_stop_treating_desc">忽略风险文件可能对您的计算机造成威胁</string>
+    <string id="msg_trust_rm_file_title">确定要删除信任文件吗？</string>
+    <string id="msg_trust_rm_file_desc">删除后该文件将不再被火绒信任</string>
+    <string id="msg_trust_rm_website_title">确定要删除信任网址吗？</string>
+    <string id="msg_trust_rm_website_desc">删除后该网址将不再被火绒信任</string>
+    <string id="msg_auaran_rm_title">您确定要删除选择的文件吗？</string>
+    <string id="msg_auaran_rm_desc">删除后无法找回该文件，请谨慎操作</string>
+    <string id="msg_auaran_recovery_title">确定要恢复所选文件吗？</string>
+    <string id="msg_auaran_recovery_desc">隔离区的项目是包含病毒风险的文件</string>
+    <string id="msg_webctrl_rm_title">确定要删除规则吗？</string>
+    <string id="msg_webctrl_rm_desc">规则删除后无法恢复，请谨慎操作</string>
+    <string id="msg_appctrl_rm_title">确定要删除规则吗？</string>
+    <string id="msg_appctrl_rm_desc">规则删除后无法恢复，请谨慎操作</string>
+    <string id="msg_tools_uninst_title">您确定卸载此工具吗？</string>
+    <string id="msg_tools_uninst_desc">卸载后，如需使用您可重新下载安装</string>
+    <string id="msg_right_scan_title">您正在进行查杀，请稍后再试</string>
+    <string id="msg_right_scan_desc">当前程序正在执行查杀任务，请本次查杀任务结束后，再进行新的查杀。</string>
+    <string id="msg_udisk_cancel_trust_title">确定不再信任该U盘吗？</string>
+    <string id="msg_udisk_cancel_trust_desc">取消信任后该U盘会被禁用</string>
+    <string id="msg_syspt_start_netctrl_title">正在开启联网控制</string>
+    <string id="msg_syspt_start_netctrl_desc">开启后，火绒会提示您程序每次的联网请求，可能会产生较多弹窗。</string>
+    <string id="msg_syspt_start_advance_title">正在开启高级防护项目</string>
+    <string id="msg_syspt_start_advance_desc">推荐您在了解相关功能后开启，以免误加规则影响电脑的正常使用。</string>
+    <string id="msg_tools_update_title">当前火绒版本过低，无法启动工具</string>
+    <string id="msg_tools_update_desc">请尝试运行更新</string>
+    <string id="msg_tools_notepad_notexist_title">无法修改 Hosts 文件</string>
+    <string id="msg_tools_notepad_notexist_desc">未找到用来打开此文件的 'notepad.exe' 程序</string>
+    
+    <string id="password_tip">当前操作需要您输入安全密码</string>
+
+    <string id="file_recovery_done">文件恢复完成</string>
+    <string id="file_recovery_done1">{fail}个文件恢复失败</string>
+    <string id="file_recovery_done_desc">成功恢复{all}个隔离区文件，{fail}个文件恢复失败</string>
+    <string id="file_recovery_done_desc1">成功恢复{all}个隔离区文件</string>
+    <string id="file_extract_done">文件提取完成</string>
+    <string id="file_extract_done1">{fail}个文件提取失败</string>
+    <string id="file_extract_done_desc">成功提取{all}个隔离区文件，{fail}个文件提取失败</string>
+    <string id="file_extract_done_desc1">成功提取{all}个隔离区文件</string>
+    <string id="file_extract_done_desc2">文件已删除或移至其他位置</string>
+    <string id="file_deleted_done">文件删除完成</string>
+    <string id="file_deleted_done_desc">成功删除{all}个隔离区文件，{fail}个文件删除失败</string>
+    <string id="file_deleted_done_desc1">成功删除{all}个隔离区文件</string>
+    
+    <string id="recovering">正在恢复：{cur}/{all}项</string>
+    <string id="being_extracted">正在提取：{cur}/{all}项</string>
+    <string id="being_deleted">正在删除：{cur}/{all}项</string>
+
+    <string id="recovery_failed_tip">以下文件恢复失败，是否提取至其它文件夹？</string>
+    <string id="extract_failed_tip">以下文件提取失败，是否提取至其它文件夹？</string>
+
+    <string id="choose_dir">选择文件夹</string>
+    <string id="target_file">目标文件</string>
+    <string id="operation">操作</string>
+
+    <string id="ignore">忽略</string>
+    <string id="ignore_all">全部忽略</string>
+    <string id="handle_immediately">立即处理</string>
+    <string id="scan_done">扫描已完成</string>
+    <string id="handling_risk">正在处理风险</string>
+    <string id="no_risks_found">本次扫描未发现风险</string>
+    <string id="all_risks_handled">所有风险项处理完成</string>
+    <string id="had_unhandled_risk">{c #e12d0f}仍有风险项未处理{/c}</string>
+    <string id="done">完成</string>
+    <string id="risk_backup_to_isolation">风险已备份至 {a}{c #ed3a0a}隔离区{/c}{/a}</string>
+    <string id="scaned_count">扫描对象 : {count}个</string>
+    <string id="handled_count">处理风险 : {count}个</string>
+    <string id="risks_count">发现风险 : {count}个</string>
+    <string id="time_all">总用时 : {time}</string>
+    <string id="handled_risks_desc">已处理风险{c #e12d0f}{cleaned}/{count}{/c}</string>
+    <string id="found_risks_suggest">共发现风险项目{c #e12d0f}{count}{/c}个，建议立即处理</string>
+    <string id="found_risks_count">发现{c #e12d0f}{count}{/c}项风险项目</string>
+    <string id="initializing_engine">正在初始化引擎</string>
+
+    <string id="virscan_all">全盘查杀</string>
+    <string id="virscan_quick">快速查杀</string>
+    <string id="virscan_custom">自定义查杀</string>
+    <string id="virscan_full_title">正在进行全盘扫描</string>
+    <string id="virscan_quick_title">正在进行快速扫描</string>
+    <string id="virscan_custom_title">正在进行自定义扫描</string>
+    <string id="virscan_detail_enter">查看详情</string>
+    <string id="virscan_detail_exit">退出详情</string>
+    <string id="virscan_stop">停止</string>
+    <string id="virscan_pause">暂停</string>
+    <string id="virscan_continue">继续</string>
+    <string id="virscan_high_speed">高速</string>
+    <string id="virscan_high_speed_desc">高速扫描，速度快但影响计算机性能</string>
+    <string id="virscan_normal_speed">常规</string>
+    <string id="virscan_normal_speed_desc">常规扫描，不影响计算机性能</string>
+    <string id="virscan_auto_poweroff">查杀完成后自动关机</string>
+    <string id="virscan_used_time">已用时间：{time}</string>
+    <string id="virscan_dangerous">风险</string>
+    <string id="virscan_security">安全</string>
+    <string id="virscan_scaning">正在扫描...</string>
+    <string id="virscan_toscan">等待扫描</string>
+
+    <string id="virscan_status_scaning">正在扫描</string>
+    <string id="virscan_status_wait_scan">等待扫描</string>
+    <string id="virscan_status_dangerous">此项风险</string>
+    <string id="virscan_status_security">此项安全</string>
+    <string id="virscan_status_wait_clean">待处理</string>
+    <string id="virscan_status_cleanning">正在处理</string>
+    <string id="virscan_status_cleaned">已处理</string>
+    <string id="virscan_status_ignored">暂不处理</string>
+    <string id="virscan_status_trusted">已信任</string>
+    <string id="virscan_status_clean_failed">处理失败</string>
+
+    <string id="virscan_boot_sector">引导区</string>
+    <string id="virscan_sys_program">系统进程</string>
+    <string id="virscan_startup">启动项</string>
+    <string id="virscan_sevices_drives">服务与驱动</string>
+    <string id="virscan_sys_components">系统组件</string>
+    <string id="virscan_sys_position">系统关键位置</string>
+    <string id="virscan_local_disk">本地磁盘</string>
+    <string id="virscan_net_disk">网络磁盘</string>
+
+    <string id="syspt_virus">病毒防护</string>
+    <string id="syspt_sys">系统防护</string>
+    <string id="syspt_net">网络防护</string>
+    <string id="syspt_advance">高级防护</string>
+    <string id="syspt_virus_filemon">文件实时监控</string>
+    <string id="syspt_virus_filemon_desc">当文件被执行、创建、打开时，进行病毒扫描</string>
+    <string id="syspt_virus_behavior">恶意行为监控</string>
+    <string id="syspt_virus_behavior_desc">监控程序在运行过程中，是否有恶意行为</string>
+    <string id="syspt_virus_udisk">U盘保护</string>
+    <string id="syspt_virus_udisk_desc">在接入U盘时，自动对U盘根目录下的文件进行扫描</string>
+    <string id="syspt_virus_download">下载保护</string>
+    <string id="syspt_virus_download_desc">实时扫描通过浏览器、即时通讯软件下载的文件</string>
+    <string id="syspt_virus_mail">邮件监控</string>
+    <string id="syspt_virus_mail_desc">对邮件客户端收发的邮件及附件进行病毒扫描</string>
+    <string id="syspt_virus_web">Web扫描</string>
+    <string id="syspt_virus_web_desc">对HTTP协议接收的数据进行病毒扫描</string>
+
+    <string id="syspt_sys_sys">系统加固</string>
+    <string id="syspt_sys_sys_desc">针对计算机系统潜在弱点进行防护</string>
+    <string id="syspt_sys_app">应用加固</string>
+    <string id="syspt_sys_app_desc">控制应用程序的行为，防止被恶意软件利用</string>
+    <string id="syspt_sys_install">软件安装拦截</string>
+    <string id="syspt_sys_install_desc">实时监控并提示软件安装行为</string>
+    <string id="syspt_sys_camera">摄像头保护</string>
+    <string id="syspt_sys_camera_desc">发现并提示应用程序开启摄像头</string>
+    <string id="syspt_sys_browser">浏览器保护</string>
+    <string id="syspt_sys_browser_desc">保护浏览器首页和搜索不被篡改</string>
+    <string id="syspt_sys_appnetctrl">联网控制</string>
+    <string id="syspt_sys_appnetctrl_desc">管控应用程序的联网行为</string>
+
+    <string id="syspt_net_hack">网络入侵拦截</string>
+    <string id="syspt_net_hack_desc">在网络层拦截漏洞攻击、黑客入侵等威胁</string>
+    <string id="syspt_net_tpprot">横向渗透防护</string>
+    <string id="syspt_net_tpprot_desc">在网络层拦截横向渗透攻击</string>
+    <string id="syspt_net_attack">对外攻击拦截</string>
+    <string id="syspt_net_attack_desc">在网络层拦截本机对外部计算机的漏洞攻击等行为</string>
+    <string id="syspt_net_zombie_net">僵尸网络防护</string>
+    <string id="syspt_net_zombie_net_desc">在网络层拦截潜在后门攻击</string>
+    <string id="syspt_net_remote_login">暴破攻击防护</string>
+    <string id="syspt_net_remote_login_desc">发现暴破攻击行为，拦截潜在暴力破解攻击</string>
+    <string id="syspt_net_web_service">Web服务保护</string>
+    <string id="syspt_net_web_service_desc">针对高危Web服务漏洞渗透攻击进行防护</string>
+    <string id="syspt_net_malicious_web">恶意网址拦截</string>
+    <string id="syspt_net_malicious_web_desc">自动阻止木马、欺诈、钓鱼类等网址</string>
+
+    <string id="syspt_advance_custom">自定义防护</string>
+    <string id="syspt_advance_custom_desc">对文件、注册表以及程序的执行进行控制以及防护</string>
+    <string id="syspt_advance_ip_backlist">IP黑名单</string>
+    <string id="syspt_advance_ip_backlist_desc">限制对指定IP的出站、入站请求</string>
+    <string id="syspt_advance_ip_protocol">IP协议控制</string>
+    <string id="syspt_advance_ip_protocol_desc">在IP协议层进行网络访问控制</string>
+
+    <string id="kidpt_title">将计算机调整为更适合访客使用的状态</string>
+    <string id="kidpt_title_desc">为防止访问控制配置以及其它配置被修改，推荐使用密码保护</string>
+    <string id="kidpt_password">密码保护</string>
+    <string id="kidpt_online">上网时段控制</string>
+    <string id="kidpt_online_desc">控制计算机上网的时间段或者累计的上网时长</string>
+    <string id="kidpt_website">网站内容控制</string>
+    <string id="kidpt_website_desc">限制计算机访问特定类型网站</string>
+    <string id="kidpt_program">程序执行控制</string>
+    <string id="kidpt_program_desc">限制指定应用程序的执行</string>
+    <string id="kidpt_udisk">U盘使用控制</string>
+    <string id="kidpt_udisk_desc">管理U盘的接入使用，防止文件外传及病毒入侵</string>
+
+    <string id="tools_sys_tool">系统工具</string>
+    <string id="tools_net_tool">网络工具</string>
+    <string id="tools_advance_tool">高级工具</string>
+    <string id="tools_leak_repair">漏洞修复</string>
+    <string id="tools_leak_repair_desc">扫描并修复系统漏洞</string>
+    <string id="tools_sys_repair">系统修复</string>
+    <string id="tools_sys_repair_desc">修复因病毒等导致的系统异常</string>
+    <string id="tools_pop_block">弹窗拦截</string>
+    <string id="tools_pop_block_desc">拦截程序推送的不受欢迎弹窗</string>
+    <string id="tools_sys_clean">垃圾清理</string>
+    <string id="tools_sys_clean_desc">清理各种系统垃圾</string>
+    <string id="tools_autoruns">启动项管理</string>
+    <string id="tools_autoruns_desc">管理各类软件的开机自启动</string>
+    <string id="tools_file_shred">文件粉碎</string>
+    <string id="tools_file_shred_desc">强制删除或彻底粉碎文件</string>
+    <string id="tools_right_click">右键管理</string>
+    <string id="tools_right_click_desc">管理文件、桌面、IE右键菜单</string>
+
+    <string id="tools_net_repair">断网修复</string>
+    <string id="tools_net_repair_desc">检测并修复断网问题</string>
+    <string id="tools_net_flow">流量监控</string>
+    <string id="tools_net_flow_desc">检测及控制程序的网络流量</string>
+    <string id="tools_net_speed">网速保护</string>
+    <string id="tools_net_speed_desc">针对不同程序合理分配网速</string>
+    <string id="tools_host">修改HOST文件</string>
+    <string id="tools_host_desc">修改负责域名快速解析的文件</string>
+
+    <string id="tools_sword">火绒剑</string>
+    <string id="tools_sword_desc">安全专业人士的分析工具</string>
+    <string id="tools_kill">专杀工具</string>
+    <string id="tools_kill_desc">查杀各类恶性顽固病毒</string>
+
+    <string id="menu_syscfg_config">安全设置</string>
+    <string id="menu_syscfg_log">安全日志</string>
+    <string id="menu_syscfg_isolation">隔离区</string>
+    <string id="menu_syscfg_trust">信任区</string>
+    <string id="menu_syscfg_update">检查升级</string>
+    <string id="menu_syscfg_language">语言设置</string>
+    <string id="menu_syscfg_feedback">问题反馈</string>
+    <string id="menu_syscfg_virus_report">病毒上报</string>
+    <string id="menu_syscfg_about">关于我们</string>
+
+    <string id="control_online_time">控制上网时段</string>
+    <string id="allow_online">允许上网</string>
+    <string id="stop_online">阻止上网</string>
+    <string id="monday">星期一</string>
+    <string id="tuesday">星期二</string>
+    <string id="wednesday">星期三</string>
+    <string id="thursday">星期四</string>
+    <string id="friday">星期五</string>
+    <string id="saturday">星期六</string>
+    <string id="sunday">星期日</string>
+    <string id="all_online_time_control">控制累计时间</string>
+    <string id="workday_online_nomorethan1">工作日每天上网时间不超过</string>
+    <string id="weekend_online_nomorethan1">周末每天上网时间不超过</string>
+    <string id="hour">小时</string>
+    <string id="control_website">控制网站</string>
+    <string id="status">状态</string>
+    <string id="news_website">新闻网站</string>
+    <string id="shopping_website">网购网站</string>
+    <string id="sexy_website">色情网站</string>
+    <string id="religion_website">宗教网站</string>
+    <string id="foul_website">污言网站</string>
+    <string id="game_website">游戏网站</string>
+    <string id="add_website">添加网站</string>
+    <string id="add_url">添加网址</string>
+    <string id="input_policy_name">输入程序路径，支持通配符</string>
+    <string id="mulity_website_tip">多个网址通过换行符区分，支持通配符</string>
+    <string id="save">保存</string>
+    <string id="ok">确定</string>
+    <string id="cancel">取消</string>
+    <string id="back">返回</string>
+    <string id="app">应用程序</string>
+    <string id="console_game">单机游戏</string>
+    <string id="online_game">网络游戏</string>
+    <string id="leisure_game">休闲益智游戏</string>
+    <string id="battle_platform">对战平台</string>
+    <string id="entertainment">影音娱乐</string>
+    <string id="chat_tools">聊天工具</string>
+    <string id="rogue_downloader">下载站下载器</string>
+    <string id="risk_tools">风险工具</string>
+    <string id="remote_access_tools">远程控制工具</string>
+    <string id="edit_app">编辑程序</string>
+    <string id="add_app">添加程序</string>
+    <string id="choose_app">选择程序</string>
+    <string id="lastest_run_app">最近运行的程序</string>
+    <string id="lastest_run_app_3d">最近三天运行的程序</string>
+    <string id="trust_udisk">信任的U盘</string>
+    <string id="udisk">U盘</string>
+    <string id="serial_number">序列号</string>
+    <string id="unconnected">未连接</string>
+    <string id="connected">已连接</string>
+    <string id="cancel_trust">取消信任</string>
+    <string id="add_device">添加设备</string>
+    <string id="add_trust">信任U盘</string>
+    <string id="insert_udisk_first">请先插入U盘设备</string>
+    <string id="open_udisk_first">请先开启U盘使用控制</string>
+
+    <string id="choose_scan_dir">选择查杀目录</string>
+
+    <string id="trust_zone_empty_desc">信任区内的项目将不被反病毒引擎扫描及监控</string>
+    <string id="isolation_empty_desc">隔离的文件存在风险，请谨慎操作</string>
+    <string id="udiskctrl_empty_desc">您可通过添加U盘来增加需要信任的U盘</string>
+    <string id="webctrl_empty_desc">您可点击添加网站来增加需要控制的网站</string>
+    <string id="appctrl_empty_desc">您可通过添加程序来增加需要控制的程序</string>
+    <string id="appctrl_lastest_empty_desc">没有最近运行的程序</string>
+
+    <string id="trust_zone_title_file">以下文件已经被信任，已被认为是安全的；如果发生误报，您也可以在此加入信任</string>
+    <string id="trust_zone_title_website">以下网址已经被信任，已被认为是安全的；如果发生误报，您也可以在此加入信任</string>
+    <string id="isolation_zone_title">病毒处理后的文件或网址在此做了安全备份，占用磁盘空间：{size}</string>
+    <string id="add_recovery_to_trust_zone">将恢复的文件加入信任区</string>
+
+    <string id="file">文件</string>
+    <string id="website">网址</string>
+    <string id="path">路径</string>
+    <string id="type">类型</string>
+    <string id="clear_invalid_item">清除无效项</string>
+    <string id="add_file">添加文件</string>
+    <string id="add_dir">添加文件夹</string>
+    <string id="virus_name">病毒名称</string>
+    <string id="isolation_time">隔离时间</string>
+    <string id="classification">分类</string>
+    <string id="delete">删除</string>
+    <string id="edit">编辑</string>
+    <string id="extract">提取</string>
+    <string id="recovery">恢复</string>
+    <string id="not_exist">不存在</string>
+    <string id="dir">文件夹</string>
+    <string id="other">其他</string>
+
+    <string id="create_link">创建快捷方式</string>
+    <string id="uninstall_tools">卸载工具</string>
+
+    <string id="autofill_custom_url">自定义网址</string>
+
+    <string id="undisposed">暂不处理</string>
+    <string id="trusted">已信任</string>
+    <string id="disposed">已处理</string>
+    <string id="disposed_deleted">已处理，删除文件</string>
+    <string id="disposed_cleaned">已处理，清除恶意代码</string>
+    <string id="disposed_cleaned_by_del">已处理，删除感染源文件</string>
+    <string id="disposed_del_coz_readonly">已处理，删除无法写入的文件</string>
+    <string id="disposed_del_coz_clean_fail">已处理，删除清除失败的文件</string>
+    <string id="disposed_del_coz_empty">已处理，删除空文件</string>
+    <string id="dispose_failed">处理失败</string>
+    <string id="dispose_failed_still">处理失败，文件未处理</string>
+    <string id="dispose_failed_quaran_failed">处理失败，文件隔离失败</string>
+    <string id="dispose_failed_intern_error">处理失败，引擎内部错误</string>
+    <string id="dispose_failed_postops_failed">处理失败，后处理失败</string>
+    <string id="scan_log_detial">病毒库时间：{dbtime}\r\n开始时间：{begintime}\r\n总计用时：{duration}\r\n扫描对象：{objects}\r\n扫描文件：{files}\r\n发现风险：{detected}\r\n已处理风险：{neutralized}\r\n</string>
+    <string id="scan_log_detial_list">\r\n病毒详情\r\n\r\n</string>
+    <string id="scan_log_detial_row">风险路径：{path}, 病毒名：{virname}, 病毒ID：{virid}, 处理结果：{result}</string>
+
+    <string id="fill_trust_website_please">请填写信任网址</string>
+    <string id="check_trust_website_format">请检查网址格式</string>
+    <string id="policy_name_exist">规则名称已存在</string>
+    <string id="fill_policy_name_please">请填写规则名称</string>
+    <string id="fill_website_please">请填写控制网址</string>
+    <string id="password_error">密码错误</string>
+
+    <string id="hide_system_app">隐藏系统程序</string>
+    <string id="choose_app_please">请选择程序</string>
+
+    <string id="iknow">我知道了</string>
+
+    <string id="browse_title_file">添加文件</string>
+    <string id="browse_title_save">另存为</string>
+    <string id="browse_title_folder">添加文件夹</string>
+    <string id="browse_search_pos1">查找范围：</string>
+    <string id="browse_file_name1">文件名：</string>
+    <string id="browse_file_type1">文件类型：</string>
+    <string id="browse_open">打开</string>
+    <string id="browse_save">保存</string>
+    <string id="browse_cancel">取消</string>
+    <string id="browse_name">名称</string>
+    <string id="browse_modify_date">修改日期</string>
+    <string id="browse_type">类型</string>
+    <string id="browse_size">大小</string>
+    <string id="browse_filter_all">所有文件(*.*)</string>
+    <string id="browse_filter_ext">文件(*.{ext})</string>
+    
+    <string id="browse_tip_back">返回到 {path}</string>
+    <string id="browse_tip_prev">前进到 {path}</string>
+    <string id="browse_tip_up">上移到 {path}</string>
+
+    <string id="browse_tip_update">刷新</string>
+    <string id="browse_tip_jmp">跳转到</string>
+
+    <string id="browse_path_notexit">路径不存在</string>
+
+    <string id="saveas_fail">保存失败</string>
+    <string id="browse_path_exist">此位置已经包含同名文件</string>
+    <string id="browse_overwrite">要替换它吗？</string>
+
+    <string id="browse_path_cnt_save">无法保存到此位置</string>
+    <string id="browse_sel_other_dir">请选择其他目录</string>
+
+    <string id="download_err_no_network">下载失败，无网络连接</string>
+    <string id="tools_install_failed">安全工具安装失败</string>
+
+    <string id="err_other_user_operation">操作失败，有其他用户在进行操作</string>
+
+    <string id="tip_main_sys">系统防护项中“摄像头保护”需要重启计算机后才能生效</string>
+    <string id="tip_main_net">网络防护项需重启计算机后才能生效</string>
+    <string id="tip_main_the">此防护项需要重启计算机后才能生效</string>
+
+    <string id="auto_list_scroll">列表自动滚动</string>
+
+     <!--  -->
+    <string id="forget_password">忘记密码？</string>
+
+    <string id="error_anwser">答案错误</string>
+    <string id="modify_password">修改密码</string>
+    <string id="please_enter_answer">请输入答案</string>
+    <string id="another_question">换个问题试试？</string>
+    <string id="verify">验证</string>
+    <string id="set_password_on_verifyed">已通过验证请设置新密码</string>
+
+    <string id="please_enter_password">请输入密码</string>
+    <string id="password_nomatch">密码不一致，请重新输入</string>
+    <string id="notlimit_space">不允许包含空格</string>
+
+    <string id="password_new">新密码:</string>
+    <string id="password_confirm">确认密码:</string>
+    <string id="password_enter">请输入新密码</string>
+    <string id="password_enter_again">请再次输入新密码</string>
+
+    <string id="huorong_title">火绒安全</string>
+    <string id="msgbox_daemon_err">服务异常</string>
+    <string id="msgbox_daemon_err_decs">检测到火绒服务异常！请立即修复火绒服务</string>
+</stringtable>

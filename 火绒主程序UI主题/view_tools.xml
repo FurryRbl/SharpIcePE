@@ -11,8 +11,6 @@
     <TileLayout height="216" childpadding="10" childvpadding="10" itemsize="240,62" columns="3">
       <Component xml="cmpt/tools.xml" name="box:group_tool_fileshred" bkimage="icon:name='file_shred'" string="btn:tools_file_shred" string="desc:tools_file_shred_desc" stringtip="btn:tools_file_shred_desc" name="btn:btn_tool" name="rp:progress_install"/>
       <Component xml="cmpt/tools.xml" name="box:group_tool_hrsword" bkimage="icon:name='sword'" string="btn:tools_sword" string="desc:tools_sword_desc" stringtip="btn:tools_sword_desc" name="btn:btn_tool" name="rp:progress_install"/>
-      </TileLayout>
-    <HorizontalLayout height="36" childvalign="vcenter" childpadding="20">
-    </HorizontalLayout>
+    </TileLayout>
   </VerticalLayout>
 </view>

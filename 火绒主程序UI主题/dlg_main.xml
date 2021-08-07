@@ -46,7 +46,6 @@
 					<VerticalLayout inset="0,52,0,0">
 						<Text name="txt_title" string="title" align="center" showhtml="true" font="220" textcolor="#ff85724b"/>
 						<Control />
-						
 					</VerticalLayout>
 				</VerticalLayout>
 			</Container>
@@ -91,6 +90,8 @@
 			</HorizontalLayout>
 			<TabLayout name="tab_view">
 				<NativeCtrl name="view_virscan" tab="id='1000'"/>
+				<NativeCtrl name="view_sysprotect" tab="id='1000'"/>
+				<NativeCtrl name="view_kidsprotect" tab="id='1000'"/>
 				<NativeCtrl name="view_tools" tab="id='1000'"/>
 			</TabLayout>
 		</VerticalLayout>
